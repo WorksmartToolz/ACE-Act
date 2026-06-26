@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Alliance for Collective Empowerment and Development (ACE) is a 25-year initiative to establish self-governing, self-sustaining cities for Black and Native American communities on tribal sovereign land.">
+  <meta property="og:title" content="Alliance for Collective Empowerment and Development — We Are Building a City">
+  <meta property="og:description" content="A 25-year initiative to establish self-governing cities for Black and Native American communities on tribal sovereign land. Protected by sovereignty law. Funded by our people. Governed by our hands.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Alliance for Collective Empowerment and Development — We Are Building a City">
+  <meta name="twitter:description" content="A 25-year initiative to establish self-governing cities for Black and Native American communities on tribal sovereign land.">
+  <title>Alliance for Collective Empowerment and Development (ACE)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --cream:      #FAF6EF;
+      --parchment:  #F0E9DA;
+      --parchment2: #E8DEC9;
+      --gold:       #8B6914;
+      --gold-mid:   #A07C1E;
+      --gold-light: #C9A84C;
+      --brown:      #3D2408;
+      --brown-mid:  #5C3510;
+      --charcoal:   #1C1208;
+      --mid:        #6B5B3E;
+      --light-mid:  #9A8B72;
+      --border:     rgba(139,105,20,0.18);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--cream);
+      color: var(--charcoal);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── NAV ─────────────────────────────────────────────────────────── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.1rem 2.5rem;
+      background: rgba(250,246,239,0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-logo {
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      color: var(--gold);
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+      align-items: center;
+    }
+
+    .nav-links a {
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      color: var(--mid);
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: var(--gold); }
+
+    .nav-cta {
+      background: var(--gold) !important;
+      color: var(--cream) !important;
+      padding: 0.5rem 1.25rem !important;
+      font-size: 0.72rem !important;
+      font-weight: 700 !important;
+      transition: background 0.2s !important;
+    }
+
+    .nav-cta:hover { background: var(--gold-mid) !important; }
+
+    /* ── HERO ────────────────────────────────────────────────────────── */
+    .hero {
+      min-height: 100vh;
+      background: var(--parchment);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      padding: 7rem 0 4rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0; right: 0;
+      width: 55%;
+      height: 100%;
+      background: var(--parchment2);
+      z-index: 0;
+    }
+
+    .hero-left {
+      padding: 4rem 3rem 4rem 10%;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-right {
+      padding: 4rem 10% 4rem 3rem;
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+    }
+
+    .hero-eyebrow {
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+      opacity: 0;
+      animation: fadeUp 0.7s ease 0.2s forwards;
+    }
+
+    .hero-headline {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.4rem, 4.5vw, 3.8rem);
+      font-weight: 900;
+      line-height: 1.08;
+      color: var(--brown);
+      margin-bottom: 1rem;
+      opacity: 0;
+      animation: fadeUp 0.8s ease 0.4s forwards;
+    }
+
+    .hero-headline em {
+      font-style: italic;
+      color: var(--gold);
+    }
+
+    .hero-rule {
+      width: 0;
+      height: 3px;
+      background: var(--gold-light);
+      margin: 1.75rem 0;
+      animation: drawLine 1s ease 1s forwards;
+    }
+
+    @keyframes drawLine { to { width: 64px; } }
+
+    .hero-body {
+      font-size: 1rem;
+      font-weight: 300;
+      line-height: 1.8;
+      color: var(--mid);
+      max-width: 420px;
+      opacity: 0;
+      animation: fadeUp 0.8s ease 0.8s forwards;
+    }
+
+    .hero-body strong { color: var(--brown); font-weight: 600; }
+
+    .hero-attribution {
+      margin-top: 1.5rem;
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      color: var(--light-mid);
+      text-transform: uppercase;
+      opacity: 0;
+      animation: fadeUp 0.8s ease 1s forwards;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      margin-top: 2.5rem;
+      opacity: 0;
+      animation: fadeUp 0.8s ease 1.1s forwards;
+    }
+
+    /* Right side stat panel */
+    .hero-stats {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      width: 100%;
+      opacity: 0;
+      animation: fadeUp 0.8s ease 0.6s forwards;
+    }
+
+    .hero-stat {
+      padding: 1.5rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hero-stat:first-child { border-top: 1px solid var(--border); }
+
+    .hero-stat-value {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.4rem;
+      font-weight: 900;
+      color: var(--brown);
+      line-height: 1;
+      margin-bottom: 0.3rem;
+    }
+
+    .hero-stat-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--light-mid);
+    }
+
+    .hero-stat-desc {
+      font-size: 0.8rem;
+      font-weight: 300;
+      color: var(--mid);
+      margin-top: 0.25rem;
+      line-height: 1.5;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(14px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ── BUTTONS ─────────────────────────────────────────────────────── */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.85rem 1.75rem;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-primary {
+      background: var(--gold);
+      color: var(--cream);
+    }
+    .btn-primary:hover { background: var(--gold-mid); transform: translateY(-1px); }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--brown);
+      border: 1.5px solid var(--brown-mid);
+    }
+    .btn-outline:hover { background: var(--brown); color: var(--cream); }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--gold);
+      border: 1.5px solid var(--border);
+      padding: 0.6rem 1.25rem;
+      font-size: 0.72rem;
+    }
+    .btn-ghost:hover { border-color: var(--gold); background: rgba(139,105,20,0.06); }
+
+    /* ── DIVIDER ─────────────────────────────────────────────────────── */
+    .gold-rule { width: 48px; height: 3px; background: var(--gold-light); margin-bottom: 1.5rem; }
+
+    /* ── SECTIONS ────────────────────────────────────────────────────── */
+    .section { padding: 6rem 10%; }
+    .section-alt { background: var(--parchment); }
+    .section-deep { background: var(--parchment2); }
+
+    .container { max-width: 1200px; margin: 0 auto; }
+
+    .section-eyebrow {
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }
+
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.75rem, 3vw, 2.5rem);
+      font-weight: 700;
+      line-height: 1.2;
+      color: var(--brown);
+      margin-bottom: 1rem;
+    }
+
+    .section-sub {
+      font-size: 0.95rem;
+      font-weight: 300;
+      line-height: 1.8;
+      color: var(--mid);
+      max-width: 600px;
+      margin-bottom: 3.5rem;
+    }
+
+    /* ── WHAT ACE BUILDS ─────────────────────────────────────────────── */
+    .builds-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+    }
+
+    .build-card {
+      background: var(--cream);
+      padding: 2rem 1.75rem;
+      transition: background 0.2s;
+    }
+
+    .section-alt .build-card { background: var(--parchment); }
+    .build-card:hover { background: var(--parchment2); }
+
+    .build-icon { font-size: 1.6rem; margin-bottom: 1rem; display: block; }
+
+    .build-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--brown);
+      margin-bottom: 0.5rem;
+    }
+
+    .build-desc {
+      font-size: 0.825rem;
+      font-weight: 300;
+      line-height: 1.7;
+      color: var(--mid);
+    }
+
+    /* ── SOCIAL CONTRACT ─────────────────────────────────────────────── */
+    .contract-wrap {
+      background: var(--brown);
+      padding: 5rem 10%;
+    }
+
+    .contract-wrap .section-eyebrow { color: var(--gold-light); }
+    .contract-wrap .section-title { color: var(--cream); }
+    .contract-wrap .section-sub { color: rgba(250,246,239,0.65); max-width: 560px; margin-bottom: 3rem; }
+
+    .contract-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1px;
+      background: rgba(250,246,239,0.08);
+      border: 1px solid rgba(250,246,239,0.08);
+      margin-bottom: 3rem;
+    }
+
+    .contract-card {
+      background: rgba(61,36,8,0.6);
+      padding: 2.25rem 2rem;
+      position: relative;
+      transition: background 0.2s;
+    }
+
+    .contract-card:hover { background: rgba(61,36,8,0.85); }
+
+    .contract-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 4rem;
+      font-weight: 900;
+      color: rgba(201,168,76,0.12);
+      position: absolute;
+      top: 1rem;
+      right: 1.25rem;
+      line-height: 1;
+    }
+
+    .contract-label {
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      margin-bottom: 0.75rem;
+    }
+
+    .contract-text {
+      font-size: 0.9rem;
+      font-weight: 300;
+      line-height: 1.7;
+      color: rgba(250,246,239,0.8);
+    }
+
+    .contract-promise {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.15rem;
+      font-style: italic;
+      color: rgba(250,246,239,0.45);
+      text-align: center;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(250,246,239,0.1);
+    }
+
+    .contract-promise em {
+      font-style: normal;
+      color: var(--cream);
+      font-weight: 700;
+    }
+
+    /* ── PHASES ──────────────────────────────────────────────────────── */
+    .phases-list { display: flex; flex-direction: column; }
+
+    .phase-item {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 2rem;
+      padding: 2.25rem 0;
+      border-bottom: 1px solid var(--border);
+      align-items: start;
+    }
+
+    .phase-item:first-child { border-top: 1px solid var(--border); }
+
+    .phase-tag {
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--gold);
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+
+    .phase-years {
+      font-size: 0.75rem;
+      color: var(--light-mid);
+      font-weight: 400;
+    }
+
+    .phase-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--brown);
+      margin-bottom: 0.5rem;
+    }
+
+    .phase-desc {
+      font-size: 0.875rem;
+      font-weight: 300;
+      line-height: 1.75;
+      color: var(--mid);
+    }
+
+    /* ── GET INVOLVED ────────────────────────────────────────────────── */
+    .audience-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .audience-card {
+      background: var(--cream);
+      padding: 2rem;
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--gold-light);
+      transition: border-color 0.2s, transform 0.2s;
+    }
+
+    .audience-card:hover {
+      border-top-color: var(--gold);
+      transform: translateY(-2px);
+    }
+
+    .audience-who {
+      font-size: 0.63rem;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.75rem;
+    }
+
+    .audience-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--brown);
+      margin-bottom: 0.75rem;
+      line-height: 1.3;
+    }
+
+    .audience-desc {
+      font-size: 0.825rem;
+      font-weight: 300;
+      line-height: 1.7;
+      color: var(--mid);
+      margin-bottom: 1.25rem;
+    }
+
+    .audience-action {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--gold);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: gap 0.2s;
+    }
+
+    .audience-action:hover { gap: 0.7rem; }
+
+    /* ── DOWNLOAD ────────────────────────────────────────────────────── */
+    .download-wrap {
+      background: var(--brown);
+      padding: 5rem 10%;
+      text-align: center;
+    }
+
+    .download-wrap .section-eyebrow { color: var(--gold-light); text-align: center; }
+    .download-wrap .gold-rule { margin: 1rem auto 1.25rem; }
+    .download-wrap .section-title { color: var(--cream); text-align: center; }
+    .download-wrap .section-sub { color: rgba(250,246,239,0.6); margin: 0 auto 2.5rem; text-align: center; }
+
+    .download-wrap .btn-primary {
+      background: var(--gold-light);
+      color: var(--brown);
+    }
+
+    .download-wrap .btn-primary:hover { background: var(--gold); color: var(--cream); }
+
+    .download-wrap .btn-outline {
+      border-color: rgba(250,246,239,0.3);
+      color: var(--cream);
+    }
+
+    .download-wrap .btn-outline:hover {
+      background: rgba(250,246,239,0.1);
+      border-color: var(--cream);
+    }
+
+    /* ── EMAIL CAPTURE ───────────────────────────────────────────────── */
+    .capture {
+      background: var(--parchment);
+      padding: 6rem 10%;
+    }
+
+    .capture-inner {
+      max-width: 560px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .capture .section-title { text-align: center; margin-bottom: 0.75rem; }
+    .capture .section-sub { text-align: center; margin: 0 auto 2.5rem; }
+
+    .capture-form {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      margin-bottom: 1rem;
+    }
+
+    .capture-row {
+      display: flex;
+      gap: 0;
+    }
+
+    .capture-input {
+      flex: 1;
+      padding: 0.875rem 1.25rem;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.875rem;
+      background: var(--cream);
+      border: 1.5px solid var(--border);
+      color: var(--charcoal);
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .capture-input::placeholder { color: var(--light-mid); }
+    .capture-input:focus { border-color: var(--gold); }
+
+    .capture-input-name { border-bottom: none; }
+
+    .capture-submit {
+      padding: 0.875rem 1.75rem;
+      background: var(--gold);
+      color: var(--cream);
+      font-family: 'Inter', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s;
+      white-space: nowrap;
+    }
+
+    .capture-submit:hover { background: var(--gold-mid); }
+
+    .capture-note {
+      font-size: 0.7rem;
+      color: var(--light-mid);
+      margin-bottom: 2.5rem;
+    }
+
+    .share-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .share-label {
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--light-mid);
+    }
+
+    .share-btn {
+      padding: 0.55rem 1.1rem;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--mid);
+      cursor: pointer;
+      transition: all 0.2s;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .share-btn:hover { border-color: var(--gold); color: var(--gold); }
+
+    /* ── FOOTER ──────────────────────────────────────────────────────── */
+    footer {
+      background: var(--brown);
+      padding: 3rem 10%;
+    }
+
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid rgba(250,246,239,0.1);
+      margin-bottom: 1.5rem;
+    }
+
+    .footer-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--cream);
+      margin-bottom: 0.25rem;
+    }
+
+    .footer-tagline {
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: rgba(250,246,239,0.35);
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 1.75rem;
+    }
+
+    .footer-link {
+      font-size: 0.72rem;
+      font-weight: 500;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: rgba(250,246,239,0.4);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .footer-link:hover { color: var(--gold-light); }
+
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .footer-copy {
+      font-size: 0.7rem;
+      color: rgba(250,246,239,0.2);
+      font-weight: 300;
+    }
+
+    /* ── RESPONSIVE ──────────────────────────────────────────────────── */
+    @media (max-width: 900px) {
+      .hero {
+        grid-template-columns: 1fr;
+        padding: 6rem 1.5rem 3rem;
+      }
+      .hero::before { display: none; }
+      .hero-left { padding: 2rem 0; }
+      .hero-right { padding: 1.5rem 0 2rem; }
+      .section { padding: 4rem 1.5rem; }
+      .contract-wrap, .download-wrap, footer { padding: 4rem 1.5rem; }
+      .capture { padding: 4rem 1.5rem; }
+      .phase-item { grid-template-columns: 1fr; gap: 0.75rem; }
+      nav { padding: 1rem 1.5rem; }
+      .nav-links { display: none; }
+    }
+
+    @media (max-width: 480px) {
+      .capture-row { flex-direction: column; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#" class="nav-logo">ACE &mdash; Alliance for Collective Empowerment and Development</a>
+    <ul class="nav-links">
+      <li><a href="#builds">What We Build</a></li>
+      <li><a href="#phases">The Plan</a></li>
+      <li><a href="#involved">Get Involved</a></li>
+      <li><a href="#act" class="nav-cta">Download the ACE Act</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-left">
+      <p class="hero-eyebrow">Alliance for Collective Empowerment and Development &nbsp;&bull;&nbsp; Founded by L&eacute;andre Poplus</p>
+
+      <h1 class="hero-headline">
+        We are not asking<br>for a seat at<br>the table.<br><em>We are building<br>our own.</em>
+      </h1>
+
+      <div class="hero-rule"></div>
+
+      <p class="hero-body">
+        ACE is a 25-year initiative to establish <strong>self-governing, self-sustaining cities</strong> for Black and Native American communities on tribal sovereign land &mdash; protected by sovereignty law, funded by our people, governed by our hands.
+      </p>
+
+      <p class="hero-attribution">&mdash; L&eacute;andre Poplus, Founder</p>
+
+      <div class="hero-actions">
+        <a href="#act" class="btn btn-primary">&#8595;&nbsp; Download the ACE Act</a>
+        <a href="#stay" class="btn btn-outline">Stay Connected</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-value">32M</div>
+          <div class="hero-stat-label">Planning Population</div>
+          <div class="hero-stat-desc">Black Americans served by a national network of ACE cities</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-value">150K</div>
+          <div class="hero-stat-label">Acres Per Partnership</div>
+          <div class="hero-stat-desc">Released in milestone increments under the HEARTH Act of 2012</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-value">10+</div>
+          <div class="hero-stat-label">ACE Cities</div>
+          <div class="hero-stat-desc">Across five formally defined regions in 25 years</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-value">$50B+</div>
+          <div class="hero-stat-label">Year 25 Economy</div>
+          <div class="hero-stat-desc">Community-owned, internally circulating, sovereign</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT ACE BUILDS -->
+  <section class="section section-alt" id="builds">
+    <div class="container">
+      <p class="section-eyebrow">What ACE Builds</p>
+      <div class="gold-rule"></div>
+      <h2 class="section-title">A civilization. Not a program.</h2>
+      <p class="section-sub">Every system a community needs to govern itself, sustain itself, and pass itself forward to the next generation.</p>
+
+      <div class="builds-grid">
+        <div class="build-card">
+          <span class="build-icon">&#127968;</span>
+          <div class="build-title">Housing</div>
+          <p class="build-desc">Lease-to-own on tribal sovereign land. The ACE Community Provident Fund builds equity with every paycheck. Zero Homelessness Mandate written into the governing charter.</p>
+        </div>
+        <div class="build-card">
+          <span class="build-icon">&#127979;</span>
+          <div class="build-title">Education</div>
+          <p class="build-desc">K&ndash;12 ACE Freedom Schools through ACE University. Bureau of Indian Education approved. Pan-African and Indigenous studies at every grade. Tuition-free for ACE residents.</p>
+        </div>
+        <div class="build-card">
+          <span class="build-icon">&#127973;</span>
+          <div class="build-title">Healthcare</div>
+          <p class="build-desc">Community clinic to full hospital. ACE MediSave &mdash; no medical debt. Modern medicine co-equal with Indigenous and African traditional healing. Black maternal mortality eliminated by design.</p>
+        </div>
+        <div class="build-card">
+          <span class="build-icon">&#128176;</span>
+          <div class="build-title">Economy</div>
+          <p class="build-desc">ACE owns the infrastructure layer. Free enterprise above it. Majority Lending Institution network. Community Investment Bonds from $500. Every dollar circulates within the community before leaving.</p>
+        </div>
+        <div class="build-card">
+          <span class="build-icon">&#127963;</span>
+          <div class="build-title">Governance</div>
+          <p class="build-desc">Three-branch government: Community Assembly, Executive Council, Community Court. Co-equal tribal co-governance. The ACE Governing Charter as supreme law. No outside authority governs ACE.</p>
+        </div>
+        <div class="build-card">
+          <span class="build-icon">&#128737;</span>
+          <div class="build-title">Public Safety</div>
+          <p class="build-desc">Tiered peacekeeping &mdash; the right responder for every call. 60% of calls handled by unarmed community care workers. Restorative justice replaces incarceration as the default.</p>
+        </div>
+        <div class="build-card">
+          <span class="build-icon">&#127807;</span>
+          <div class="build-title">Food &amp; Energy</div>
+          <p class="build-desc">51% tribal-majority agricultural cooperative. 80% halal food establishments. Full energy independence. Food grown on ACE land, by ACE farmers, for ACE families.</p>
+        </div>
+        <div class="build-card">
+          <span class="build-icon">&#128250;</span>
+          <div class="build-title">Media</div>
+          <p class="build-desc">ACE Media Network: TV, podcast, print, streaming. The story of Black and Native America &mdash; told by Black and Native America. Community-owned. No external editorial control.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOCIAL CONTRACT -->
+  <div class="contract-wrap" id="contract">
+    <div class="container">
+      <p class="section-eyebrow">The ACE Social Contract</p>
+      <div class="gold-rule"></div>
+      <h2 class="section-title">Four guarantees. Every resident. By retirement.</h2>
+      <p class="section-sub">Not as aspiration. As architecture. Written into the ACE Governing Charter and enforced by the community&rsquo;s own constitutional institutions.</p>
+
+      <div class="contract-grid">
+        <div class="contract-card">
+          <span class="contract-num">1</span>
+          <p class="contract-label">Home Ownership</p>
+          <p class="contract-text">A home owned free and clear within ACE Territory &mdash; built through the ACE Community Provident Fund Housing Account with every paycheck.</p>
+        </div>
+        <div class="contract-card">
+          <span class="contract-num">2</span>
+          <p class="contract-label">Retirement Dignity</p>
+          <p class="contract-text">A retirement income sufficient to live with dignity within the ACE economy &mdash; built through mandatory community savings with employer matching.</p>
+        </div>
+        <div class="contract-card">
+          <span class="contract-num">3</span>
+          <p class="contract-label">Healthcare Without Debt</p>
+          <p class="contract-text">Comprehensive healthcare for themselves and their dependents &mdash; pre-funded through ACE MediSave. No bill. No debt. No fear.</p>
+        </div>
+        <div class="contract-card">
+          <span class="contract-num">4</span>
+          <p class="contract-label">Education for Their Children</p>
+          <p class="contract-text">Free education from early childhood through university &mdash; within the ACE school system, grounded in the culture and history of both peoples.</p>
+        </div>
+      </div>
+
+      <p class="contract-promise">This is the promise ACE makes. <em>Not as aspiration. As architecture.</em></p>
+    </div>
+  </div>
+
+  <!-- THE FOUR PHASES -->
+  <section class="section section-deep" id="phases">
+    <div class="container">
+      <p class="section-eyebrow">The Four Phases</p>
+      <div class="gold-rule"></div>
+      <h2 class="section-title">From movement to civilization &mdash; in 25 years.</h2>
+      <p class="section-sub">A sequenced, milestone-based development plan built on existing federal law and tribal sovereignty doctrine.</p>
+
+      <div class="phases-list">
+        <div class="phase-item">
+          <div>
+            <span class="phase-tag">Phase 1</span>
+            <span class="phase-years">Years 0&ndash;2</span>
+          </div>
+          <div>
+            <div class="phase-name">The Movement</div>
+            <p class="phase-desc">Form ACE&rsquo;s legal entities. Recruit the Native American Co-Chair &mdash; the single most urgent pre-institutional act. Forge tribal partnerships. Build national grassroots awareness. Secure founding capital from the Black and Native American community of means.</p>
+          </div>
+        </div>
+        <div class="phase-item">
+          <div>
+            <span class="phase-tag">Phase 2</span>
+            <span class="phase-years">Years 2&ndash;7</span>
+          </div>
+          <div>
+            <div class="phase-name">Territory</div>
+            <p class="phase-desc">Execute the first Tribal Partnership Agreement &mdash; 150,000 acres released in milestone increments. Break ground. Build water, energy, roads, and first homes. Launch the community health clinic, ACE Freedom School, ACE Credit Union, and agricultural cooperative.</p>
+          </div>
+        </div>
+        <div class="phase-item">
+          <div>
+            <span class="phase-tag">Phase 3</span>
+            <span class="phase-years">Years 7&ndash;15</span>
+          </div>
+          <div>
+            <div class="phase-name">The City</div>
+            <p class="phase-desc">Scale to 300,000 pioneer residents. All municipal systems operational &mdash; three-branch governance, community courts, ACE hospital, ACE University, media network, and a diversified economy producing energy, food, technology, and culture for export.</p>
+          </div>
+        </div>
+        <div class="phase-item">
+          <div>
+            <span class="phase-tag">Phase 4</span>
+            <span class="phase-years">Years 15&ndash;25</span>
+          </div>
+          <div>
+            <div class="phase-name">Civilization</div>
+            <p class="phase-desc">Replicate nationally. 10+ ACE cities across five formally defined regions. ACE University system. International trade with Africa and the Caribbean. A $50 billion annual economy. 32 million people served by institutions they own, govern, and pass to their children.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GET INVOLVED -->
+  <section class="section section-alt" id="involved">
+    <div class="container">
+      <p class="section-eyebrow">Get Involved</p>
+      <div class="gold-rule"></div>
+      <h2 class="section-title">ACE is in Phase 1. The door is open.</h2>
+      <p class="section-sub">This is a living framework. Every role below is a real need, right now, in this moment.</p>
+
+      <div class="audience-grid">
+        <div class="audience-card">
+          <p class="audience-who">Tribal Leaders &amp; Attorneys</p>
+          <h3 class="audience-title">ACE comes as a partner, not a petitioner.</h3>
+          <p class="audience-desc">We bring capital, population, and shared purpose. You bring sovereign land and the oldest knowledge on this continent. Read Title III and Title XVII of the ACE Act.</p>
+          <a href="#act" class="audience-action">Read the ACE Act &rarr;</a>
+        </div>
+        <div class="audience-card">
+          <p class="audience-who">Black Americans of Means</p>
+          <h3 class="audience-title">This is not a charity ask.</h3>
+          <p class="audience-desc">It is an offer of civilizational co-ownership. Your name on a school. A hospital wing. A university. Built because you chose to build it when you had the means and the moment.</p>
+          <a href="#stay" class="audience-action">Stay Connected &rarr;</a>
+        </div>
+        <div class="audience-card">
+          <p class="audience-who">Community Ministers &amp; Pastors</p>
+          <h3 class="audience-title">The promised land is not a metaphor.</h3>
+          <p class="audience-desc">Host one ACE town hall. Let your congregation hear the vision. The historically Black church has organized every major movement this community has ever built.</p>
+          <a href="#stay" class="audience-action">Host a Town Hall &rarr;</a>
+        </div>
+        <div class="audience-card">
+          <p class="audience-who">Lawyers, Doctors, Engineers, Planners</p>
+          <h3 class="audience-title">ACE is building its Founding Board.</h3>
+          <p class="audience-desc">The Native American Co-Chair is Priority 1. We also need a tribal sovereignty attorney, a civil engineer, a physician, a city planner, and an educator. Read Title II.</p>
+          <a href="#stay" class="audience-action">Express Interest &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOWNLOAD -->
+  <div class="download-wrap" id="act">
+    <div class="container">
+      <p class="section-eyebrow">The ACE Act</p>
+      <div class="gold-rule"></div>
+      <h2 class="section-title">20 Titles. A founding constitution.<br>A civilization-scale plan.</h2>
+      <p class="section-sub">Read it. Share it. Challenge it. This is a living document, open to the community it is built to serve.</p>
+      <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+        <a href="https://github.com/WorksmartToolz/ACE-Act/raw/main/documents/ACE_Act_v1.0_2026-06.docx" class="btn btn-primary">&#8595;&nbsp; Download ACE Act v1.0</a>
+        <a href="https://github.com/WorksmartToolz/ACE-Act" target="_blank" rel="noopener" class="btn btn-outline">View on GitHub &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- EMAIL CAPTURE -->
+  <section class="capture" id="stay">
+    <div class="capture-inner">
+      <p class="section-eyebrow" style="text-align:center;">Stay Connected</p>
+      <div class="gold-rule" style="margin:1rem auto 1.25rem;"></div>
+      <h2 class="section-title">Stay connected to the build.</h2>
+      <p class="section-sub">ACE is in Phase 1. Enter your name and email and we will keep you informed as the movement grows &mdash; town halls, tribal partnership announcements, and founding board updates.</p>
+
+      <form class="capture-form" onsubmit="handleSubmit(event)">
+        <div class="capture-row">
+          <input class="capture-input capture-input-name" type="text" name="name" placeholder="Your name" required aria-label="Your name">
+        </div>
+        <div class="capture-row">
+          <input class="capture-input" type="email" name="email" placeholder="Your email address" required aria-label="Email address" style="flex:1; border-top:none;">
+          <button type="submit" class="capture-submit">I&rsquo;m In</button>
+        </div>
+      </form>
+      <p class="capture-note">Your information is never sold or shared.</p>
+
+      <div class="share-row">
+        <span class="share-label">Share</span>
+        <a href="https://twitter.com/intent/tweet?text=Two+communities.+One+vision.+A+city+being+built+on+sovereign+land.+The+Alliance+for+Collective+Empowerment+and+Development+%E2%80%94+read+the+full+plan.&url=https://acecommunities.org" target="_blank" rel="noopener" class="share-btn">&#120143;&nbsp; Post</a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://acecommunities.org" target="_blank" rel="noopener" class="share-btn">in&nbsp; Share</a>
+        <button class="share-btn" onclick="copyLink()">&#128279;&nbsp; Copy Link</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <div class="footer-name">Alliance for Collective Empowerment and Development</div>
+        <div class="footer-tagline">For Our People, By Our People &nbsp;&bull;&nbsp; Founded by L&eacute;andre Poplus</div>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/WorksmartToolz/ACE-Act" target="_blank" rel="noopener" class="footer-link">GitHub</a>
+        <a href="#act" class="footer-link">Download ACE Act</a>
+        <a href="#stay" class="footer-link">Stay Connected</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">&copy; 2026 Alliance for Collective Empowerment and Development. Founded by L&eacute;andre Poplus.</span>
+      <span class="footer-copy">ACE Act v1.0 &mdash; Living document, open for amendment.</span>
+    </div>
+  </footer>
+
+  <script>
+    function handleSubmit(e) {
+      e.preventDefault();
+      const form = e.target;
+      const name = form.querySelector('[name="name"]').value.trim().split(' ')[0];
+      const btn = form.querySelector('.capture-submit');
+      btn.textContent = 'Thank you, ' + name + '.';
+      btn.style.background = '#3D6B47';
+      form.querySelectorAll('input').forEach(i => i.disabled = true);
+      btn.disabled = true;
+    }
+
+    function copyLink() {
+      navigator.clipboard.writeText('https://acecommunities.org').then(() => {
+        document.querySelectorAll('.share-btn').forEach(b => {
+          if (b.textContent.includes('Copy')) {
+            b.textContent = '✓  Copied';
+            setTimeout(() => { b.innerHTML = '&#128279;&nbsp; Copy Link'; }, 2000);
+          }
+        });
+      });
+    }
+
+    // Scroll fade for cards only
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.style.opacity = '1';
+          e.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, { threshold: 0.08 });
+
+    document.querySelectorAll('.build-card, .contract-card, .audience-card').forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(18px)';
+      el.style.transition = 'opacity 0.55s ease, transform 0.55s ease';
+      observer.observe(el);
+    });
+  </script>
+
+</body>
+</html>
