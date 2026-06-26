@@ -130,7 +130,7 @@
 
 - **VS Code:** Connected to GitHub. Used for all app builds and ACE repo.
 - **GitHub:** https://github.com/WorksmartToolz/ACE-Act (public)
-- **Hostinger Pro:** Landing page forthcoming
+- **Hostinger Pro:** Landing page forthcoming — Session 2 work
 - **Versioning:** ACE_Act_v1.0_2026-06.docx format. v1.1 = minor edits, v2.0 = major structural change.
 
 ---
@@ -146,23 +146,45 @@ v2.0 = major structural change
 
 ---
 
+## GITHUB REPOSITORY STRUCTURE (current state)
+
+```
+ACE-Act/
+├── README.md                                         ✅ v1.0
+├── ACE_CONTEXT.md                                    ✅ v1.0
+├── documents/
+│   ├── ACE_Act_v1.0_2026-06.docx                    ✅
+│   ├── ACE_Executive_Summary_v1.0_2026-06.docx       ✅
+│   └── ACE_Outreach_Package_v1.0_2026-06.docx        ✅
+├── onepagers/
+│   ├── ACE_OnePager_Obama_Tier0_v1.0_2026-06.docx    ✅
+│   ├── ACE_OnePager_Tier1_Wealth_v1.0_2026-06.docx   ✅
+│   ├── ACE_OnePager_Tier2_Ideology_v1.0_2026-06.docx ✅
+│   └── ACE_OnePager_Tier3_Ministry_v1.0_2026-06.docx ✅
+└── legal/
+    └── .gitkeep                                       ✅ (placeholder)
+```
+
+---
+
 ## WHAT IS COMPLETE
 
 - [x] ACE Act v1.0 — 20 Titles final draft
 - [x] Executive Summary v1.0
 - [x] Outreach Package v1.0
-- [x] GitHub repository created
+- [x] One-pagers — all 4 tiers (Tier 0 Obama, Tier 1 Wealth, Tier 2 Ideology, Tier 3 Ministry)
+- [x] GitHub repository — fully populated, public, versioned
 - [x] README.md v1.0
 - [x] ACE_CONTEXT.md v1.0
 - [x] Folder structure: /documents /onepagers /legal
 
 ## WHAT IS NEXT
 
-- [ ] Upload documents to GitHub /documents folder
-- [ ] Build ACE landing page on Hostinger Pro
-- [ ] Draft 3 companion legal briefs
-- [ ] Founding Board recruitment — Native American Co-Chair is priority 1
+- [ ] Build ACE landing page on Hostinger Pro (Session 2)
+- [ ] Draft 3 companion legal briefs — BATEI, jurisdictional sovereignty, Pharmaceutical Review Board (Session 3)
+- [ ] Founding Board recruitment — Native American Co-Chair is priority 1 (Session 4)
 - [ ] Tribal engagement — begin with Region 1 South priority tribes
+- [ ] FedEx outreach packages — Obama first, then Tier 1-3
 
 ---
 
@@ -170,7 +192,7 @@ v2.0 = major structural change
 
 | Session | Date | Work Completed |
 |---|---|---|
-| Session 1 | June 2026 | Full ACE Act drafted (20 Titles), Executive Summary, Outreach Package, GitHub setup, README v1.0, ACE_CONTEXT.md v1.0 |
+| Session 1 | June 2026 | Full ACE Act drafted (20 Titles), Executive Summary, Outreach Package, 4 one-pagers, GitHub repo fully populated and versioned, README v1.0, ACE_CONTEXT.md v1.0 |
 
 ---
 
