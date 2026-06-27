@@ -6,11 +6,12 @@
 
 ## PROJECT IDENTITY
 
-**Full name:** Alliance for Collective Empowerment (ACE)
+**Full name:** Alliance for Collective Empowerment and Development (ACE)
 **Short citation:** The ACE Act
 **Founder:** Léandre Poplus (also goes by Andre in conversation)
 **GitHub:** https://github.com/WorksmartToolz/ACE-Act
-**Landing page:** Forthcoming on Hostinger Pro account
+**Staging URL:** mediumvioletred-dog-831483.hostingersite.com
+**Domain:** acecommunities.org (registered at Bluehost — not yet pointed to Hostinger)
 **Document status:** v1.0 complete — 20 Titles, 8 WHEREAS clauses
 
 ---
@@ -21,7 +22,7 @@
 |---|---|---|
 | MLP | Majority Lending Program | Minority Lending Program |
 | MLI | Majority Lending Institution | Minority Lending Institution |
-| ACE | Alliance for Collective Empowerment | Always spell out on first reference |
+| ACE | Alliance for Collective Empowerment and Development | Always spell out on first reference |
 | ACE Congressional Caucus | ACE's own political body | Congressional Black Caucus |
 
 ---
@@ -130,19 +131,10 @@
 
 - **VS Code:** Connected to GitHub. Used for all app builds and ACE repo.
 - **GitHub:** https://github.com/WorksmartToolz/ACE-Act (public)
-- **Hostinger Pro:** Landing page forthcoming — Session 2 work
+- **Hostinger Business plan:** Landing page live on staging URL
+- **Hostinger file:** public_html/index.html (serves before default.php)
+- **IMPORTANT:** Hostinger runs PHP which strips CSS custom properties (var(--x)). All CSS in landing page must use hardcoded hex values only — no CSS variables in component styles.
 - **Versioning:** ACE_Act_v1.0_2026-06.docx format. v1.1 = minor edits, v2.0 = major structural change.
-
----
-
-## DOCUMENT VERSIONING STANDARD
-
-```
-filename_vMAJOR.MINOR_YYYY-MM.ext
-v1.0 = first complete draft
-v1.1 = minor edits/corrections
-v2.0 = major structural change
-```
 
 ---
 
@@ -150,20 +142,92 @@ v2.0 = major structural change
 
 ```
 ACE-Act/
-├── README.md                                         ✅ v1.0
-├── ACE_CONTEXT.md                                    ✅ v1.0
+├── README.md                                              ✅ v1.0
+├── ACE_CONTEXT.md                                         ✅ this file
 ├── documents/
-│   ├── ACE_Act_v1.0_2026-06.docx                    ✅
-│   ├── ACE_Executive_Summary_v1.0_2026-06.docx       ✅
-│   └── ACE_Outreach_Package_v1.0_2026-06.docx        ✅
+│   ├── ACE_Act_v1.0_2026-06.docx                         ✅
+│   ├── ACE_Executive_Summary_v1.0_2026-06.docx            ✅
+│   └── ACE_Outreach_Package_v1.0_2026-06.docx             ✅
 ├── onepagers/
-│   ├── ACE_OnePager_Obama_Tier0_v1.0_2026-06.docx    ✅
-│   ├── ACE_OnePager_Tier1_Wealth_v1.0_2026-06.docx   ✅
-│   ├── ACE_OnePager_Tier2_Ideology_v1.0_2026-06.docx ✅
-│   └── ACE_OnePager_Tier3_Ministry_v1.0_2026-06.docx ✅
+│   ├── ACE_OnePager_Obama_Tier0_v1.0_2026-06.docx         ✅
+│   ├── ACE_OnePager_Tier1_Wealth_v1.0_2026-06.docx        ✅
+│   ├── ACE_OnePager_Tier2_Ideology_v1.0_2026-06.docx      ✅
+│   └── ACE_OnePager_Tier3_Ministry_v1.0_2026-06.docx      ✅
+├── landing/
+│   ├── index_v1_dark_2026-06.html                         ✅ archived
+│   ├── index_v2_warm_2026-06.html                         ✅ archived
+│   ├── index_v3_warm_css_2026-06.html                     ✅ archived
+│   ├── index_v4_design_2026-06.html                       ✅ archived
+│   ├── index_v5_design_2026-06.html                       ✅ archived
+│   ├── index_v6_final_2026-06.html                        ✅ CURRENT
+│   ├── crest_v1_2026-06.svg                               ✅ archived
+│   └── crest_v2_2026-06.svg                               🔲 in progress (Design)
 └── legal/
-    └── .gitkeep                                       ✅ (placeholder)
+    └── .gitkeep                                            ✅ placeholder
 ```
+
+---
+
+## LANDING PAGE — CURRENT STATE (v6)
+
+**Live at:** mediumvioletred-dog-831483.hostingersite.com
+**File on Hostinger:** public_html/index.html
+**Pan-African color palette (all hardcoded hex — no CSS variables):**
+- Black: #000000
+- Red: #DA121A
+- Gold: #FCD116
+- Green: #09A03A
+
+**Section color assignments:**
+- Hero: black background, gold eyebrow, white/red quote
+- Stat band: black background, gold numbers
+- What ACE is Building: cream background, red eyebrow
+- Social Contract: black background, gold eyebrow, gold guarantee numbers
+- Four Phases: cream-dark background, green eyebrow, green phase numbers
+- Get Involved: green background, gold eyebrow, dark transparent cards with gold left border
+- Founding Charter: black background, gold eyebrow
+- Stay Connected: cream background, green eyebrow
+- Footer: black background
+
+**Section header structure (all sections):**
+EYEBROW TEXT (colored per section)
+—— red rule
+Section Title
+Lead paragraph
+
+**Known issues resolved:**
+- PHP strips CSS variables — all colors hardcoded
+- Hostinger serves index.html before default.php
+- Em dashes replaced with commas or removed throughout
+- Full name text removed from SVG, placed as HTML above crest
+
+---
+
+## ACE CREST — CURRENT STATE
+
+**Version 1 (archived):** crest_v1_2026-06.svg
+- Diagonal shield division (upper-right cream, lower-left brown)
+- Eagle feather upper right, Sankofa bird lower left, rising sun at center
+- Known issue: Sankofa bird oversized, breaks inner shield boundary
+
+**Version 2 (in progress with Claude Design):**
+- Four equal quadrants, one symbol per quadrant
+- Top left RED: Sankofa bird (cream/white symbol)
+- Top right GOLD: Eagle feather (brown symbol)
+- Bottom left GREEN: Akoma Ntoso linked hearts (gold/cream symbol)
+- Bottom right BLACK: Rising sun (gold symbol)
+- Gold dividing lines between quadrants
+- ACE in large serif below shield
+- Heraldic banner: "FOR OUR PEOPLE, BY OUR PEOPLE"
+- Full name text as HTML element, NOT in SVG
+
+**Crest interpretation document:** ACE_Crest_Interpretation.md — explains all four symbols tied to ACE mission. Goes in ACE Act, landing page, and physical packages.
+
+**Symbol meanings:**
+- Sankofa: memory, reclaiming what was taken, building from truth
+- Eagle Feather: Native sovereignty, sacred authority, irreplaceable land knowledge
+- Akoma Ntoso: linked hearts, unity, covenant between two peoples
+- Rising Sun: the civilization being built, brighter days ahead
 
 ---
 
@@ -172,17 +236,22 @@ ACE-Act/
 - [x] ACE Act v1.0 — 20 Titles final draft
 - [x] Executive Summary v1.0
 - [x] Outreach Package v1.0
-- [x] One-pagers — all 4 tiers (Tier 0 Obama, Tier 1 Wealth, Tier 2 Ideology, Tier 3 Ministry)
+- [x] One-pagers — all 4 tiers
 - [x] GitHub repository — fully populated, public, versioned
 - [x] README.md v1.0
-- [x] ACE_CONTEXT.md v1.0
-- [x] Folder structure: /documents /onepagers /legal
+- [x] ACE_CONTEXT.md (this file)
+- [x] Landing page v6 — live on Hostinger staging
+- [x] Crest interpretation document written
+- [x] Crest v2 brief sent to Claude Design
 
 ## WHAT IS NEXT
 
-- [ ] Build ACE landing page on Hostinger Pro (Session 2)
-- [ ] Draft 3 companion legal briefs — BATEI, jurisdictional sovereignty, Pharmaceutical Review Board (Session 3)
-- [ ] Founding Board recruitment — Native American Co-Chair is priority 1 (Session 4)
+- [ ] Crest v2 SVG from Claude Design — integrate into landing page, push to GitHub
+- [ ] Add crest interpretation section to landing page below hero
+- [ ] Connect acecommunities.org (Bluehost) to Hostinger
+- [ ] Add Formspree/email capture to landing page form
+- [ ] Draft 3 companion legal briefs (BATEI, jurisdictional sovereignty, Pharmaceutical Review Board)
+- [ ] Founding Board recruitment — Native American Co-Chair is priority 1
 - [ ] Tribal engagement — begin with Region 1 South priority tribes
 - [ ] FedEx outreach packages — Obama first, then Tier 1-3
 
@@ -192,7 +261,18 @@ ACE-Act/
 
 | Session | Date | Work Completed |
 |---|---|---|
-| Session 1 | June 2026 | Full ACE Act drafted (20 Titles), Executive Summary, Outreach Package, 4 one-pagers, GitHub repo fully populated and versioned, README v1.0, ACE_CONTEXT.md v1.0 |
+| Session 1 | June 2026 | Full ACE Act drafted (20 Titles), Executive Summary, Outreach Package, 4 one-pagers, GitHub repo fully populated, README, ACE_CONTEXT.md |
+| Session 2 | June 2026 | Landing page v1-v6 iterations, Pan-African palette applied, crest v1 built, crest v2 brief sent to Design, crest interpretation document written, all documents pushed to GitHub |
+
+---
+
+## HOSTINGER DEPLOYMENT NOTES
+
+- PHP hosting strips CSS custom properties — NEVER use var(--x) in landing page CSS
+- All colors must be hardcoded hex values
+- File must be named index.html (not default.php) in public_html
+- After upload always flush CDN cache from Hostinger dashboard
+- To verify what's live: curl -s https://[url] | grep "[hex color]"
 
 ---
 
@@ -203,4 +283,4 @@ ACE-Act/
 3. State what you want to work on
 4. Update SESSION LOG and WHAT IS NEXT before pushing to GitHub at end of each session
 
-*Maintained by Léandre Poplus. Last updated: Session 1, June 2026.*
+*Maintained by Léandre Poplus. Last updated: Session 2, June 2026.*
