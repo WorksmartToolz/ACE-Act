@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 590" width="440" height="590" role="img" aria-label="ACE crest — Alliance for Collective Empowerment and Development">
+<defs>
+  
+  <clipPath id="shieldClip"><path d="M90 60 L350 60 L350 200 C350 282 300 342 220 382 C140 342 90 282 90 200 Z"></path></clipPath>
+  <linearGradient id="vaneGrad" x1="290" y1="256" x2="252" y2="90" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#F7EEDB"></stop><stop offset="0.22" stop-color="#E7CD99"></stop>
+    <stop offset="0.52" stop-color="#CB9D55"></stop><stop offset="0.8" stop-color="#9A6C2D"></stop><stop offset="1" stop-color="#5C3B13"></stop>
+  </linearGradient>
+  <radialGradient id="sunGrad" cx="0.5" cy="0.85" r="0.9">
+    <stop offset="0" stop-color="#E8CC74"></stop><stop offset="0.6" stop-color="#C9A84C"></stop><stop offset="1" stop-color="#A9821F"></stop>
+  </radialGradient>
+</defs>
+
+<g clip-path="url(#shieldClip)">
+  <rect x="80" y="50" width="290" height="345" fill="#F5EDD8"></rect>
+  <path d="M90 60 L300 322 L220 384 L84 300 L84 60 Z" fill="#C4904A"></path>
+  <path d="M90 60 L300 322 L220 384 L84 300 L84 60 Z" fill="#000" opacity="0.05"></path>
+  <path d="M90 60 L300 322" stroke="#8B6914" stroke-width="3.5" fill="none"></path>
+  <path d="M90 60 L300 322" stroke="#C9A84C" stroke-width="1" fill="none"></path>
+
+  
+  <g transform="translate(-4,22)">
+    
+    <path d="M198 262 C 214 232 220 204 197 197 C 178 191 165 199 161 211" stroke="#3D2408" stroke-width="20" fill="none" stroke-linecap="round"></path>
+    <ellipse cx="172" cy="277" rx="41" ry="29" transform="rotate(-15 172 277)" fill="#3D2408"></ellipse>
+    <path d="M144 272 C 126 256 115 232 112 209 L 134 222 C 142 243 150 258 154 266 Z" fill="#3D2408" stroke-linejoin="round"></path>
+    <circle cx="159" cy="205" r="12" fill="#3D2408"></circle>
+    
+    <path d="M198 262 C 214 232 220 204 197 197 C 178 191 165 199 161 211" stroke="#FAF6EF" stroke-width="13.5" fill="none" stroke-linecap="round"></path>
+    <ellipse cx="172" cy="277" rx="37.5" ry="25.5" transform="rotate(-15 172 277)" fill="#FAF6EF"></ellipse>
+    <path d="M145 270 C 129 256 119 233 117 213 L 134 224 C 142 244 149 257 153 265 Z" fill="#FAF6EF"></path>
+    <circle cx="159" cy="204" r="9.5" fill="#FAF6EF"></circle>
+    
+    <path d="M152 209 L147 224 L161 213 Z" fill="#3D2408"></path>
+    <circle cx="156" cy="202" r="1.7" fill="#3D2408"></circle>
+    <path d="M167 300 L161 332 M161 332 L153 336 M161 332 L169 335 M185 297 L190 330 M190 330 L183 334 M190 330 L198 333" stroke="#3D2408" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+    <ellipse cx="150" cy="231" rx="8.5" ry="10.5" fill="#C9A84C" stroke="#3D2408" stroke-width="1.6"></ellipse><ellipse cx="147" cy="227.5" rx="2.4" ry="3.2" fill="#FAF6EF" opacity="0.8"></ellipse>
+  </g>
+
+  <g>
+    <path d="M283.02 235.1 C 290 256, 296 268, 300 286" stroke="#3D2408" stroke-width="3" fill="none" stroke-linecap="round"></path>
+    <path d="M252 90L254.51 88.36L258.16 90.14L260.67 92.64L262.89 95.32L264.92 98.11L266.82 100.97L268.61 103.9L270.3 106.88L271.9 109.92L273.42 113.01L274.85 116.15L276.21 119.34L277.48 122.59L278.68 125.89L279.81 129.25L280.86 132.66L281.83 136.14L282.73 139.67L283.56 143.27L284.31 146.94L285 150.66L285.61 154.46L286.16 158.32L286.63 162.25L287.05 166.25L287.39 170.33L287.68 174.47L287.9 178.69L288.06 182.98L288.16 187.35L288.2 191.8L288.18 196.33L288.09 200.95L287.94 205.67L287.7 210.49L287.37 215.44L286.89 220.56L286.15 225.98L284.85 231.98L286.01 235.64L287.19 239.3L288.39 242.94L289.6 246.58L290.84 250.22L292.09 253.85L287.02 255.62L285.76 251.97L284.52 248.3L283.3 244.64L282.09 240.96L280.9 237.29L279.74 233.6L275.25 229.36L271.61 225.22L268.39 221.12L265.43 217.03L262.67 212.95L260.08 208.88L257.64 204.8L255.34 200.74L253.18 196.67L251.16 192.62L249.26 188.57L247.5 184.53L245.87 180.49L244.37 176.48L243 172.47L241.76 168.48L240.65 164.51L239.67 160.56L238.83 156.63L238.11 152.72L237.52 148.84L237.06 144.98L236.72 141.15L236.52 137.35L236.43 133.57L236.48 129.84L236.65 126.13L236.94 122.46L237.36 118.83L237.91 115.23L238.58 111.68L239.38 108.17L240.32 104.71L241.41 101.31L242.68 97.97L244.18 94.72L246.03 91.61L249.18 88.98Z" fill="url(#vaneGrad)" stroke="#5C3B13" stroke-width="0.8" stroke-linejoin="round"></path>
+    <path d="M284.03 233.65L284.85 231.98M281.36 234.49L279.74 233.6M282.88 229.98L286.15 225.98M280.21 230.81L275.25 229.36M281.75 226.3L286.89 220.56M279.07 227.12L271.61 225.22M280.64 222.62L287.37 215.44M277.96 223.42L268.39 221.12M279.55 218.93L287.7 210.49M276.86 219.72L265.43 217.03M278.47 215.24L287.94 205.67M275.78 216.01L262.67 212.95M277.41 211.54L288.09 200.95M274.72 212.3L260.08 208.88M276.37 207.83L288.18 196.33M273.68 208.58L257.64 204.8M275.36 204.12L288.2 191.8M272.65 204.85L255.34 200.74M274.35 200.4L288.16 187.35M271.65 201.12L253.18 196.67M273.37 196.67L288.06 182.98M270.66 197.38L251.16 192.62M272.41 192.94L287.9 178.69M269.69 193.63L249.26 188.57M271.46 189.2L287.68 174.47M268.75 189.88L247.5 184.53M270.53 185.46L287.39 170.33M267.81 186.12L245.87 180.49M269.63 181.71L287.05 166.25M266.9 182.36L244.37 176.48M268.74 177.95L286.63 162.25M266.01 178.59L243 172.47M267.86 174.19L286.16 158.32M265.14 174.81L241.76 168.48M267.01 170.42L285.61 154.46M264.28 171.03L240.65 164.51M266.18 166.64L285 150.66M263.44 167.24L239.67 160.56M265.36 162.86L284.31 146.94M262.62 163.45L238.83 156.63M264.56 159.07L283.56 143.27M261.82 159.64L238.11 152.72M263.79 155.28L282.73 139.67M261.04 155.84L237.52 148.84M263.03 151.48L281.83 136.14M260.28 152.02L237.06 144.98M262.28 147.67L280.86 132.66M259.54 148.2L236.72 141.15M261.56 143.86L279.81 129.25M258.81 144.38L236.52 137.35M260.86 140.04L278.68 125.89M258.1 140.54L236.43 133.57M260.17 136.22L277.48 122.59M257.41 136.71L236.48 129.84M259.5 132.39L276.21 119.34M256.75 132.86L236.65 126.13M258.86 128.55L274.85 116.15M256.09 129.01L236.94 122.46M258.23 124.71L273.42 113.01M255.46 125.15L237.36 118.83M257.61 120.86L271.9 109.92M254.85 121.29L237.91 115.23M257.02 117L270.3 106.88M254.25 117.42L238.58 111.68M256.45 113.14L268.61 103.9M253.68 113.55L239.38 108.17M255.89 109.27L266.82 100.97M253.12 109.66L240.32 104.71M255.35 105.4L264.92 98.11M252.58 105.78L241.41 101.31M254.84 101.52L262.89 95.32M252.06 101.88L242.68 97.97M254.34 97.63L260.67 92.64M251.56 97.98L244.18 94.72M253.85 93.74L258.16 90.14M251.07 94.07L246.03 91.61M253.39 89.84L254.51 88.36M250.61 90.16L249.18 88.98" stroke="#7A5418" stroke-width="0.7" opacity="0.55" fill="none"></path>
+    <path d="M290 256 C 262 176, 257 133, 252 90" stroke="#43290B" stroke-width="1.6" fill="none" stroke-linecap="round"></path>
+  </g>
+
+  <g>
+    <path d="M172.75 195.08L152.08 187.56M176.99 187.35L165.89 178.82M183.37 181.24L170.75 163.22M191.28 177.34L187.07 163.99M200 176L200 154M208.72 177.34L212.93 163.99M216.63 181.24L229.25 163.22M223.01 187.35L234.11 178.82M227.25 195.08L247.92 187.56" stroke="#8B6914" stroke-width="3" fill="none" stroke-linecap="round"></path>
+    <path d="M175 205 A25 25 0 0 1 225 205 Z" fill="url(#sunGrad)" stroke="#7A5E12" stroke-width="1.5"></path>
+    <path d="M169 205 L231 205" stroke="#8B6914" stroke-width="2.5" stroke-linecap="round"></path>
+  </g>
+</g>
+
+<path d="M90 60 L350 60 L350 200 C350 282 300 342 220 382 C140 342 90 282 90 200 Z" fill="none" stroke="#3D2408" stroke-width="6"></path>
+<path d="M104 73 L336 73 L336 200 C336 273 292 327 220 363 C148 327 104 273 104 200 Z" fill="none" stroke="#8B6914" stroke-width="2"></path>
+
+<text class="pf" x="220" y="458" text-anchor="middle" font-size="74" font-weight="800" fill="#3D2408" letter-spacing="5">ACE</text>
+
+<g>
+  <path d="M70 486 L96 476 L96 506 L70 516 Z" fill="#2A1905"></path>
+  <path d="M370 486 L344 476 L344 506 L370 516 Z" fill="#2A1905"></path>
+  <path d="M92 472 L348 472 L340 491 L348 510 L92 510 L100 491 Z" fill="#3D2408"></path>
+  <text x="220" y="495.5" text-anchor="middle" font-family="Georgia,serif" font-size="10.5" font-weight="600" letter-spacing="1.2" fill="#C9A84C">FOR OUR PEOPLE, BY OUR PEOPLE</text>
+</g>
+
+<text x="220" y="546" text-anchor="middle" font-family="Georgia,serif" font-size="10" letter-spacing="2.4" fill="#6B5B3E">ALLIANCE FOR COLLECTIVE EMPOWERMENT AND DEVELOPMENT · EST. 2026</text>
+</svg>
