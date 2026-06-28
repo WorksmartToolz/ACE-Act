@@ -1,4 +1,4 @@
-# Alliance for Collective Empowerment (ACE)
+# Alliance for Collective Empowerment and Development (ACE)
 ### The ACE Act — A Sovereign Community Development Framework for Black and Native American Communities
 
 ---
