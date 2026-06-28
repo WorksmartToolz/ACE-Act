@@ -121,9 +121,9 @@ Every ACE resident who works and contributes is guaranteed four things by retire
 
 | Document | |
 |---|---|
-| ACE Community and Development Act (v1.7) | [Open PDF](https://acecommunities.org/docs/ACE%20-%20Community%20and%20Development%20Act%20v1.7.pdf) |
-| Executive Summary (v1.7) | [Open PDF](https://acecommunities.org/docs/ACE%20-%20Executive%20Summary%20v1.7.pdf) |
-| Community Leader Engagement (v1.5) | [Open PDF](https://acecommunities.org/docs/ACE%20-%20Outreach%20Package%20v1.5.pdf) |
+| ACE Community and Development Act (v1.7) | [Open PDF](https://mediumvioletred-dog-831483.hostingersite.com/docs/ACE%20-%20Community%20and%20Development%20Act%20v1.7.pdf) |
+| Executive Summary (v1.7) | [Open PDF](https://mediumvioletred-dog-831483.hostingersite.com/docs/ACE%20-%20Executive%20Summary%20v1.7.pdf) |
+| Community Leader Engagement (v1.5) | [Open PDF](https://mediumvioletred-dog-831483.hostingersite.com/docs/ACE%20-%20Outreach%20Package%20v1.5.pdf) |
 
 > Documents open in your browser\'s native PDF viewer. No download required.
 
