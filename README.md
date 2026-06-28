@@ -121,8 +121,8 @@ Every ACE resident who works and contributes is guaranteed four things by retire
 
 | Document | |
 |---|---|
-| ACE Community and Development Act (v1.5) | [View PDF](https://github.com/WorksmartToolz/ACE-Community-and-Development-Act/blob/main/documents/ACE_Act_v1.7_2026-06.pdf) |
-| Executive Summary (v1.5) | [View PDF](https://github.com/WorksmartToolz/ACE-Community-and-Development-Act/blob/main/documents/ACE_Executive_Summary_v1.7_2026-06.pdf) |
+| ACE Community and Development Act (v1.7) | [View PDF](https://github.com/WorksmartToolz/ACE-Community-and-Development-Act/blob/main/documents/ACE_Act_v1.7_2026-06.pdf) |
+| Executive Summary (v1.7) | [View PDF](https://github.com/WorksmartToolz/ACE-Community-and-Development-Act/blob/main/documents/ACE_Executive_Summary_v1.7_2026-06.pdf) |
 | Community Leader Engagement (v1.5) | [View PDF](https://github.com/WorksmartToolz/ACE-Community-and-Development-Act/blob/main/documents/ACE_Outreach_Package_v1.5_2026-06.pdf) |
 | One-Pager Covers (v1.5) | [View PDF](https://github.com/WorksmartToolz/ACE-Community-and-Development-Act/blob/main/onepagers/ACE_OnePager_Covers_v1.5_2026-06.pdf) |
 
@@ -135,16 +135,18 @@ ACE-Community-and-Development-Act/
 ├── README.md
 ├── ACE_CONTEXT.md
 ├── documents/
-│   ├── ACE_Act_v1.1_2026-06.pdf            (current)
-│   ├── ACE_Act_v1.1_2026-06.docx           (current)
-│   ├── ACE_Executive_Summary_v1.1_2026-06.pdf
-│   ├── ACE_Executive_Summary_v1.1_2026-06.docx
-│   ├── ACE_Outreach_Package_v1.1_2026-06.pdf
-│   └── ACE_Outreach_Package_v1.1_2026-06.docx
+│   ├── ACE_Act_v1.7_2026-06.pdf            (current)
+│   ├── ACE_Act_v1.7_2026-06.docx           (current)
+│   ├── ACE_Executive_Summary_v1.7_2026-06.pdf
+│   ├── ACE_Executive_Summary_v1.7_2026-06.docx
+│   ├── ACE_Outreach_Package_v1.5_2026-06.pdf
+│   ├── ACE_Outreach_Package_v1.5_2026-06.docx
 ├── landing/
-│   ├── index_v7_2026-06.html               (current live page)
-│   └── crest_v2_2026-06.svg                (approved crest)
+│   ├── index_v8.3_2026-06.html             (current live page)
+│   ├── crest_v2_2026-06.svg                (approved crest)
+│   └── crest_v2_2026-06.png                (approved crest)
 ├── onepagers/
+│   └── ACE_OnePager_Covers_v1.5_2026-06.pdf
 └── legal/
 ```
 
