@@ -168,11 +168,11 @@ ACE-Act/
 
 | Item | Status |
 |---|---|
-| ACE Act | ✅ Complete — v1.1 |
+| ACE Act | ✅ Complete , v1.1 |
 | Executive Summary | ✅ Complete v1.5 |
 | Community Leader Engagement | ✅ Complete v1.5 |
-| ACE Crest v2 | ✅ Complete — approved |
-| ACE Landing Page | ✅ Live — v7 |
+| ACE Crest v2 | ✅ Complete , approved |
+| ACE Landing Page | ✅ Live , v7 |
 | Companion Legal Briefs (3) | 🔲 Forthcoming |
 | Founding Board | 🔲 Recruitment in progress |
 | First Tribal Partnership | 🔲 Engagement pending |
