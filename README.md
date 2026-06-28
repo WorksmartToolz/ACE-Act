@@ -121,9 +121,10 @@ Every ACE resident who works and contributes is guaranteed four things by retire
 
 | Document | |
 |---|---|
-| The ACE Act (v1.1) | [Read PDF](https://github.com/WorksmartToolz/ACE-Act/raw/main/documents/ACE_Act_v1.1_2026-06.pdf) |
-| Executive Summary (v1.1) | [Read PDF](https://github.com/WorksmartToolz/ACE-Act/raw/main/documents/ACE_Executive_Summary_v1.1_2026-06.pdf) |
-| Outreach Package (v1.1) | [Read PDF](https://github.com/WorksmartToolz/ACE-Act/raw/main/documents/ACE_Outreach_Package_v1.1_2026-06.pdf) |
+| ACE Community and Development Act (v1.5) | [Read PDF](https://github.com/WorksmartToolz/ACE-Act/raw/main/documents/ACE_Act_v1.5_2026-06.pdf) |
+| Executive Summary (v1.5) | [Read PDF](https://github.com/WorksmartToolz/ACE-Act/raw/main/documents/ACE_Executive_Summary_v1.5_2026-06.pdf) |
+| Community Leader Engagement (v1.5) | [Read PDF](https://github.com/WorksmartToolz/ACE-Act/raw/main/documents/ACE_Outreach_Package_v1.5_2026-06.pdf) |
+| One-Pager Covers (v1.5) | [Read PDF](https://github.com/WorksmartToolz/ACE-Act/raw/main/onepagers/ACE_OnePager_Covers_v1.5_2026-06.pdf) |
 
 ---
 
