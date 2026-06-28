@@ -121,12 +121,14 @@ Every ACE resident who works and contributes is guaranteed four things by retire
 
 | Document | |
 |---|---|
-| ACE Community and Development Act (v1.7) | [View PDF](https://github.com/WorksmartToolz/ACE-Community-and-Development-Act/blob/main/documents/ACE_Act_v1.7_2026-06.pdf) |
-| Executive Summary (v1.7) | [View PDF](https://github.com/WorksmartToolz/ACE-Community-and-Development-Act/blob/main/documents/ACE_Executive_Summary_v1.7_2026-06.pdf) |
-| Community Leader Engagement (v1.5) | [View PDF](https://github.com/WorksmartToolz/ACE-Community-and-Development-Act/blob/main/documents/ACE_Outreach_Package_v1.5_2026-06.pdf) |
-| One-Pager Covers (v1.5) | [View PDF](https://github.com/WorksmartToolz/ACE-Community-and-Development-Act/blob/main/onepagers/ACE_OnePager_Covers_v1.5_2026-06.pdf) |
+| ACE Community and Development Act (v1.7) | [Open PDF](https://acecommunities.org/docs/ACE%20-%20Community%20and%20Development%20Act%20v1.7.pdf) |
+| Executive Summary (v1.7) | [Open PDF](https://acecommunities.org/docs/ACE%20-%20Executive%20Summary%20v1.7.pdf) |
+| Community Leader Engagement (v1.5) | [Open PDF](https://acecommunities.org/docs/ACE%20-%20Outreach%20Package%20v1.5.pdf) |
+
+> Documents open in your browser\'s native PDF viewer. No download required.
 
 ---
+
 
 ## Repository Structure
 
