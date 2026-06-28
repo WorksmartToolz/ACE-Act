@@ -117,6 +117,20 @@ Every ACE resident who works and contributes is guaranteed four things by retire
 
 ---
 
+## Documents
+
+Download the founding documents directly:
+
+| Document | PDF | Word |
+|---|---|---|
+| The ACE Act (v1.1) | [Download PDF](https://github.com/WorksmartToolz/ACE-Act/raw/main/documents/ACE_Act_v1.1_2026-06.pdf) | [Download Word](https://github.com/WorksmartToolz/ACE-Act/raw/main/documents/ACE_Act_v1.1_2026-06.docx) |
+| Executive Summary (v1.1) | [Download PDF](https://github.com/WorksmartToolz/ACE-Act/raw/main/documents/ACE_Executive_Summary_v1.1_2026-06.pdf) | [Download Word](https://github.com/WorksmartToolz/ACE-Act/raw/main/documents/ACE_Executive_Summary_v1.1_2026-06.docx) |
+| Outreach Package (v1.1) | [Download PDF](https://github.com/WorksmartToolz/ACE-Act/raw/main/documents/ACE_Outreach_Package_v1.1_2026-06.pdf) | [Download Word](https://github.com/WorksmartToolz/ACE-Act/raw/main/documents/ACE_Outreach_Package_v1.1_2026-06.docx) |
+
+> PDFs are the primary public-facing format. Word files are the maintained source documents.
+
+---
+
 ## Repository Structure
 
 ```
@@ -124,9 +138,15 @@ ACE-Act/
 ├── README.md
 ├── ACE_CONTEXT.md
 ├── documents/
-│   ├── ACE_Act_v1.0_2026-06.docx
-│   ├── ACE_Executive_Summary_v1.0_2026-06.docx
-│   └── ACE_Outreach_Package_v1.0_2026-06.docx
+│   ├── ACE_Act_v1.1_2026-06.pdf            (current)
+│   ├── ACE_Act_v1.1_2026-06.docx           (current)
+│   ├── ACE_Executive_Summary_v1.1_2026-06.pdf
+│   ├── ACE_Executive_Summary_v1.1_2026-06.docx
+│   ├── ACE_Outreach_Package_v1.1_2026-06.pdf
+│   └── ACE_Outreach_Package_v1.1_2026-06.docx
+├── landing/
+│   ├── index_v7_2026-06.html               (current live page)
+│   └── crest_v2_2026-06.svg                (approved crest)
 ├── onepagers/
 └── legal/
 ```
