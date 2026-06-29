@@ -11,7 +11,7 @@
 
 ## What is ACE?
 
-The Alliance for Collective Empowerment (ACE) is a 25-year initiative to establish a network of self-governing, self-sustaining cities for Black and Native American communities on tribal land across the United States, protected by tribal sovereignty law, funded by community capital, and governed by a constitutional framework designed to last generations.
+The Alliance for Collective Empowerment and Development (ACE) is a 25-year initiative to establish a network of self-governing, self-sustaining cities for Black and Native American communities on tribal land across the United States, protected by tribal sovereignty law, funded by community capital, and governed by a constitutional framework designed to last generations.
 
 ACE is not a program. It is not a nonprofit initiative. It is not a political campaign.
 
@@ -77,7 +77,7 @@ Replicate nationally. 10+ ACE cities across five regions. ACE University system.
 ## What ACE Builds
 
 - **Housing**: Lease-to-own on tribal land. ACE-CPF Housing Account builds equity automatically. Zero Homelessness Mandate written into the governing charter.
-- **Education**: K–12 ACE Freedom Schools through ACE University. BIE approved. Pan-African and Indigenous studies at every grade. Tuition-free for ACE residents.
+- **Education**: K-12 ACE Freedom Schools through ACE University. BIE approved. Pan-African and Indigenous studies at every grade. Tuition-free for ACE residents.
 - **Healthcare**: Community clinic to full hospital. ACE MediSave, no medical debt. Modern medicine co-equal with Indigenous and African traditional healing. Black maternal mortality eliminated by design.
 - **Economy**: ACE owns the infrastructure layer. Free enterprise above it. Majority Lending Institution (MLI) network. Community Investment Bonds from $500 entry point.
 - **Governance**: Three-branch government: ACE Community Assembly, Executive Council, Community Court. Co-equal tribal co-governance. ACE Governing Charter as supreme law.
@@ -110,7 +110,7 @@ Every ACE resident who works and contributes is guaranteed four things by retire
 
 ## The Legal Foundation
 
-- **The HEARTH Act of 2012**: 70–99 year ground leases to ACE Development LLC without BIA approval
+- **The HEARTH Act of 2012**: 70-99 year ground leases to ACE Development LLC without BIA approval
 - **Tribal sovereignty**: ACE operates as a Tribally Chartered Entity with sovereign immunity
 - **Tribal court jurisdiction**: limits outside law enforcement access to ACE Territory
 - **The ACE Governing Charter**: supreme constitutional document of every ACE community
@@ -121,14 +121,13 @@ Every ACE resident who works and contributes is guaranteed four things by retire
 
 | Document | |
 |---|---|
-| ACE Community and Development Act (v1.7) | [Open PDF](https://mediumvioletred-dog-831483.hostingersite.com/docs/ACE%20-%20Community%20and%20Development%20Act%20v1.7.pdf) |
-| Executive Summary (v1.7) | [Open PDF](https://mediumvioletred-dog-831483.hostingersite.com/docs/ACE%20-%20Executive%20Summary%20v1.7.pdf) |
-| Community Leader Engagement (v1.5) | [Open PDF](https://mediumvioletred-dog-831483.hostingersite.com/docs/ACE%20-%20Outreach%20Package%20v1.5.pdf) |
+| ACE Community and Development Act (v1.7) | [Open PDF](https://mediumvioletred-dog-831483.hostingersite.com/docs/ACE_Community_and_Development_Act_v1.7.pdf) |
+| Executive Summary (v1.7) | [Open PDF](https://mediumvioletred-dog-831483.hostingersite.com/docs/ACE_Executive_Summary_v1.7.pdf) |
+| Community Leader Engagement (v1.5) | [Open PDF](https://mediumvioletred-dog-831483.hostingersite.com/docs/ACE_Outreach_Package_v1.5.pdf) |
 
-> Documents open in your browser\'s native PDF viewer. No download required.
+> Documents open in your browser's native PDF viewer. No download required.
 
 ---
-
 
 ## Repository Structure
 
@@ -172,16 +171,19 @@ ACE-Community-and-Development-Act/
 
 | Item | Status |
 |---|---|
-| ACE Act | ✅ Complete , v1.1 |
-| Executive Summary | ✅ Complete v1.5 |
-| Community Leader Engagement | ✅ Complete v1.5 |
-| ACE Crest v2 | ✅ Complete , approved |
-| ACE Landing Page | ✅ Live , v7 |
-| Companion Legal Briefs (3) | 🔲 Forthcoming |
-| Founding Board | 🔲 Recruitment in progress |
-| First Tribal Partnership | 🔲 Engagement pending |
+| ACE Act | v1.7 current |
+| Executive Summary | v1.7 current |
+| Community Leader Engagement | v1.5 current |
+| ACE Crest v2 | approved |
+| ACE Landing Page | v8.3 live |
+| Companion Legal Briefs (3) | forthcoming |
+| Founding Board | recruitment in progress |
+| First Tribal Partnership | engagement pending |
 
 ---
 
 **Léandre Poplus, Founder, Alliance for Collective Empowerment and Development**
 *For Our People, By Our People.*
+
+---
+*README v17 — June 28, 2026*
