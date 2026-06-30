@@ -33,7 +33,7 @@ ACE-Community-and-Development-Act/
 │   ├── Minister_Louis_Farrakhan_v1.9_2026-06.pdf
 │   └── Community_Ministry_Leaders_v1.9_2026-06.pdf
 ├── landing/
-│   ├── index_v8_15_2026-06.html
+│   ├── index_v8_16_2026-06.html
 │   ├── crest_v2_2026-06.svg
 │   └── crest_v2_2026-06.png
 ├── legal/
@@ -93,7 +93,7 @@ Three companion legal briefs pre-arguing ACE's most legally challengeable provis
 
 ## Landing Page
 
-Live at https://acecommunities.org (SSL confirmed). Current version: v8.15.
+Live at https://acecommunities.org (SSL confirmed). Current version: v8.16.
 
 Features: crest v2, Why ACE Exists section, Contingency Framework section (parallel land claim track, two-track SWOT grid, Continuity Doctrine), role-tagged Get Involved form, document table with PDF links to v1.8 documents, footer with direct PDF links, share section, email capture routing to founders@ and info@ via submit.php.
 
@@ -131,6 +131,7 @@ Features: crest v2, Why ACE Exists section, Contingency Framework section (paral
 | v29 | ACE Act v1.9 pushed (docx + pdf); landing page v8.14: ACE Act document table and footer updated to v1.9 filename |
 | v30 | Executive Summary updated to v1.9: Human Rights Doctrine section added |
 | v31 | Landing page v8.15: Human Rights Doctrine section added in plain language with nav link and footer entry |
+| v32 | Landing page v8.16: Executive Summary document table and footer updated to v1.9 |
 
 ---
 
