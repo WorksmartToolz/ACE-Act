@@ -22,10 +22,10 @@ ACE-Community-and-Development-Act/
 ├── ACE_CONTEXT.md
 ├── documents/
 │   ├── docx/
-│   │   ├── ACE_Act_v1.8_2026-06.docx
+│   │   ├── ACE_Act_v1.9_2026-06.docx
 │   │   ├── ACE_Executive_Summary_v1.8_2026-06.docx
 │   │   └── ACE_Outreach_Package_v1.9_2026-06.docx
-│   ├── ACE_Act_v1.8_2026-06.pdf
+│   ├── ACE_Act_v1.9_2026-06.pdf
 │   ├── ACE_Executive_Summary_v1.8_2026-06.pdf
 │   ├── ACE_Outreach_Package_v1.9_2026-06.pdf
 │   ├── President_Barack_Obama_v1.9_2026-06.pdf
@@ -33,7 +33,7 @@ ACE-Community-and-Development-Act/
 │   ├── Minister_Louis_Farrakhan_v1.9_2026-06.pdf
 │   └── Community_Ministry_Leaders_v1.9_2026-06.pdf
 ├── landing/
-│   ├── index_v8_13_2026-06.html
+│   ├── index_v8_14_2026-06.html
 │   ├── crest_v2_2026-06.svg
 │   └── crest_v2_2026-06.png
 ├── legal/
@@ -44,7 +44,8 @@ ACE-Community-and-Development-Act/
 │   │   └── ACE_Title_XXI_Contingency_Brief_v1.0_2026-06.docx
 │   ├── ACE_BATEI_Legal_Brief_v1.2_2026-06.pdf
 │   ├── ACE_Jurisdictional_Sovereignty_Brief_v1.0_2026-06.pdf
-│   └── ACE_Pharma_Review_Board_Brief_v1.0_2026-06.pdf
+│   ├── ACE_Pharma_Review_Board_Brief_v1.0_2026-06.pdf
+│   └── ACE_Title_XXI_Contingency_Brief_v1.0_2026-06.pdf
 └── onepagers/
     ├── ACE_OnePager_Obama_Tier0_v1.0_2026-06.docx
     ├── ACE_OnePager_Tier1_Wealth_v1.0_2026-06.docx
@@ -57,8 +58,8 @@ ACE-Community-and-Development-Act/
 
 ## Core Documents
 
-### ACE Act v1.8
-The full legislative framework: 22 Titles, 743+ paragraphs covering governance, land strategy, tribal partnership, education, healthcare, public safety, food sovereignty, economic development, and the Black American Tax Equity Initiative (BATEI). v1.8 adds Title XXI, The Tribal Partnership Contingency Framework, a parallel, non-dependent path to land and sovereignty (a 10-million-acre claim on existing Bureau of Land Management land across ten states), grounded in the continuity doctrine drawn from Dred Scott v. Sandford and pursued through new, standalone congressional legislation rather than the existing tribal acknowledgment framework. Title XXII, The Human Rights Doctrine, is reserved in the Table of Titles and is drafted in a forthcoming version.
+### ACE Act v1.9
+The full legislative framework: 22 Titles, 752+ paragraphs. v1.9 adds Title XXII, The Human Rights Doctrine, establishing that the harms suffered by Black Americans constitute violations of international human rights law, not merely domestic civil rights law. Title XXII covers the civil rights ceiling and human rights foundation, the documented historical record from Dred Scott through present-day disparities, the international legal instruments (UDHR, ICERD, ICCPR, Durban Declaration), a four-track international engagement strategy (CERD reparations General Recommendation, UN Special Procedures communications, CERD Early Warning and Urgent Action Procedure, independent shadow documentation), and establishes the ACE Human Rights Commission as a new sovereign institution. Title XXII coordinates with BATEI (Title XV) and the Tribal Partnership Contingency Framework (Title XXI) through a shared Continuity Doctrine grounded in Dred Scott v. Sandford.
 
 ### ACE Executive Summary v1.8
 A condensed presentation of the full ACE vision, strategic logic, funding philosophy, and social contract for distribution to aligned stakeholders. v1.8 adds The Contingency Land Claim, summarizing Title XXI's parallel, non-dependent path to land via a 10-million-acre BLM land claim, presented alongside The Tribal Partnership section so both paths carry equal weight.
@@ -92,7 +93,7 @@ Three companion legal briefs pre-arguing ACE's most legally challengeable provis
 
 ## Landing Page
 
-Live at https://acecommunities.org (SSL confirmed). Current version: v8.13.
+Live at https://acecommunities.org (SSL confirmed). Current version: v8.14.
 
 Features: crest v2, Why ACE Exists section, Contingency Framework section (parallel land claim track, two-track SWOT grid, Continuity Doctrine), role-tagged Get Involved form, document table with PDF links to v1.8 documents, footer with direct PDF links, share section, email capture routing to founders@ and info@ via submit.php.
 
@@ -126,6 +127,8 @@ Features: crest v2, Why ACE Exists section, Contingency Framework section (paral
 | v25 | Landing page v8.12: PDF URLs corrected to match exact Hostinger filenames (underscores, no spaces) |
 | v26 | Landing page v8.13: Contingency Framework section added with nav link; footer fixed (Contingency Framework link added to The Alliance column, duplicate Founding Documents removed, The Charter column links direct to PDFs) |
 | v27 | Title XXI Companion Legal Brief v1.0 added: pre-argues three anticipated challenges to the Tribal Partnership Contingency Framework and the proposed ACE Sovereign Territory Act |
+| v28 | ACE Act updated to v1.9: Title XXII (The Human Rights Doctrine) added in full — civil rights/human rights distinction, Dred Scott foundation, ICERD/ICCPR/UDHR grounding, four-track international engagement strategy, ACE Human Rights Commission established |
+| v29 | ACE Act v1.9 pushed (docx + pdf); landing page v8.14: ACE Act document table and footer updated to v1.9 filename |
 
 ---
 
