@@ -33,7 +33,7 @@ ACE-Community-and-Development-Act/
 │   ├── Minister_Louis_Farrakhan_v1.9_2026-06.pdf
 │   └── Community_Ministry_Leaders_v1.9_2026-06.pdf
 ├── landing/
-│   ├── index_v8_11_2026-06.html
+│   ├── index_v8_13_2026-06.html
 │   ├── crest_v2_2026-06.svg
 │   └── crest_v2_2026-06.png
 ├── legal/
@@ -90,9 +90,9 @@ Three companion legal briefs pre-arguing ACE's most legally challengeable provis
 
 ## Landing Page
 
-Live at https://acecommunities.org (SSL confirmed). Current version: v8.11.
+Live at https://acecommunities.org (SSL confirmed). Current version: v8.13.
 
-Features: crest v2, "Why ACE Exists" section, role-tagged Get Involved form, document table with PDF links, share section, email capture routing to founders@ and info@ via submit.php.
+Features: crest v2, Why ACE Exists section, Contingency Framework section (parallel land claim track, two-track SWOT grid, Continuity Doctrine), role-tagged Get Involved form, document table with PDF links to v1.8 documents, footer with direct PDF links, share section, email capture routing to founders@ and info@ via submit.php.
 
 ---
 
@@ -121,6 +121,8 @@ Features: crest v2, "Why ACE Exists" section, role-tagged Get Involved form, doc
 | v22 | Outreach Package v1.9 added: Founder's note, Why ACE Exists sections, Michelle Obama acknowledgment, individual one-pager PDFs |
 | v23 | ACE Act updated to v1.8: Title XXI (Tribal Partnership Contingency Framework) added; Executive Summary updated to v1.8 to reflect the contingency land claim alongside the tribal partnership track |
 | v24 | Landing page updated to v8.11: stats bar, Phase Two, and document table updated to reflect both the tribal partnership track and the contingency land claim; ACE Act and Executive Summary version references updated to v1.8 |
+| v25 | Landing page v8.12: PDF URLs corrected to match exact Hostinger filenames (underscores, no spaces) |
+| v26 | Landing page v8.13: Contingency Framework section added with nav link; footer fixed (Contingency Framework link added to The Alliance column, duplicate Founding Documents removed, The Charter column links direct to PDFs) |
 
 ---
 
