@@ -1,131 +1,16 @@
 # Alliance for Collective Empowerment and Development (ACE)
-### The ACE Act: A Sovereign Community Development Framework for Black and Native American Communities
+
+**"We are not asking for a seat at the table. We are building our own."**
+Leandre Poplus, Founder
 
 ---
 
-> *"We are not asking for a seat at the table. We are building our own."*
->
-> Léandre Poplus, Founder
+## Repository Overview
 
----
+This repository contains the full legislative, documentary, and outreach infrastructure for the Alliance for Collective Empowerment and Development (ACE): a 25-year initiative to establish a network of self-governing, self-sustaining cities for Black and Native American communities on tribal sovereign land.
 
-## What is ACE?
-
-The Alliance for Collective Empowerment and Development (ACE) is a 25-year initiative to establish a network of self-governing, self-sustaining cities for Black and Native American communities on tribal land across the United States, protected by tribal sovereignty law, funded by community capital, and governed by a constitutional framework designed to last generations.
-
-ACE is not a program. It is not a nonprofit initiative. It is not a political campaign.
-
-It is the architectural blueprint for an independent civilization with its own cities, schools, hospitals, economy, and governing constitution, built by two of the most historically dispossessed peoples in American history, for themselves, on their own terms.
-
----
-
-## The Strategic Logic
-
-| Black Americans | Native Americans |
-|---|---|
-| $1.6 trillion in annual spending power | Tribal sovereign land, not subject to U.S. municipal law, state taxation, or federal zoning |
-| 46 million people, 32 million planning population | 574 federally recognized nations with millions of acres |
-| Capital, labor, consumer base | Legal and territorial foundation |
-
-**Together:** sovereign land + capital + population = the infrastructure for an independent, self-governing civilization. Neither community can build this alone. Both can build it together.
-
----
-
-## The Scale
-
-| Metric | Figure |
-|---|---|
-| Planning population | 32 million Black Americans |
-| Pioneer population target | 300,000 residents (Phase 3 proof of concept) |
-| Phase 1 land commitment | 150,000 acres per tribal partnership |
-| Land release structure | 25,000-acre milestone increments |
-| Long-range land footprint | ~24 million acres nationally |
-| Development horizon | 25 years, four phases |
-| City network target | 10+ ACE cities across 5 regions |
-| Year 25 projected economy | $50B+ annually |
-
----
-
-## The Four Phases
-
-**Phase 1: The Movement (Years 0 to 2)**
-Form ACE's legal entities. Recruit the Native American Co-Chair, the single most urgent pre-institutional act. Forge tribal partnerships. Build national grassroots awareness. Secure founding capital.
-
-**Phase 2: Territory (Years 2 to 7)**
-Execute the first Tribal Partnership Agreement. Break ground. Build water, energy, roads, and first homes. Launch the community health clinic, ACE Freedom School, ACE Credit Union, and agricultural cooperative.
-
-**Phase 3: The City (Years 7 to 15)**
-Scale to 300,000 pioneer residents. All municipal systems operational: three-branch governance, community courts, hospital, ACE University, media network, and diversified economy.
-
-**Phase 4: Civilization (Years 15 to 25)**
-Replicate nationally. 10+ ACE cities across five regions. ACE University system. International trade with Africa and the Caribbean. 32 million served.
-
----
-
-## The Five ACE Regions
-
-| Region | States | Primary Tribal Partners |
-|---|---|---|
-| Region 1: The South | TX, OK, AR, LA, MS, AL, GA, FL, TN, NC, SC, VA | Cherokee Nation, Seminole Nation, Muscogee Nation, Lumbee Tribe |
-| Region 2: The Great Plains | SD, ND, NE, KS, MT, WY, CO | Cheyenne River Sioux, Pine Ridge, Standing Rock, Crow Nation, Wind River |
-| Region 3: The Southwest | AZ, NM, NV, UT | Navajo Nation (17.5M acres), Tohono O'odham, San Carlos Apache |
-| Region 4: The Pacific Northwest and West | WA, OR, CA, ID | Yakama Nation, Umatilla Confederated Tribes |
-| Region 5: The Midwest and Great Lakes | IL, MI, OH, IN, MO, MN, WI, IA | Ojibwe nations, Potawatomi, Oneida Nation |
-
----
-
-## What ACE Builds
-
-- **Housing**: Lease-to-own on tribal land. ACE-CPF Housing Account builds equity automatically. Zero Homelessness Mandate written into the governing charter.
-- **Education**: K-12 ACE Freedom Schools through ACE University. BIE approved. Pan-African and Indigenous studies at every grade. Tuition-free for ACE residents.
-- **Healthcare**: Community clinic to full hospital. ACE MediSave, no medical debt. Modern medicine co-equal with Indigenous and African traditional healing. Black maternal mortality eliminated by design.
-- **Economy**: ACE owns the infrastructure layer. Free enterprise above it. Majority Lending Institution (MLI) network. Community Investment Bonds from $500 entry point.
-- **Governance**: Three-branch government: ACE Community Assembly, Executive Council, Community Court. Co-equal tribal co-governance. ACE Governing Charter as supreme law.
-- **Public Safety**: Tiered peacekeeping. 60% of calls handled by unarmed community care responders. Restorative justice replaces incarceration as default.
-- **Food and Energy**: 80% halal food establishments. Swine prohibition on all ACE land. 51% tribal-majority agricultural cooperative. Full energy independence.
-- **Media**: ACE Media Network: TV, podcast, print, streaming. Community-owned narrative.
-
----
-
-## The ACE Social Contract
-
-Every ACE resident who works and contributes is guaranteed four things by retirement age:
-
-1. A home they own, free and clear, within ACE Territory
-2. A retirement income sufficient to live with dignity
-3. Comprehensive healthcare for themselves and their dependents, without debt
-4. Free education for their children, from early childhood through university
-
-> *This is the promise ACE makes. Not as aspiration. As architecture.*
-
----
-
-## The Political Demand
-
-**The Black American Tax Equity Initiative (BATEI)** demands that Congress extend the same federal tax exemption status to Black Americans operating within ACE Community Development Zones that it has already extended to Native American tribes.
-
-**The ACE Congressional Caucus** is ACE's independent political accountability network, not a caucus within Congress but an external endorsement body that holds elected officials accountable to ACE communities.
-
----
-
-## The Legal Foundation
-
-- **The HEARTH Act of 2012**: 70-99 year ground leases to ACE Development LLC without BIA approval
-- **Tribal sovereignty**: ACE operates as a Tribally Chartered Entity with sovereign immunity
-- **Tribal court jurisdiction**: limits outside law enforcement access to ACE Territory
-- **The ACE Governing Charter**: supreme constitutional document of every ACE community
-
----
-
-## Documents
-
-| Document | |
-|---|---|
-| ACE Community and Development Act (v1.7) | [Open PDF](https://mediumvioletred-dog-831483.hostingersite.com/docs/ACE_Community_and_Development_Act_v1.7.pdf) |
-| Executive Summary (v1.7) | [Open PDF](https://mediumvioletred-dog-831483.hostingersite.com/docs/ACE_Executive_Summary_v1.7.pdf) |
-| Community Leader Engagement (v1.5) | [Open PDF](https://mediumvioletred-dog-831483.hostingersite.com/docs/ACE_Outreach_Package_v1.5.pdf) |
-
-> Documents open in your browser's native PDF viewer. No download required.
+**Production site:** https://acecommunities.org
+**Staging site:** https://mediumvioletred-dog-831483.hostingersite.com
 
 ---
 
@@ -136,56 +21,106 @@ ACE-Community-and-Development-Act/
 ├── README.md
 ├── ACE_CONTEXT.md
 ├── documents/
-│   ├── ACE_Act_v1.7_2026-06.pdf            (current)
-│   ├── ACE_Act_v1.7_2026-06.docx           (current)
+│   ├── docx/
+│   │   ├── ACE_Act_v1.7_2026-06.docx
+│   │   ├── ACE_Executive_Summary_v1.7_2026-06.docx
+│   │   └── ACE_Outreach_Package_v1.9_2026-06.docx
+│   ├── ACE_Act_v1.7_2026-06.pdf
 │   ├── ACE_Executive_Summary_v1.7_2026-06.pdf
-│   ├── ACE_Executive_Summary_v1.7_2026-06.docx
-│   ├── ACE_Outreach_Package_v1.5_2026-06.pdf
-│   ├── ACE_Outreach_Package_v1.5_2026-06.docx
+│   ├── ACE_Outreach_Package_v1.9_2026-06.pdf
+│   ├── President_Barack_Obama_v1.9_2026-06.pdf
+│   ├── Investment_Proposal_v1.9_2026-06.pdf
+│   ├── Minister_Louis_Farrakhan_v1.9_2026-06.pdf
+│   └── Community_Ministry_Leaders_v1.9_2026-06.pdf
 ├── landing/
-│   ├── index_v8.3_2026-06.html             (current live page)
-│   ├── crest_v2_2026-06.svg                (approved crest)
-│   └── crest_v2_2026-06.png                (approved crest)
-├── onepagers/
-│   └── ACE_OnePager_Covers_v1.5_2026-06.pdf
-└── legal/
+│   ├── index_v8_10_2026-06.html
+│   ├── crest_v2_2026-06.svg
+│   └── crest_v2_2026-06.png
+├── legal/
+│   ├── docx/
+│   │   ├── ACE_BATEI_Legal_Brief_v1.2_2026-06.docx
+│   │   ├── ACE_Jurisdictional_Sovereignty_Brief_v1.0_2026-06.docx
+│   │   └── ACE_Pharma_Review_Board_Brief_v1.0_2026-06.docx
+│   ├── ACE_BATEI_Legal_Brief_v1.2_2026-06.pdf
+│   ├── ACE_Jurisdictional_Sovereignty_Brief_v1.0_2026-06.pdf
+│   └── ACE_Pharma_Review_Board_Brief_v1.0_2026-06.pdf
+└── onepagers/
+    ├── ACE_OnePager_Obama_Tier0_v1.0_2026-06.docx
+    ├── ACE_OnePager_Tier1_Wealth_v1.0_2026-06.docx
+    ├── ACE_OnePager_Tier2_Ideology_v1.0_2026-06.docx
+    ├── ACE_OnePager_Tier3_Ministry_v1.0_2026-06.docx
+    └── ACE_OnePager_Covers_v1.5_2026-06.pdf
 ```
 
 ---
 
-## How to Get Involved
+## Core Documents
 
-**If you are a tribal leader or attorney:** Read Title III and Title XVII. ACE comes as a partner with capital, population, and purpose.
+### ACE Act v1.7
+The full legislative framework: 20 Titles, 743 paragraphs covering governance, land strategy, tribal partnership, education, healthcare, public safety, food sovereignty, economic development, and the Black American Tax Equity Initiative (BATEI).
 
-**If you are a Black American of means:** Read Title XVIII. This is not a charity ask. It is an offer of civilizational co-ownership.
+### ACE Executive Summary v1.7
+A condensed presentation of the full ACE vision, strategic logic, funding philosophy, and social contract for distribution to aligned stakeholders.
 
-**If you are a community minister or organizer:** Read Title XVIII, Tier 3.
+### ACE Outreach Package v1.9
+The complete physical outreach package delivered by FedEx to priority targets across four tiers. Includes:
+- Founder's Note: "Why ACE Exists"
+- Tier 0: President Barack Obama (counselor approach, includes Michelle Obama acknowledgment)
+- Tier 1: Private Investment Proposal (Wealth at Scale)
+- Tier 2: For the Builders of Black Independence (Minister Louis Farrakhan)
+- Tier 3: Community Leader Engagement (Ministry Leaders)
 
-**If you are a lawyer, doctor, engineer, city planner, or educator:** Read Title II. ACE is building its founding team.
+Each tier includes a tailored "Why ACE Exists" section before its letter.
 
-**To suggest amendments:** Open a GitHub Issue.
+Individual one-pager PDFs are also available for each tier.
 
 ---
 
-## Document Status
+## Legal Briefs (Internal — Pending Counsel Review)
 
-| Item | Status |
+Three companion legal briefs pre-arguing ACE's most legally challengeable provisions. For internal use only pending review by tribal sovereignty and constitutional counsel.
+
+| Brief | Version | Subject |
+|---|---|---|
+| BATEI Legal Brief | v1.2 | Black American Tax Equity Initiative |
+| Jurisdictional Sovereignty Brief | v1.0 | Tribal land jurisdiction claims |
+| Pharmaceutical Review Board Brief | v1.0 | ACE Pharma Board authority |
+
+---
+
+## Landing Page
+
+Live at https://acecommunities.org (SSL confirmed). Current version: v8.10.
+
+Features: crest v2, "Why ACE Exists" section, role-tagged Get Involved form, document table with PDF links, share section, email capture routing to founders@ and info@ via submit.php.
+
+---
+
+## Key Principles (Non-Negotiable)
+
+- **MLP** = Majority Lending Program (never Minority)
+- **MLI** = Majority Lending Institution (never Minority)
+- **Full name** always includes "and Development"
+- **ACE Congressional Caucus** is ACE's own independent body
+- **Government grants** are supplementary only, never foundational
+- **BATEI** exemption follows the person, not the location
+- **Food policy** framing is always public health evidence, never religious doctrine
+- **No em dashes** in any reader-facing text
+
+---
+
+## README Version Log
+
+| Version | Change |
 |---|---|
-| ACE Act | v1.7 current |
-| Executive Summary | v1.7 current |
-| Community Leader Engagement | v1.5 current |
-| BATEI Companion Legal Brief | v1.2 — internal legal folder |
-| Jurisdictional Sovereignty Brief | v1.0 — internal legal folder |
-| Pharmaceutical Review Board Brief | v1.0 — internal legal folder |
-| ACE Crest v2 | approved |
-| ACE Landing Page | v8.5 live |
-| Founding Board | recruitment in progress |
-| First Tribal Partnership | engagement pending |
+| v17 | PDF hosting links corrected |
+| v18 | BATEI brief added, landing page updated to v8.5 |
+| v19 | BATEI brief noted as internal legal document |
+| v20 | Jurisdictional Sovereignty brief added |
+| v21 | Pharmaceutical Review Board brief added |
+| v22 | Outreach Package v1.9 added: Founder's note, Why ACE Exists sections, Michelle Obama acknowledgment, individual one-pager PDFs |
 
 ---
 
-**Léandre Poplus, Founder, Alliance for Collective Empowerment and Development**
 *For Our People, By Our People.*
-
----
-*README v21 — June 29, 2026*
+*Leandre Poplus, Founder — Alliance for Collective Empowerment and Development*
