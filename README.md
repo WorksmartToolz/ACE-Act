@@ -22,11 +22,11 @@ ACE-Community-and-Development-Act/
 ├── ACE_CONTEXT.md
 ├── documents/
 │   ├── docx/
-│   │   ├── ACE_Act_v1.7_2026-06.docx
-│   │   ├── ACE_Executive_Summary_v1.7_2026-06.docx
+│   │   ├── ACE_Act_v1.8_2026-06.docx
+│   │   ├── ACE_Executive_Summary_v1.8_2026-06.docx
 │   │   └── ACE_Outreach_Package_v1.9_2026-06.docx
-│   ├── ACE_Act_v1.7_2026-06.pdf
-│   ├── ACE_Executive_Summary_v1.7_2026-06.pdf
+│   ├── ACE_Act_v1.8_2026-06.pdf
+│   ├── ACE_Executive_Summary_v1.8_2026-06.pdf
 │   ├── ACE_Outreach_Package_v1.9_2026-06.pdf
 │   ├── President_Barack_Obama_v1.9_2026-06.pdf
 │   ├── Investment_Proposal_v1.9_2026-06.pdf
@@ -56,11 +56,11 @@ ACE-Community-and-Development-Act/
 
 ## Core Documents
 
-### ACE Act v1.7
-The full legislative framework: 20 Titles, 743 paragraphs covering governance, land strategy, tribal partnership, education, healthcare, public safety, food sovereignty, economic development, and the Black American Tax Equity Initiative (BATEI).
+### ACE Act v1.8
+The full legislative framework: 22 Titles, 743+ paragraphs covering governance, land strategy, tribal partnership, education, healthcare, public safety, food sovereignty, economic development, and the Black American Tax Equity Initiative (BATEI). v1.8 adds Title XXI, The Tribal Partnership Contingency Framework, a parallel, non-dependent path to land and sovereignty (a 10-million-acre claim on existing Bureau of Land Management land across ten states), grounded in the continuity doctrine drawn from Dred Scott v. Sandford and pursued through new, standalone congressional legislation rather than the existing tribal acknowledgment framework. Title XXII, The Human Rights Doctrine, is reserved in the Table of Titles and is drafted in a forthcoming version.
 
-### ACE Executive Summary v1.7
-A condensed presentation of the full ACE vision, strategic logic, funding philosophy, and social contract for distribution to aligned stakeholders.
+### ACE Executive Summary v1.8
+A condensed presentation of the full ACE vision, strategic logic, funding philosophy, and social contract for distribution to aligned stakeholders. v1.8 adds The Contingency Land Claim, summarizing Title XXI's parallel, non-dependent path to land via a 10-million-acre BLM land claim, presented alongside The Tribal Partnership section so both paths carry equal weight.
 
 ### ACE Outreach Package v1.9
 The complete physical outreach package delivered by FedEx to priority targets across four tiers. Includes:
@@ -119,6 +119,7 @@ Features: crest v2, "Why ACE Exists" section, role-tagged Get Involved form, doc
 | v20 | Jurisdictional Sovereignty brief added |
 | v21 | Pharmaceutical Review Board brief added |
 | v22 | Outreach Package v1.9 added: Founder's note, Why ACE Exists sections, Michelle Obama acknowledgment, individual one-pager PDFs |
+| v23 | ACE Act updated to v1.8: Title XXI (Tribal Partnership Contingency Framework) added; Executive Summary updated to v1.8 to reflect the contingency land claim alongside the tribal partnership track |
 
 ---
 
