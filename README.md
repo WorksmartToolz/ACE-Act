@@ -40,7 +40,8 @@ ACE-Community-and-Development-Act/
 │   ├── docx/
 │   │   ├── ACE_BATEI_Legal_Brief_v1.2_2026-06.docx
 │   │   ├── ACE_Jurisdictional_Sovereignty_Brief_v1.0_2026-06.docx
-│   │   └── ACE_Pharma_Review_Board_Brief_v1.0_2026-06.docx
+│   │   ├── ACE_Pharma_Review_Board_Brief_v1.0_2026-06.docx
+│   │   └── ACE_Title_XXI_Contingency_Brief_v1.0_2026-06.docx
 │   ├── ACE_BATEI_Legal_Brief_v1.2_2026-06.pdf
 │   ├── ACE_Jurisdictional_Sovereignty_Brief_v1.0_2026-06.pdf
 │   └── ACE_Pharma_Review_Board_Brief_v1.0_2026-06.pdf
@@ -85,6 +86,7 @@ Three companion legal briefs pre-arguing ACE's most legally challengeable provis
 | BATEI Legal Brief | v1.2 | Black American Tax Equity Initiative |
 | Jurisdictional Sovereignty Brief | v1.0 | Tribal land jurisdiction claims |
 | Pharmaceutical Review Board Brief | v1.0 | ACE Pharma Board authority |
+| Title XXI Contingency Brief | v1.0 | Tribal Partnership Contingency Framework: three anticipated challenges, Continuity Doctrine, ACE Sovereign Territory Act |
 
 ---
 
@@ -123,6 +125,7 @@ Features: crest v2, Why ACE Exists section, Contingency Framework section (paral
 | v24 | Landing page updated to v8.11: stats bar, Phase Two, and document table updated to reflect both the tribal partnership track and the contingency land claim; ACE Act and Executive Summary version references updated to v1.8 |
 | v25 | Landing page v8.12: PDF URLs corrected to match exact Hostinger filenames (underscores, no spaces) |
 | v26 | Landing page v8.13: Contingency Framework section added with nav link; footer fixed (Contingency Framework link added to The Alliance column, duplicate Founding Documents removed, The Charter column links direct to PDFs) |
+| v27 | Title XXI Companion Legal Brief v1.0 added: pre-argues three anticipated challenges to the Tribal Partnership Contingency Framework and the proposed ACE Sovereign Territory Act |
 
 ---
 
