@@ -23,17 +23,17 @@ ACE-Community-and-Development-Act/
 ├── documents/
 │   ├── docx/
 │   │   ├── ACE_Act_v1.9_2026-06.docx
-│   │   ├── ACE_Executive_Summary_v1.8_2026-06.docx
+│   │   ├── ACE_Executive_Summary_v1.9_2026-06.docx
 │   │   └── ACE_Outreach_Package_v1.9_2026-06.docx
 │   ├── ACE_Act_v1.9_2026-06.pdf
-│   ├── ACE_Executive_Summary_v1.8_2026-06.pdf
+│   ├── ACE_Executive_Summary_v1.9_2026-06.pdf
 │   ├── ACE_Outreach_Package_v1.9_2026-06.pdf
 │   ├── President_Barack_Obama_v1.9_2026-06.pdf
 │   ├── Investment_Proposal_v1.9_2026-06.pdf
 │   ├── Minister_Louis_Farrakhan_v1.9_2026-06.pdf
 │   └── Community_Ministry_Leaders_v1.9_2026-06.pdf
 ├── landing/
-│   ├── index_v8_14_2026-06.html
+│   ├── index_v8_15_2026-06.html
 │   ├── crest_v2_2026-06.svg
 │   └── crest_v2_2026-06.png
 ├── legal/
@@ -61,8 +61,8 @@ ACE-Community-and-Development-Act/
 ### ACE Act v1.9
 The full legislative framework: 22 Titles, 752+ paragraphs. v1.9 adds Title XXII, The Human Rights Doctrine, establishing that the harms suffered by Black Americans constitute violations of international human rights law, not merely domestic civil rights law. Title XXII covers the civil rights ceiling and human rights foundation, the documented historical record from Dred Scott through present-day disparities, the international legal instruments (UDHR, ICERD, ICCPR, Durban Declaration), a four-track international engagement strategy (CERD reparations General Recommendation, UN Special Procedures communications, CERD Early Warning and Urgent Action Procedure, independent shadow documentation), and establishes the ACE Human Rights Commission as a new sovereign institution. Title XXII coordinates with BATEI (Title XV) and the Tribal Partnership Contingency Framework (Title XXI) through a shared Continuity Doctrine grounded in Dred Scott v. Sandford.
 
-### ACE Executive Summary v1.8
-A condensed presentation of the full ACE vision, strategic logic, funding philosophy, and social contract for distribution to aligned stakeholders. v1.8 adds The Contingency Land Claim, summarizing Title XXI's parallel, non-dependent path to land via a 10-million-acre BLM land claim, presented alongside The Tribal Partnership section so both paths carry equal weight.
+### ACE Executive Summary v1.9
+A condensed presentation of the full ACE vision, strategic logic, funding philosophy, and social contract for distribution to aligned stakeholders. v1.9 adds The Human Rights Doctrine section, stating plainly that prior leaders argued for civil rights while ACE argues the prior and stronger claim: that Black Americans were denied legal personhood before any civil rights framework existed, making this a human rights violation pursuable before international bodies independently of the domestic legal system.
 
 ### ACE Outreach Package v1.9
 The complete physical outreach package delivered by FedEx to priority targets across four tiers. Includes:
@@ -93,7 +93,7 @@ Three companion legal briefs pre-arguing ACE's most legally challengeable provis
 
 ## Landing Page
 
-Live at https://acecommunities.org (SSL confirmed). Current version: v8.14.
+Live at https://acecommunities.org (SSL confirmed). Current version: v8.15.
 
 Features: crest v2, Why ACE Exists section, Contingency Framework section (parallel land claim track, two-track SWOT grid, Continuity Doctrine), role-tagged Get Involved form, document table with PDF links to v1.8 documents, footer with direct PDF links, share section, email capture routing to founders@ and info@ via submit.php.
 
@@ -129,6 +129,8 @@ Features: crest v2, Why ACE Exists section, Contingency Framework section (paral
 | v27 | Title XXI Companion Legal Brief v1.0 added: pre-argues three anticipated challenges to the Tribal Partnership Contingency Framework and the proposed ACE Sovereign Territory Act |
 | v28 | ACE Act updated to v1.9: Title XXII (The Human Rights Doctrine) added in full — civil rights/human rights distinction, Dred Scott foundation, ICERD/ICCPR/UDHR grounding, four-track international engagement strategy, ACE Human Rights Commission established |
 | v29 | ACE Act v1.9 pushed (docx + pdf); landing page v8.14: ACE Act document table and footer updated to v1.9 filename |
+| v30 | Executive Summary updated to v1.9: Human Rights Doctrine section added |
+| v31 | Landing page v8.15: Human Rights Doctrine section added in plain language with nav link and footer entry |
 
 ---
 
