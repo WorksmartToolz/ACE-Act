@@ -56,6 +56,7 @@ ACE-Community-and-Development-Act/
     ├── ACE_OnePager_Obama_Tier0_v1.1_2026-06.docx
     ├── ACE_OnePager_Tier1_Wealth_v1.0_2026-06.docx
     ├── ACE_OnePager_Tier2_Ideology_v1.1_2026-06.docx
+│   └── (full letters: Minister_Louis_Farrakhan_v2.2_2026-06 in documents/)
     ├── ACE_OnePager_Tier3_Ministry_v1.0_2026-06.docx
     └── ACE_OnePager_Covers_v1.5_2026-06.pdf
 ```
@@ -150,6 +151,7 @@ Features: crest v2, Why ACE Exists section, Contingency Framework section (paral
 | v41 | The Founding Position v1.2 added (docx + pdf): crest added to cover, Why ACE Is Arrival section fully revised with approved political/institutional argument |
 | v42 | Landing page v8.18: nav labels shortened across all sections |
 | v43 | Landing page v8.20: Maryland Doctrine exact quote bold italic, both threats named in why-close paragraph |
+| v44 | Farrakhan letter updated to v2.2: typo fix |
 
 ---
 
