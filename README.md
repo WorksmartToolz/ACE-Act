@@ -35,7 +35,7 @@ ACE-Community-and-Development-Act/
 │   ├── Minister_Louis_Farrakhan_v1.9_2026-06.pdf
 │   └── Community_Ministry_Leaders_v1.9_2026-06.pdf
 ├── landing/
-│   ├── index_v8_22_2026-06.html
+│   ├── index_v8_24_2026-06.html
 │   ├── crest_v2_2026-06.svg
 │   └── crest_v2_2026-06.png
 ├── legal/
@@ -101,7 +101,7 @@ Three companion legal briefs pre-arguing ACE's most legally challengeable provis
 
 ## Landing Page
 
-Live at https://acecommunities.org (SSL confirmed). Current version: v8.22.
+Live at https://acecommunities.org (SSL confirmed). Current version: v8.24.
 
 Features: crest v2, Why ACE Exists section, Contingency Framework section (parallel land claim track, two-track SWOT grid, Continuity Doctrine), role-tagged Get Involved form, document table with PDF links to v1.8 documents, footer with direct PDF links, share section, email capture routing to founders@ and info@ via submit.php.
 
@@ -154,6 +154,8 @@ Features: crest v2, Why ACE Exists section, Contingency Framework section (paral
 | v44 | Farrakhan letter updated to v2.2: typo fix |
 | v45 | Landing page v8.21: The Founding Position added to document table and footer |
 | v46 | Landing page v8.22: document table reordered to Founding Position, Executive Summary, The ACE Act |
+| v47 | React to the Plan page v1.0 created; landing page v8.23: React link added to nav and document table CTA |
+| v48 | Landing page v8.24: duplicate ACE Act text link removed from nav, button retained |
 
 ---
 

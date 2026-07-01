@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ACE: Alliance for Collective Empowerment and Development</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBjbGFzcz0iY3Jlc3QiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDQ0MCA1OTAiIHdpZHRoPSI0NDAiIGhlaWdodD0iNTkwIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkFDRSBjcmVzdCDigJQgQWxsaWFuY2UgZm9yIENvbGxlY3RpdmUgRW1wb3dlcm1lbnQgYW5kIERldmVsb3BtZW50Ij4KPGRlZnM+CiAgPGNsaXBQYXRoIGlkPSJzaGllbGRDbGlwSCI+PHBhdGggZD0iTTkwIDYwIEwzNTAgNjAgTDM1MCAyMDAgQzM1MCAyODIgMzAwIDM0MiAyMjAgMzgyIEMxNDAgMzQyIDkwIDI4MiA5MCAyMDAgWiI+PC9wYXRoPjwvY2xpcFBhdGg+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJ2YW5lR3JhZEgiIHgxPSIyOTAiIHkxPSIyNTYiIHgyPSIyNTIiIHkyPSI5MCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjRjdFRURCIj48L3N0b3A+PHN0b3Agb2Zmc2V0PSIwLjIyIiBzdG9wLWNvbG9yPSIjRTdDRDk5Ij48L3N0b3A+CiAgICA8c3RvcCBvZmZzZXQ9IjAuNTIiIHN0b3AtY29sb3I9IiNDQjlENTUiPjwvc3RvcD48c3RvcCBvZmZzZXQ9IjAuOCIgc3RvcC1jb2xvcj0iIzlBNkMyRCI+PC9zdG9wPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzVDM0IxMyI+PC9zdG9wPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJzdW5HcmFkSCIgY3g9IjAuNSIgY3k9IjAuOTUiIHI9IjAuOTUiPgogICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjRkRFMDhBIj48L3N0b3A+PHN0b3Agb2Zmc2V0PSIwLjU1IiBzdG9wLWNvbG9yPSIjRkNEMTE2Ij48L3N0b3A+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjRTBCNDA4Ij48L3N0b3A+CiAgPC9yYWRpYWxHcmFkaWVudD4KPC9kZWZzPgoKPGcgY2xpcC1wYXRoPSJ1cmwoI3NoaWVsZENsaXBIKSI+CiAgCiAgPHJlY3QgeD0iODYiIHk9IjU2IiB3aWR0aD0iMTM0IiBoZWlnaHQ9IjE0NiIgZmlsbD0iI0RBMTIxQSI+PC9yZWN0PgogIDxyZWN0IHg9IjIyMCIgeT0iNTYiIHdpZHRoPSIxMzYiIGhlaWdodD0iMTQ2IiBmaWxsPSIjRkNEMTE2Ij48L3JlY3Q+CiAgPHJlY3QgeD0iODYiIHk9IjIwMCIgd2lkdGg9IjEzNCIgaGVpZ2h0PSIxOTIiIGZpbGw9IiMwOUEwM0EiPjwvcmVjdD4KICA8cmVjdCB4PSIyMjAiIHk9IjIwMCIgd2lkdGg9IjEzNiIgaGVpZ2h0PSIxOTIiIGZpbGw9IiMwMDAwMDAiPjwvcmVjdD4KCiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNjIsLTE4KSBzY2FsZSgwLjU4KSI+CiAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNCwyMikiPgogICAgICA8cGF0aCBkPSJNMTk4IDI2MiBDIDIxNCAyMzIgMjIwIDIwNCAxOTcgMTk3IEMgMTc4IDE5MSAxNjUgMTk5IDE2MSAyMTEiIHN0cm9rZT0iIzNEMjQwOCIgc3Ryb2tlLXdpZHRoPSIyMCIgZmlsbD0ibm9uZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj48L3BhdGg+CiAgICAgIDxlbGxpcHNlIGN4PSIxNzIiIGN5PSIyNzciIHJ4PSI0MSIgcnk9IjI5IiB0cmFuc2Zvcm09InJvdGF0ZSgtMTUgMTcyIDI3NykiIGZpbGw9IiMzRDI0MDgiPjwvZWxsaXBzZT4KICAgICAgPHBhdGggZD0iTTE0NCAyNzIgQyAxMjYgMjU2IDExNSAyMzIgMTEyIDIwOSBMIDEzNCAyMjIgQyAxNDIgMjQzIDE1MCAyNTggMTU0IDI2NiBaIiBmaWxsPSIjM0QyNDA4IiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48L3BhdGg+CiAgICAgIDxjaXJjbGUgY3g9IjE1OSIgY3k9IjIwNSIgcj0iMTIiIGZpbGw9IiMzRDI0MDgiPjwvY2lyY2xlPgogICAgICA8cGF0aCBkPSJNMTk4IDI2MiBDIDIxNCAyMzIgMjIwIDIwNCAxOTcgMTk3IEMgMTc4IDE5MSAxNjUgMTk5IDE2MSAyMTEiIHN0cm9rZT0iI0ZBRjZFRiIgc3Ryb2tlLXdpZHRoPSIxMy41IiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiPjwvcGF0aD4KICAgICAgPGVsbGlwc2UgY3g9IjE3MiIgY3k9IjI3NyIgcng9IjM3LjUiIHJ5PSIyNS41IiB0cmFuc2Zvcm09InJvdGF0ZSgtMTUgMTcyIDI3NykiIGZpbGw9IiNGQUY2RUYiPjwvZWxsaXBzZT4KICAgICAgPHBhdGggZD0iTTE0NSAyNzAgQyAxMjkgMjU2IDExOSAyMzMgMTE3IDIxMyBMIDEzNCAyMjQgQyAxNDIgMjQ0IDE0OSAyNTcgMTUzIDI2NSBaIiBmaWxsPSIjRkFGNkVGIj48L3BhdGg+CiAgICAgIDxjaXJjbGUgY3g9IjE1OSIgY3k9IjIwNCIgcj0iOS41IiBmaWxsPSIjRkFGNkVGIj48L2NpcmNsZT4KICAgICAgPHBhdGggZD0iTTE1MiAyMDkgTDE0NyAyMjQgTDE2MSAyMTMgWiIgZmlsbD0iIzNEMjQwOCI+PC9wYXRoPgogICAgICA8Y2lyY2xlIGN4PSIxNTYiIGN5PSIyMDIiIHI9IjEuNyIgZmlsbD0iIzNEMjQwOCI+PC9jaXJjbGU+CiAgICAgIDxwYXRoIGQ9Ik0xNjcgMzAwIEwxNjEgMzMyIE0xNjEgMzMyIEwxNTMgMzM2IE0xNjEgMzMyIEwxNjkgMzM1IE0xODUgMjk3IEwxOTAgMzMwIE0xOTAgMzMwIEwxODMgMzM0IE0xOTAgMzMwIEwxOTggMzMzIiBzdHJva2U9IiMzRDI0MDgiIHN0cm9rZS13aWR0aD0iMyIgZmlsbD0ibm9uZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48L3BhdGg+CiAgICAgIDxlbGxpcHNlIGN4PSIxNTAiIGN5PSIyMzEiIHJ4PSI4LjUiIHJ5PSIxMC41IiBmaWxsPSIjRkNEMTE2IiBzdHJva2U9IiMzRDI0MDgiIHN0cm9rZS13aWR0aD0iMS42Ij48L2VsbGlwc2U+CiAgICAgIDxlbGxpcHNlIGN4PSIxNDciIGN5PSIyMjcuNSIgcng9IjIuNCIgcnk9IjMuMiIgZmlsbD0iI0ZBRjZFRiIgb3BhY2l0eT0iMC44NSI+PC9lbGxpcHNlPgogICAgPC9nPgogIDwvZz4KCiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTE2LjA0LDE5LjkyKSBzY2FsZSgwLjY0KSI+CiAgICA8cGF0aCBkPSJNMjgzLjAyIDIzNS4xIEMgMjkwIDI1NiwgMjk2IDI2OCwgMzAwIDI4NiIgc3Ryb2tlPSIjM0QyNDA4IiBzdHJva2Utd2lkdGg9IjMiIGZpbGw9Im5vbmUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+PC9wYXRoPgogICAgPHBhdGggZD0iTTI1MiA5MEwyNTQuNTEgODguMzZMMjU4LjE2IDkwLjE0TDI2MC42NyA5Mi42NEwyNjIuODkgOTUuMzJMMjY0LjkyIDk4LjExTDI2Ni44MiAxMDAuOTdMMjY4LjYxIDEwMy45TDI3MC4zIDEwNi44OEwyNzEuOSAxMDkuOTJMMjczLjQyIDExMy4wMUwyNzQuODUgMTE2LjE1TDI3Ni4yMSAxMTkuMzRMMjc3LjQ4IDEyMi41OUwyNzguNjggMTI1Ljg5TDI3OS44MSAxMjkuMjVMMjgwLjg2IDEzMi42NkwyODEuODMgMTM2LjE0TDI4Mi43MyAxMzkuNjdMMjgzLjU2IDE0My4yN0wyODQuMzEgMTQ2Ljk0TDI4NSAxNTAuNjZMMjg1LjYxIDE1NC40NkwyODYuMTYgMTU4LjMyTDI4Ni42MyAxNjIuMjVMMjg3LjA1IDE2Ni4yNUwyODcuMzkgMTcwLjMzTDI4Ny42OCAxNzQuNDdMMjg3LjkgMTc4LjY5TDI4OC4wNiAxODIuOThMMjg4LjE2IDE4Ny4zNUwyODguMiAxOTEuOEwyODguMTggMTk2LjMzTDI4OC4wOSAyMDAuOTVMMjg3Ljk0IDIwNS42N0wyODcuNyAyMTAuNDlMMjg3LjM3IDIxNS40NEwyODYuODkgMjIwLjU2TDI4Ni4xNSAyMjUuOThMMjg0Ljg1IDIzMS45OEwyODYuMDEgMjM1LjY0TDI4Ny4xOSAyMzkuM0wyODguMzkgMjQyLjk0TDI4OS42IDI0Ni41OEwyOTAuODQgMjUwLjIyTDI5Mi4wOSAyNTMuODVMMjg3LjAyIDI1NS42MkwyODUuNzYgMjUxLjk3TDI4NC41MiAyNDguM0wyODMuMyAyNDQuNjRMMjgyLjA5IDI0MC45NkwyODAuOSAyMzcuMjlMMjc5Ljc0IDIzMy42TDI3NS4yNSAyMjkuMzZMMjcxLjYxIDIyNS4yMkwyNjguMzkgMjIxLjEyTDI2NS40MyAyMTcuMDNMMjYyLjY3IDIxMi45NUwyNjAuMDggMjA4Ljg4TDI1Ny42NCAyMDQuOEwyNTUuMzQgMjAwLjc0TDI1My4xOCAxOTYuNjdMMjUxLjE2IDE5Mi42MkwyNDkuMjYgMTg4LjU3TDI0Ny41IDE4NC41M0wyNDUuODcgMTgwLjQ5TDI0NC4zNyAxNzYuNDhMMjQzIDE3Mi40N0wyNDEuNzYgMTY4LjQ4TDI0MC42NSAxNjQuNTFMMjM5LjY3IDE2MC41NkwyMzguODMgMTU2LjYzTDIzOC4xMSAxNTIuNzJMMjM3LjUyIDE0OC44NEwyMzcuMDYgMTQ0Ljk4TDIzNi43MiAxNDEuMTVMMjM2LjUyIDEzNy4zNUwyMzYuNDMgMTMzLjU3TDIzNi40OCAxMjkuODRMMjM2LjY1IDEyNi4xM0wyMzYuOTQgMTIyLjQ2TDIzNy4zNiAxMTguODNMMjM3LjkxIDExNS4yM0wyMzguNTggMTExLjY4TDIzOS4zOCAxMDguMTdMMjQwLjMyIDEwNC43MUwyNDEuNDEgMTAxLjMxTDI0Mi42OCA5Ny45N0wyNDQuMTggOTQuNzJMMjQ2LjAzIDkxLjYxTDI0OS4xOCA4OC45OFoiIGZpbGw9InVybCgjdmFuZUdyYWRIKSIgc3Ryb2tlPSIjNUMzQjEzIiBzdHJva2Utd2lkdGg9IjAuOCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PC9wYXRoPgogICAgPHBhdGggZD0iTTI4NSAxNTAgTDI2OCAxNDIgTTI4NiAxNzAgTDI2NiAxNjUgTTI4NyAxOTAgTDI2NiAxODggTTI4NiAyMTAgTDI2OCAyMTEgTTI4MyAyMjggTDI3MCAyMzAgTTI4MyAxNTAgTDI2NiAxNDAgTTI4MSAxMzIgTDI2NiAxMjQgTTI3OCAxMTYgTDI2NCAxMDYgTTI3MyAxMDIgTDI2MiA5MiBNMjgzLjUgMTcwIEwzMDAgMTY1IE0yODQgMTkwIEwzMDIgMTg4IE0yODMgMjEwIEwzMDAgMjExIiBzdHJva2U9IiM1QzNCMTMiIHN0cm9rZS13aWR0aD0iMC45IiBmaWxsPSJub25lIiBvcGFjaXR5PSIwLjU1Ij48L3BhdGg+CiAgICA8cGF0aCBkPSJNMjkwIDI1NiBDIDI2MiAxNzYsIDI1NyAxMzMsIDI1MiA5MCIgc3Ryb2tlPSIjNDMyOTBCIiBzdHJva2Utd2lkdGg9IjEuNiIgZmlsbD0ibm9uZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj48L3BhdGg+CiAgPC9nPgoKICA8ZyBmaWxsPSJub25lIiBzdHJva2U9IiNGQ0QxMTYiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNjEsMjU3KSBzY2FsZSgxLjE4KSB0cmFuc2xhdGUoLTE2MSwtMjU3KSI+CiAgICA8cGF0aCBkPSJNMTUwIDI3MyBDMTQ2IDI2NiAxMzQgMjU2IDEzNCAyNDkgQzEzNCAyNDIgMTQzIDI0MSAxNTAgMjQ5IEMxNTcgMjQxIDE2NiAyNDIgMTY2IDI0OSBDMTY2IDI1NiAxNTQgMjY2IDE1MCAyNzMgWiI+PC9wYXRoPgogICAgPHBhdGggZD0iTTE3MiAyNzMgQzE2OCAyNjYgMTU2IDI1NiAxNTYgMjQ5IEMxNTYgMjQyIDE2NSAyNDEgMTcyIDI0OSBDMTc5IDI0MSAxODggMjQyIDE4OCAyNDkgQzE4OCAyNTYgMTc2IDI2NiAxNzIgMjczIFoiPjwvcGF0aD4KICA8L2c+CgogIDxnPgogICAgPGcgc3Ryb2tlPSIjRkNEMTE2IiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+CiAgICAgIDxsaW5lIHgxPSIyOTYuNTUiIHkxPSIyNjMuNzkiIHgyPSIzMTAuNjUiIHkyPSIyNTguNjYiPjwvbGluZT4KICAgICAgPGxpbmUgeDE9IjI5My4wNCIgeTE9IjI1Ny4zOSIgeDI9IjMwNC45NCIgeTI9IjI0OC4yNiI+PC9saW5lPgogICAgICA8bGluZSB4MT0iMjg3Ljc3IiB5MT0iMjUyLjM0IiB4Mj0iMjk2LjM3IiB5Mj0iMjQwLjA1Ij48L2xpbmU+CiAgICAgIDxsaW5lIHgxPSIyODEuMjIiIHkxPSIyNDkuMTEiIHgyPSIyODUuNzMiIHkyPSIyMzQuODEiPjwvbGluZT4KICAgICAgPGxpbmUgeDE9IjI3NCIgeTE9IjI0OCIgeDI9IjI3NCIgeTI9IjIzMyI+PC9saW5lPgogICAgICA8bGluZSB4MT0iMjY2Ljc4IiB5MT0iMjQ5LjExIiB4Mj0iMjYyLjI3IiB5Mj0iMjM0LjgxIj48L2xpbmU+CiAgICAgIDxsaW5lIHgxPSIyNjAuMjMiIHkxPSIyNTIuMzQiIHgyPSIyNTEuNjMiIHkyPSIyNDAuMDUiPjwvbGluZT4KICAgICAgPGxpbmUgeDE9IjI1NC45NiIgeTE9IjI1Ny4zOSIgeDI9IjI0My4wNiIgeTI9IjI0OC4yNiI+PC9saW5lPgogICAgICA8bGluZSB4MT0iMjUxLjQ1IiB5MT0iMjYzLjc5IiB4Mj0iMjM3LjM1IiB5Mj0iMjU4LjY2Ij48L2xpbmU+CiAgICA8L2c+CiAgICA8cGF0aCBkPSJNMjU0IDI3MiBBMjAgMjAgMCAwIDEgMjk0IDI3MiBaIiBmaWxsPSJ1cmwoI3N1bkdyYWRIKSIgc3Ryb2tlPSIjRTBCNDA4IiBzdHJva2Utd2lkdGg9IjEuMiI+PC9wYXRoPgogICAgPGxpbmUgeDE9IjI0MiIgeTE9IjI3MiIgeDI9IjMwNiIgeTI9IjI3MiIgc3Ryb2tlPSIjRkNEMTE2IiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+PC9saW5lPgogIDwvZz4KCiAgPHBhdGggZD0iTTIyMCA2MCBMMjIwIDM4MiIgc3Ryb2tlPSIjRkNEMTE2IiBzdHJva2Utd2lkdGg9IjMuNSIgZmlsbD0ibm9uZSI+PC9wYXRoPgogIDxwYXRoIGQ9Ik05MCAyMDAgTDM1MCAyMDAiIHN0cm9rZT0iI0ZDRDExNiIgc3Ryb2tlLXdpZHRoPSIzLjUiIGZpbGw9Im5vbmUiPjwvcGF0aD4KPC9nPgoKPHBhdGggZD0iTTkwIDYwIEwzNTAgNjAgTDM1MCAyMDAgQzM1MCAyODIgMzAwIDM0MiAyMjAgMzgyIEMxNDAgMzQyIDkwIDI4MiA5MCAyMDAgWiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjM0QyNDA4IiBzdHJva2Utd2lkdGg9IjYiPjwvcGF0aD4KPHBhdGggZD0iTTEwNCA3MyBMMzM2IDczIEwzMzYgMjAwIEMzMzYgMjczIDI5MiAzMjcgMjIwIDM2MyBDMTQ4IDMyNyAxMDQgMjczIDEwNCAyMDAgWiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjQzlBODRDIiBzdHJva2Utd2lkdGg9IjIiPjwvcGF0aD4KCjx0ZXh0IHg9IjIyMCIgeT0iNDU4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iR2VvcmdpYSwgJ1RpbWVzIE5ldyBSb21hbicsIHNlcmlmIiBmb250LXNpemU9Ijc0IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjM0QyNDA4IiBsZXR0ZXItc3BhY2luZz0iNSI+QUNFPC90ZXh0PgoKPGc+CiAgPHBhdGggZD0iTTcwIDQ4NiBMOTYgNDc2IEw5NiA1MDYgTDcwIDUxNiBaIiBmaWxsPSIjMkExOTA1Ij48L3BhdGg+CiAgPHBhdGggZD0iTTM3MCA0ODYgTDM0NCA0NzYgTDM0NCA1MDYgTDM3MCA1MTYgWiIgZmlsbD0iIzJBMTkwNSI+PC9wYXRoPgogIDxwYXRoIGQ9Ik05MiA0NzIgTDM0OCA0NzIgTDM0MCA0OTEgTDM0OCA1MTAgTDkyIDUxMCBMMTAwIDQ5MSBaIiBmaWxsPSIjM0QyNDA4Ij48L3BhdGg+CiAgPHRleHQgeD0iMjIwIiB5PSI0OTUuNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Ikdlb3JnaWEsICdUaW1lcyBOZXcgUm9tYW4nLCBzZXJpZiIgZm9udC1zaXplPSIxMC41IiBmb250LXdlaWdodD0iNjAwIiBsZXR0ZXItc3BhY2luZz0iMS4yIiBmaWxsPSIjQzlBODRDIj5GT1IgT1VSIFBFT1BMRSwgQlkgT1VSIFBFT1BMRTwvdGV4dD4KPC9nPgoKPC9zdmc+Cg==">
+<meta name="description" content="A twenty-five-year compact to build self-governing, self-sustaining cities for Black and Native American communities on sovereign land. For our people, by our people.">
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#F5F1E7;color:#15120E;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;font-size:17px;line-height:1.66;font-weight:400;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+p{margin:0;text-wrap:pretty}
+h1,h2,h3,h4{margin:0;font-weight:400;line-height:1.08;letter-spacing:-.005em;color:#15120E}
+.wrap{max-width:1180px;margin:0 auto;padding:0 clamp(1.25rem,4vw,2.75rem)}
+.eyebrow{font-family:inherit;font-weight:700;font-size:1rem;letter-spacing:.24em;text-transform:uppercase}
+.section{padding:clamp(4.5rem,9vw,8rem) 0;scroll-margin-top:78px}
+.lead{color:#574E40;font-size:clamp(1.04rem,1.4vw,1.2rem);line-height:1.72}
+.display{font-family:Georgia,'Times New Roman',serif}
+.site-head{position:sticky;top:0;z-index:60;background:#000000;border-bottom:1px solid rgba(252,209,22,.30)}
+.site-head .wrap{display:flex;align-items:center;justify-content:space-between;height:78px;gap:1.5rem}
+.brand{display:flex;align-items:baseline;gap:.6rem}
+.brand .mark{font-family:Georgia,'Times New Roman',serif;font-size:1.5rem;letter-spacing:.14em;color:#FCD116}
+.brand small{font-family:inherit;font-weight:500;font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;color:rgba(245,241,231,.55);transform:translateY(-1px)}
+.nav{display:flex;align-items:center;gap:2.1rem}
+.nav a{font-size:.82rem;font-weight:500;letter-spacing:.02em;color:rgba(245,241,231,.78);position:relative;transition:color .2s}
+.nav a::after{content:"";position:absolute;left:0;bottom:-6px;width:0;height:1.5px;background:#FCD116;transition:width .25s}
+.nav a:hover{color:#FFFFFF}
+.nav a:hover::after{width:100%}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;font-family:inherit;font-weight:600;font-size:.9rem;letter-spacing:.01em;padding:.92rem 1.7rem;border-radius:2px;border:1.5px solid transparent;cursor:pointer;transition:transform .15s,background .22s,color .22s,border-color .22s,box-shadow .22s;white-space:nowrap}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:#DA121A;color:#FFFFFF;border-color:#DA121A}
+.btn-primary:hover{background:#B30E15;border-color:#B30E15;box-shadow:0 8px 22px rgba(218,18,26,.30)}
+.btn-outline{background:transparent;color:#F5F1E7;border-color:#FCD116}
+.btn-outline:hover{background:#FCD116;color:#000000;border-color:#FCD116}
+.btn-gold{background:#FCD116;color:#000000;border-color:#FCD116}
+.btn-gold:hover{background:#E3BC0E;border-color:#E3BC0E}
+.btn-sm{padding:.62rem 1.15rem;font-size:.8rem}
+.hero{position:relative;text-align:center;padding:clamp(2.6rem,5vw,4.4rem) 0 clamp(4rem,7vw,6rem);overflow:hidden;background:#000000;color:#F5F1E7}
+.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(110% 70% at 50% 0%,rgba(252,209,22,.10),transparent 62%);pointer-events:none}
+.hero::after{content:"";position:absolute;left:50%;bottom:0;transform:translateX(-50%);width:min(880px,82%);height:1px;background:linear-gradient(90deg,transparent,rgba(252,209,22,.6),transparent)}
+.hero .wrap{position:relative}
+.hero .crest{width:clamp(204px,28vw,292px);height:auto;margin:0 auto clamp(1.5rem,3vw,2.3rem);filter:drop-shadow(0 22px 44px rgba(0,0,0,.55))}
+.hero .eyebrow{margin-bottom:1.7rem;color:#FCD116}
+.hero-quote{font-family:Georgia,'Times New Roman',serif;font-size:clamp(2.15rem,5.3vw,3.9rem);line-height:1.08;letter-spacing:-.012em;max-width:17ch;margin:0 auto;text-wrap:balance;color:#F5F1E7}
+.hero-quote .accent{color:#DA121A;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-weight:400}
+.hero-statement{max-width:50rem;margin:clamp(1.6rem,3vw,2.2rem) auto 0;color:rgba(245,241,231,.72);font-size:clamp(1.06rem,1.5vw,1.26rem);line-height:1.7}
+.hero-cta{display:flex;flex-wrap:wrap;gap:.85rem;justify-content:center;margin-top:clamp(2.1rem,4vw,2.9rem)}
+.stats{background:#000000}
+.stats .grid{display:grid;grid-template-columns:repeat(6,1fr)}
+.stat{padding:clamp(2.1rem,3.4vw,3rem) 1rem;text-align:center;border-left:1px solid rgba(252,209,22,.16)}
+.stat:first-child{border-left:0}
+.stat .num{font-family:Georgia,'Times New Roman',serif;font-size:clamp(2.1rem,3.4vw,3.05rem);line-height:1;color:#FCD116}
+.stat .lbl{margin-top:.7rem;font-size:.69rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:rgba(245,241,231,.55)}
+/* crest interpretation section */
+.crest-meaning{background:#15120E;color:#F5F1E7;padding:clamp(4rem,7vw,6rem) 0}
+.crest-meaning .sec-head{text-align:center;margin-bottom:clamp(2.8rem,5vw,4rem)}
+.crest-meaning .sec-head .eyebrow{color:#FCD116;display:block;margin-bottom:1.1rem}
+.crest-meaning .sec-head h2{font-family:Georgia,'Times New Roman',serif;font-size:clamp(1.9rem,3.8vw,2.9rem);color:#F5F1E7}
+.crest-meaning .sec-head .lead{color:rgba(245,241,231,.68);margin-top:1.1rem;max-width:46rem;margin-left:auto;margin-right:auto}
+.symbol-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:rgba(252,209,22,.18)}
+.symbol{padding:clamp(2rem,3.5vw,3rem) clamp(1.8rem,3vw,2.6rem);display:flex;flex-direction:column;gap:1rem}
+.symbol-tl{background:#DA121A}
+.symbol-tr{background:#FCD116}
+.symbol-bl{background:#09A03A}
+.symbol-br{background:#000000;border:1px solid rgba(252,209,22,.12)}
+.symbol-label{font-size:.68rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase}
+.symbol-tl .symbol-label{color:rgba(255,255,255,.75)}
+.symbol-tr .symbol-label{color:rgba(0,0,0,.55)}
+.symbol-bl .symbol-label{color:rgba(255,255,255,.75)}
+.symbol-br .symbol-label{color:rgba(252,209,22,.65)}
+.symbol-name{font-family:Georgia,'Times New Roman',serif;font-size:clamp(1.5rem,2.8vw,2.1rem);line-height:1.1}
+.symbol-tl .symbol-name,.symbol-bl .symbol-name,.symbol-br .symbol-name{color:#FFFFFF}
+.symbol-tr .symbol-name{color:#000000}
+.symbol-body{font-size:1rem;line-height:1.68}
+.symbol-tl .symbol-body,.symbol-bl .symbol-body,.symbol-br .symbol-body{color:rgba(255,255,255,.82)}
+.symbol-tr .symbol-body{color:rgba(0,0,0,.72)}
+.symbol-quote{font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:1.05rem;margin-top:.4rem;padding-top:.9rem;border-top:1px solid}
+.symbol-tl .symbol-quote{border-color:rgba(255,255,255,.25);color:rgba(255,255,255,.9)}
+.symbol-tr .symbol-quote{border-color:rgba(0,0,0,.18);color:rgba(0,0,0,.75)}
+.symbol-bl .symbol-quote{border-color:rgba(255,255,255,.25);color:rgba(255,255,255,.9)}
+.symbol-br .symbol-quote{border-color:rgba(252,209,22,.25);color:#FCD116}
+.sec-head{max-width:62rem}
+.sec-head .eyebrow{display:block;text-align:center;margin-bottom:1.1rem}
+.sec-head h2{text-align:center;font-family:Georgia,'Times New Roman',serif;font-size:clamp(2rem,4.2vw,3.15rem);line-height:1.05}
+.sec-head .lead{margin-top:1.3rem;text-align:center;margin-left:auto;margin-right:auto;max-width:47rem}
+.hr-gold{width:52px;height:2px;background:#DA121A;border:0;margin:0 auto 1.6rem}
+.builds-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#FCD116;border:1px solid #FCD116;margin-top:clamp(2.6rem,5vw,3.6rem)}
+.build{background:#FFFFFF;padding:clamp(1.7rem,2.4vw,2.2rem);min-height:236px;display:flex;flex-direction:column;transition:background .25s,color .25s}
+.build:hover{background:#DA121A}
+.build .ico{width:34px;height:34px;color:#09A03A;margin-bottom:1.1rem}
+.build .ico svg{width:100%;height:100%}
+.build .idx{font-family:Georgia,'Times New Roman',serif;font-size:.82rem;color:#9A8F7A;letter-spacing:.06em;margin-bottom:.5rem}
+.build h3{font-family:Georgia,'Times New Roman',serif;font-size:1.34rem;margin-bottom:.65rem;color:#15120E}
+.build p{color:#574E40;font-size:.93rem;line-height:1.62}
+.build:hover .ico{color:#FFFFFF}
+.build:hover .idx{color:rgba(255,255,255,.8)}
+.build:hover h3{color:#FFFFFF}
+.build:hover p{color:rgba(255,255,255,.9)}
+.contract{background:#000000;color:#F5F1E7}
+.contract h2,.contract h3{color:#F5F1E7}
+.contract .eyebrow{color:#FCD116}
+.contract .lead{color:rgba(245,241,231,.72)}
+.contract-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(1.8rem,3.4vw,3rem) clamp(2rem,4vw,3.4rem);margin-top:clamp(2.8rem,5vw,3.8rem)}
+.guarantee{border-top:1px solid rgba(252,209,22,.32);padding-top:1.7rem}
+.guarantee .g-num{font-family:Georgia,'Times New Roman',serif;font-size:.84rem;color:#FCD116;letter-spacing:.1em}
+.guarantee h3{font-family:Georgia,'Times New Roman',serif;font-size:clamp(1.45rem,2.5vw,2rem);margin:.55rem 0 .85rem}
+.guarantee p{color:rgba(245,241,231,.72);font-size:1rem;line-height:1.66}
+.contract-vow{margin-top:clamp(3.2rem,5.5vw,4.4rem);text-align:center}
+.contract-vow .v{font-family:Georgia,'Times New Roman',serif;font-size:clamp(1.7rem,3.4vw,2.7rem);color:#FCD116;line-height:1.18}
+.phases{background:#ECE4D2}
+.phase-list{margin-top:clamp(2.6rem,5vw,3.6rem)}
+.phase{display:grid;grid-template-columns:minmax(160px,1fr) 2.6fr;gap:clamp(1.4rem,4vw,4rem);align-items:start;padding:clamp(2rem,4vw,3.1rem) 0;border-top:1px solid rgba(0,0,0,.16)}
+.phase:last-child{border-bottom:1px solid rgba(0,0,0,.16)}
+.phase .p-meta .p-num{font-family:Georgia,'Times New Roman',serif;font-size:clamp(2.6rem,5vw,4.2rem);color:#09A03A;line-height:.86;letter-spacing:-.02em}
+.phase .p-meta .p-label{font-family:inherit;font-size:.7rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#7A6F5A;margin-top:.7rem}
+.phase .p-meta .p-years{font-family:Georgia,'Times New Roman',serif;font-size:.98rem;color:#574E40;margin-top:.35rem;letter-spacing:.02em}
+.phase .p-body h3{font-family:Georgia,'Times New Roman',serif;font-size:clamp(1.6rem,3vw,2.5rem);margin-bottom:.7rem;color:#15120E}
+.phase .p-body p{color:#574E40;max-width:52rem;font-size:1.05rem;line-height:1.68}
+.involved{background:#09A03A;color:#F5F1E7}
+.involved .eyebrow{color:#FCD116}
+.involved h2{color:#FFFFFF}
+.involved .lead{color:rgba(255,255,255,.85)}
+.involved-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(1.2rem,2.4vw,1.8rem);margin-top:clamp(2.6rem,5vw,3.6rem)}
+.invite{background:rgba(0,0,0,0.25);border:1px solid rgba(255,255,255,.15);border-left:4px solid #FCD116;border-radius:4px;padding:clamp(1.9rem,3vw,2.6rem);display:flex;flex-direction:column;transition:box-shadow .28s,transform .22s,border-color .28s}
+.invite:hover{box-shadow:0 26px 56px rgba(0,0,0,.4);transform:translateY(-4px);border-color:#DA121A}
+.invite .i-tag{font-size:.69rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#FCD116}
+.invite h3{font-family:Georgia,'Times New Roman',serif;font-size:clamp(1.4rem,2.4vw,1.7rem);margin:.85rem 0 .75rem;color:#F5F1E7}
+.invite p{color:rgba(245,241,231,.72);font-size:.98rem;flex:1;line-height:1.66}
+.invite .i-link{margin-top:1.5rem;font-weight:600;font-size:.88rem;color:#F5F1E7;display:inline-flex;align-items:center;gap:.5rem;border-bottom:2px solid #FCD116;padding-bottom:3px;width:fit-content;transition:gap .2s,color .2s}
+.invite .i-link:hover{gap:.85rem;color:#FCD116}
+.act{background:#000000;padding-top:clamp(4rem,8vw,7rem);color:#F5F1E7}
+.act .wrap{display:grid;grid-template-columns:1.25fr 1fr;gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.act .eyebrow{color:#FCD116}
+.act h2{font-family:Georgia,'Times New Roman',serif;font-size:clamp(2rem,3.8vw,2.9rem);color:#F5F1E7}
+.act p{color:rgba(245,241,231,.72);margin-top:1.2rem;max-width:40rem}
+.act-card{background:#09A03A;color:#FFFFFF;border-radius:6px;padding:clamp(1.9rem,3.2vw,2.5rem);box-shadow:0 26px 56px rgba(218,18,26,.30)}
+.act-card .doc-eyebrow{font-size:.68rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.85)}
+.act-card .doc{font-family:Georgia,'Times New Roman',serif;font-size:1.55rem;color:#FFFFFF;margin-top:.7rem}
+.act-card .meta{font-size:.82rem;color:rgba(255,255,255,.7);margin-top:.45rem}
+.act-card .btn{margin-top:1.7rem;width:100%}
+.connect{background:#ECE4D2}
+.connect .wrap{max-width:780px;text-align:center}
+.connect h2{font-family:Georgia,'Times New Roman',serif;font-size:clamp(1.9rem,3.6vw,2.7rem);color:#15120E}
+.connect p{color:#574E40;margin:1.1rem auto 0;max-width:36rem}
+.form{display:grid;grid-template-columns:1fr 1fr auto;gap:.7rem;max-width:620px;margin:2.4rem auto 0}
+.form input{font-family:inherit;font-size:1rem;padding:.98rem 1.15rem;border:1.5px solid rgba(0,0,0,.22);border-radius:3px;background:#FFFFFF;color:#15120E;transition:border-color .2s,box-shadow .2s}
+.form input::placeholder{color:#9A8F7A}
+.form input:focus{outline:none;border-color:#FCD116;box-shadow:0 0 0 3px rgba(252,209,22,.25)}
+.form .btn-primary{background:#09A03A;border-color:#09A03A}
+.form .btn-primary:hover{background:#07802E;border-color:#07802E;box-shadow:0 8px 22px rgba(9,160,58,.28)}
+.form-note{font-size:.84rem;color:#09A03A;margin-top:1rem;min-height:1.2em;font-weight:600}
+.share{display:flex;gap:.7rem;justify-content:center;flex-wrap:wrap;margin-top:2.4rem}
+.share button{display:inline-flex;align-items:center;gap:.5rem;font-family:inherit;font-weight:600;font-size:.82rem;letter-spacing:.02em;padding:.68rem 1.25rem;border-radius:40px;border:1.5px solid rgba(0,0,0,.22);background:#FFFFFF;color:#574E40;cursor:pointer;transition:all .2s}
+.share button:hover{background:#000000;color:#FFFFFF;border-color:#000000}
+.share button svg{width:16px;height:16px}
+.share-label{font-size:.69rem;letter-spacing:.18em;text-transform:uppercase;color:#7A6F5A;margin-top:2.4rem}
+.foot{background:#000000;color:#F5F1E7;padding:clamp(3.6rem,6vw,5rem) 0 2.6rem}
+.foot-top{display:grid;grid-template-columns:auto 1fr;gap:clamp(2.4rem,5vw,4.5rem);align-items:start;padding-bottom:2.8rem;border-bottom:1px solid rgba(245,241,231,.16)}
+.foot-mark{width:116px;height:auto;filter:drop-shadow(0 10px 26px rgba(0,0,0,.5))}
+.foot-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem}
+.foot-col h4{font-family:inherit;font-size:.69rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#FCD116;margin-bottom:1.1rem}
+.foot-col a{display:block;color:rgba(245,241,231,.62);font-size:.92rem;padding:.3rem 0;transition:color .2s}
+.foot-col a:hover{color:#FCD116}
+.foot-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;gap:1.4rem;align-items:flex-end;padding-top:2.2rem}
+.foot-founder .sig{font-family:Georgia,'Times New Roman',serif;font-size:1.45rem;color:#F5F1E7}
+.foot-founder .role{font-size:.78rem;color:rgba(245,241,231,.55);margin-top:.3rem;letter-spacing:.04em}
+.foot-motto{font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:1.12rem;color:#09A03A;margin-top:.9rem}
+.foot-meta{font-size:.78rem;color:rgba(245,241,231,.55);letter-spacing:.03em;text-align:right;line-height:1.7}
+.reveal{opacity:0;transform:translateY(20px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
+.reveal.in{opacity:1;transform:none}
+
+/* ===== why ace exists (cream-dark) ===== */
+.why{background:#ECE4D2;color:#15120E}
+.why .eyebrow{color:#DA121A;display:block;text-align:center;margin-bottom:1.1rem}
+.why h2{font-family:Georgia,'Times New Roman',serif;font-size:clamp(1.9rem,3.8vw,2.9rem);color:#15120E;text-align:center}
+.why-body{max-width:52rem;margin:clamp(2.4rem,4vw,3.2rem) auto 0}
+.why-body p{color:#574E40;font-size:1.08rem;line-height:1.76;margin-bottom:1.5rem}
+.why-body p:last-child{margin-bottom:0}
+.why-swot{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:#15120E;margin-top:clamp(2.8rem,5vw,4rem)}
+.swot-item{padding:clamp(1.8rem,3vw,2.6rem);display:flex;flex-direction:column;gap:.9rem}
+.swot-w{background:#DA121A}.swot-s{background:#000000}.swot-o{background:#09A03A}.swot-t{background:#FCD116}
+.swot-label{font-size:.68rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+.swot-w .swot-label,.swot-s .swot-label,.swot-o .swot-label{color:rgba(255,255,255,.65)}
+.swot-t .swot-label{color:rgba(0,0,0,.5)}
+.swot-title{font-family:Georgia,'Times New Roman',serif;font-size:clamp(1.4rem,2.6vw,1.9rem);line-height:1.1}
+.swot-w .swot-title,.swot-s .swot-title,.swot-o .swot-title{color:#FFFFFF}
+.swot-t .swot-title{color:#000000}
+.swot-text{font-size:.98rem;line-height:1.68}
+.swot-w .swot-text,.swot-s .swot-text,.swot-o .swot-text{color:rgba(255,255,255,.82)}
+.swot-t .swot-text{color:rgba(0,0,0,.72)}
+.why-close{max-width:52rem;margin:clamp(2.8rem,5vw,4rem) auto 0;text-align:center}
+.why-close p{font-family:Georgia,'Times New Roman',serif;font-size:clamp(1.2rem,2.2vw,1.6rem);color:#15120E;line-height:1.4;font-style:italic}
+@media(max-width:760px){.why-swot{grid-template-columns:1fr}}
+
+@media(max-width:980px){.builds-grid{grid-template-columns:repeat(2,1fr)}.act .wrap{grid-template-columns:1fr}.foot-top{grid-template-columns:1fr;justify-items:start}.symbol-grid{grid-template-columns:1fr}}
+@media(max-width:760px){body{font-size:16px}.nav{display:none}.stats .grid{grid-template-columns:repeat(3,1fr)}.contract-grid,.involved-grid{grid-template-columns:1fr}.phase{grid-template-columns:1fr;gap:.7rem;align-items:baseline}.phase .p-meta{display:flex;align-items:baseline;gap:1rem;flex-wrap:wrap}.phase .p-meta .p-label,.phase .p-meta .p-years{margin-top:0}.form{grid-template-columns:1fr}.foot-cols{grid-template-columns:1fr 1fr}.foot-bottom{flex-direction:column;align-items:flex-start}.foot-meta{text-align:left}}
+@media(max-width:430px){.stats .grid{grid-template-columns:repeat(2,1fr)}.builds-grid{grid-template-columns:1fr}.foot-cols{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.btn:hover,.invite:hover{transform:none}}
+</style>
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="#top"><span class="mark">ACE</span><small>Est. 2026</small></a>
+    <nav class="nav">
+      <a href="#crest">The Crest</a>
+      <a href="#why">Why ACE</a>
+      <a href="#builds">What We Build</a>
+      <a href="#contract">Social Contract</a>
+      <a href="#phases">The Four Phases</a>
+      <a href="#contingency">The Contingency</a>
+      <a href="#humanrights">Human Rights</a>
+      <a href="#involved">Get Involved</a>
+      <a href="/react" style="color:#DA121A;font-weight:700;">React to the Plan</a>
+    </nav>
+    <a class="btn btn-primary btn-sm" href="#act">Read the ACE Act</a>
+  </div>
+</header>
+<main>
+<section class="hero" id="top">
+  <div class="wrap">
+    <h2 style="font-family:Georgia,'Times New Roman',serif;font-size:clamp(1.1rem,2.2vw,1.75rem);font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#FCD116;margin-bottom:2rem;line-height:1.3;text-align:center;">Alliance for Collective<br>Empowerment and Development</h2>
+    <svg class="crest" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 520" width="440" height="520" role="img" aria-label="ACE crest - Alliance for Collective Empowerment and Development">
+<defs>
+  <clipPath id="shieldClipH"><path d="M90 60 L350 60 L350 200 C350 282 300 342 220 382 C140 342 90 282 90 200 Z"></path></clipPath>
+  <linearGradient id="vaneGradH" x1="290" y1="256" x2="252" y2="90" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#F7EEDB"></stop><stop offset="0.22" stop-color="#E7CD99"></stop>
+    <stop offset="0.52" stop-color="#CB9D55"></stop><stop offset="0.8" stop-color="#9A6C2D"></stop><stop offset="1" stop-color="#5C3B13"></stop>
+  </linearGradient>
+  <radialGradient id="sunGradH" cx="0.5" cy="0.95" r="0.95">
+    <stop offset="0" stop-color="#FDE08A"></stop><stop offset="0.55" stop-color="#FCD116"></stop><stop offset="1" stop-color="#E0B408"></stop>
+  </radialGradient>
+</defs>
+<g clip-path="url(#shieldClipH)">
+  <rect x="86" y="56" width="134" height="146" fill="#DA121A"></rect>
+  <rect x="220" y="56" width="136" height="146" fill="#FCD116"></rect>
+  <rect x="86" y="200" width="134" height="192" fill="#09A03A"></rect>
+  <rect x="220" y="200" width="136" height="192" fill="#000000"></rect>
+  <g transform="translate(62,-18) scale(0.58)"><g transform="translate(-4,22)">
+    <path d="M198 262 C 214 232 220 204 197 197 C 178 191 165 199 161 211" stroke="#3D2408" stroke-width="20" fill="none" stroke-linecap="round"></path>
+    <ellipse cx="172" cy="277" rx="41" ry="29" transform="rotate(-15 172 277)" fill="#3D2408"></ellipse>
+    <path d="M144 272 C 126 256 115 232 112 209 L 134 222 C 142 243 150 258 154 266 Z" fill="#3D2408" stroke-linejoin="round"></path>
+    <circle cx="159" cy="205" r="12" fill="#3D2408"></circle>
+    <path d="M198 262 C 214 232 220 204 197 197 C 178 191 165 199 161 211" stroke="#FAF6EF" stroke-width="13.5" fill="none" stroke-linecap="round"></path>
+    <ellipse cx="172" cy="277" rx="37.5" ry="25.5" transform="rotate(-15 172 277)" fill="#FAF6EF"></ellipse>
+    <path d="M145 270 C 129 256 119 233 117 213 L 134 224 C 142 244 149 257 153 265 Z" fill="#FAF6EF"></path>
+    <circle cx="159" cy="204" r="9.5" fill="#FAF6EF"></circle>
+    <path d="M152 209 L147 224 L161 213 Z" fill="#3D2408"></path>
+    <circle cx="156" cy="202" r="1.7" fill="#3D2408"></circle>
+    <path d="M167 300 L161 332 M161 332 L153 336 M161 332 L169 335 M185 297 L190 330 M190 330 L183 334 M190 330 L198 333" stroke="#3D2408" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+    <ellipse cx="150" cy="231" rx="8.5" ry="10.5" fill="#FCD116" stroke="#3D2408" stroke-width="1.6"></ellipse>
+    <ellipse cx="147" cy="227.5" rx="2.4" ry="3.2" fill="#FAF6EF" opacity="0.85"></ellipse>
+  </g></g>
+  <g transform="translate(116.04,19.92) scale(0.64)">
+    <path d="M283.02 235.1 C 290 256, 296 268, 300 286" stroke="#3D2408" stroke-width="3" fill="none" stroke-linecap="round"></path>
+    <path d="M252 90L254.51 88.36L258.16 90.14L260.67 92.64L262.89 95.32L264.92 98.11L266.82 100.97L268.61 103.9L270.3 106.88L271.9 109.92L273.42 113.01L274.85 116.15L276.21 119.34L277.48 122.59L278.68 125.89L279.81 129.25L280.86 132.66L281.83 136.14L282.73 139.67L283.56 143.27L284.31 146.94L285 150.66L285.61 154.46L286.16 158.32L286.63 162.25L287.05 166.25L287.39 170.33L287.68 174.47L287.9 178.69L288.06 182.98L288.16 187.35L288.2 191.8L288.18 196.33L288.09 200.95L287.94 205.67L287.7 210.49L287.37 215.44L286.89 220.56L286.15 225.98L284.85 231.98L286.01 235.64L287.19 239.3L288.39 242.94L289.6 246.58L290.84 250.22L292.09 253.85L287.02 255.62L285.76 251.97L284.52 248.3L283.3 244.64L282.09 240.96L280.9 237.29L279.74 233.6L275.25 229.36L271.61 225.22L268.39 221.12L265.43 217.03L262.67 212.95L260.08 208.88L257.64 204.8L255.34 200.74L253.18 196.67L251.16 192.62L249.26 188.57L247.5 184.53L245.87 180.49L244.37 176.48L243 172.47L241.76 168.48L240.65 164.51L239.67 160.56L238.83 156.63L238.11 152.72L237.52 148.84L237.06 144.98L236.72 141.15L236.52 137.35L236.43 133.57L236.48 129.84L236.65 126.13L236.94 122.46L237.36 118.83L237.91 115.23L238.58 111.68L239.38 108.17L240.32 104.71L241.41 101.31L242.68 97.97L244.18 94.72L246.03 91.61L249.18 88.98Z" fill="url(#vaneGradH)" stroke="#5C3B13" stroke-width="0.8" stroke-linejoin="round"></path>
+    <path d="M285 150 L268 142 M286 170 L266 165 M287 190 L266 188 M286 210 L268 211 M283 228 L270 230 M283 150 L266 140 M281 132 L266 124 M278 116 L264 106 M273 102 L262 92 M283.5 170 L300 165 M284 190 L302 188 M283 210 L300 211" stroke="#5C3B13" stroke-width="0.9" fill="none" opacity="0.55"></path>
+    <path d="M290 256 C 262 176, 257 133, 252 90" stroke="#43290B" stroke-width="1.6" fill="none" stroke-linecap="round"></path>
+  </g>
+  <g fill="none" stroke="#FCD116" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" transform="translate(161,257) scale(1.18) translate(-161,-257)">
+    <path d="M150 273 C146 266 134 256 134 249 C134 242 143 241 150 249 C157 241 166 242 166 249 C166 256 154 266 150 273 Z"></path>
+    <path d="M172 273 C168 266 156 256 156 249 C156 242 165 241 172 249 C179 241 188 242 188 249 C188 256 176 266 172 273 Z"></path>
+  </g>
+  <g>
+    <g stroke="#FCD116" stroke-width="3" stroke-linecap="round">
+      <line x1="296.55" y1="263.79" x2="310.65" y2="258.66"></line><line x1="293.04" y1="257.39" x2="304.94" y2="248.26"></line>
+      <line x1="287.77" y1="252.34" x2="296.37" y2="240.05"></line><line x1="281.22" y1="249.11" x2="285.73" y2="234.81"></line>
+      <line x1="274" y1="248" x2="274" y2="233"></line><line x1="266.78" y1="249.11" x2="262.27" y2="234.81"></line>
+      <line x1="260.23" y1="252.34" x2="251.63" y2="240.05"></line><line x1="254.96" y1="257.39" x2="243.06" y2="248.26"></line>
+      <line x1="251.45" y1="263.79" x2="237.35" y2="258.66"></line>
+    </g>
+    <path d="M254 272 A20 20 0 0 1 294 272 Z" fill="url(#sunGradH)" stroke="#E0B408" stroke-width="1.2"></path>
+    <line x1="242" y1="272" x2="306" y2="272" stroke="#FCD116" stroke-width="3" stroke-linecap="round"></line>
+  </g>
+  <path d="M220 60 L220 382" stroke="#FCD116" stroke-width="3.5" fill="none"></path>
+  <path d="M90 200 L350 200" stroke="#FCD116" stroke-width="3.5" fill="none"></path>
+</g>
+<path d="M90 60 L350 60 L350 200 C350 282 300 342 220 382 C140 342 90 282 90 200 Z" fill="none" stroke="#3D2408" stroke-width="6"></path>
+<path d="M104 73 L336 73 L336 200 C336 273 292 327 220 363 C148 327 104 273 104 200 Z" fill="none" stroke="#C9A84C" stroke-width="2"></path>
+<text x="220" y="458" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="74" font-weight="800" fill="#3D2408" letter-spacing="5">ACE</text>
+<g>
+  <path d="M70 486 L96 476 L96 506 L70 516 Z" fill="#2A1905"></path>
+  <path d="M370 486 L344 476 L344 506 L370 516 Z" fill="#2A1905"></path>
+  <path d="M92 472 L348 472 L340 491 L348 510 L92 510 L100 491 Z" fill="#3D2408"></path>
+  <text x="220" y="495.5" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" font-weight="600" letter-spacing="1.2" fill="#C9A84C">FOR OUR PEOPLE, BY OUR PEOPLE</text>
+</g>
+</svg>
+    <div class="eyebrow" style="color:#FCD116">A Covenant Between Two Communities</div>
+    <h1 class="hero-quote" style="font-family:Georgia,'Times New Roman',serif">We are not asking for a seat at the table. <span class="accent" style="color:#DA121A;font-style:italic">We are building our own.</span></h1>
+    <p class="hero-statement">The Alliance for Collective Empowerment and Development is a twenty-five-year plan to build self-governing, self-sustaining cities for Black and Native American communities on tribal sovereign land, owned, run, and inherited by the people who live in them.</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#act">Read the ACE Act</a>
+      <a class="btn btn-outline" href="#connect">Stay Connected</a>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="wrap" style="padding:0">
+    <div class="grid">
+      <div class="stat"><div class="num display">32M</div><div class="lbl">Planning Population</div></div>
+      <div class="stat"><div class="num display">300K</div><div class="lbl">Pioneer Residents</div></div>
+      <div class="stat"><div class="num display">150K+</div><div class="lbl">Acres / First Territory</div></div>
+      <div class="stat"><div class="num display">25</div><div class="lbl">Year Horizon</div></div>
+      <div class="stat"><div class="num display">10+</div><div class="lbl">Cities</div></div>
+      <div class="stat"><div class="num display">$50B+</div><div class="lbl">Year 25 Economy</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CREST INTERPRETATION SECTION -->
+<section class="crest-meaning" id="crest">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">The ACE Crest</span>
+      <hr class="hr-gold">
+      <h2 style="font-family:Georgia,'Times New Roman',serif;color:#F5F1E7">Four symbols. One sovereign future.</h2>
+      <p class="lead" style="color:rgba(245,241,231,.68);text-align:center;margin-top:1.1rem">The crest carries the founding covenant in its four quadrants, each colored in the Pan-African palette, each representing the people, the wisdom, and the civilization being built.</p>
+    </div>
+    <div class="symbol-grid reveal">
+      <div class="symbol symbol-tl">
+        <div class="symbol-label">Top Left - Red</div>
+        <div class="symbol-name display">Sankofa</div>
+        <p class="symbol-body">The Akan bird that flies forward while looking back. Memory as a survival strategy. We do not build by forgetting what was taken from us, we build because of it.</p>
+        <div class="symbol-quote">Understanding our past to ensure we build an unbreakable future.</div>
+      </div>
+      <div class="symbol symbol-tr">
+        <div class="symbol-label">Top Right - Gold</div>
+        <div class="symbol-name display">Eagle Feather</div>
+        <p class="symbol-body">Sacred to the tribal nations whose sovereignty is the legal and territorial foundation of ACE. The feather is not decoration, it is authority, irreplaceable land knowledge, and the oldest legal protection on this continent.</p>
+        <div class="symbol-quote">The foundation no other community in America can offer.</div>
+      </div>
+      <div class="symbol symbol-bl">
+        <div class="symbol-label">Bottom Left - Green</div>
+        <div class="symbol-name display">Akoma Ntoso</div>
+        <p class="symbol-body">Linked hearts, from the Akan tradition. The symbol of unity and covenant between peoples. Two communities dispossessed by the same government, bound by a common inheritance and a shared future they are building together.</p>
+        <div class="symbol-quote">Two communities. One sovereign future.</div>
+      </div>
+      <div class="symbol symbol-br">
+        <div class="symbol-label">Bottom Right - Black</div>
+        <div class="symbol-name display">Rising Sun</div>
+        <p class="symbol-body">The civilization being built. Not a metaphor, a city, rising from the depths of Black American experience and Native sovereign land. Brighter days ahead, earned not promised, built not granted.</p>
+        <div class="symbol-quote">Born from what was taken. Built by what remains.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section why" id="why">
+  <div class="wrap">
+    <span class="eyebrow">Why ACE</span>
+    <hr class="hr-gold">
+    <h2 style="text-align:center;font-family:Georgia,'Times New Roman',serif">Two communities. Two gaps.<br>One unmatched strength.</h2>
+    <div class="why-body">
+      <p>The idea for the Alliance for Collective Empowerment and Development began with a simple observation: two communities, dispossessed by the same government, each hold exactly what the other lacks.</p>
+      <p>Native American nations hold sovereign land, territory protected by federal law, outside state taxation, outside municipal zoning, outside many of the legal mechanisms that have historically been used to destroy Black and Native institutions the moment they became powerful enough to matter. What they have lacked is the capital, the population density, and the financial infrastructure to convert that land into a self-sustaining economy.</p>
+      <p>Black Americans hold $1.6 trillion in annual spending power, a growing professional and entrepreneurial class, and generations of scholarship, institution-building, and cultural production forged under conditions designed to make all of it impossible. What they have lacked is land, sovereign, protected, unchallengeable ground on which to build without asking permission and without fear of what has always come next.</p>
+      <p>This is not about one community being superior to the other. That framing would simply replicate the logic both communities are trying to escape. This is about two communities honestly naming their own gaps and recognizing that the right partner does not fill your weakness with their strength, they bring a weakness of a different kind, and together you eliminate both.</p>
+      <p>A box of nails and a stack of timber. Each one formidable on its own terms. Neither one a building. Together, something neither could become alone.</p>
+    </div>
+    <div class="why-swot reveal">
+      <div class="swot-item swot-w">
+        <div class="swot-label">Weakness</div>
+        <div class="swot-title display">Each lacks what the other holds.</div>
+        <p class="swot-text">Land without capital cannot develop. Capital without land cannot root. This is the gap ACE is built to close.</p>
+      </div>
+      <div class="swot-item swot-s">
+        <div class="swot-label">Strength</div>
+        <div class="swot-title display">The combination is not additive. It is exponential.</div>
+        <p class="swot-text">Sovereign land plus community capital plus population equals the legal, territorial, and economic foundation for an independent, self-governing civilization. No external institution needs to grant it. No political climate can revoke it.</p>
+      </div>
+      <div class="swot-item swot-o">
+        <div class="swot-label">Opportunity</div>
+        <div class="swot-title display">Something the United States has never had to contend with.</div>
+        <p class="swot-text">A legally protected, economically self-sustaining, culturally sovereign civilization built by the two peoples this country has spent the most effort trying to erase. The opportunity is not just survival. It is the construction of something permanent.</p>
+      </div>
+      <div class="swot-item swot-t">
+        <div class="swot-label">Threat</div>
+        <div class="swot-title display">The threat is twofold and must be named plainly.</div>
+        <p class="swot-text">The first is inaction. For over 400 years, Black Americans have faced a sustained campaign of extermination, not metaphorical, but literal. Native Americans have faced the same across 250 years. The threat of doing nothing is not stagnation. It is continuation of what has already been done. The second is attempting this and failing, which is why ACE has been designed with its predecessors specifically in mind, and why every legal protection and sovereignty clause in this framework exists.</p>
+      </div>
+    </div>
+    <div class="why-close reveal">
+      <p>ACE is the answer to both threats: the threat of inaction, and the threat of attempting this without the legal and sovereign architecture to make it permanent. Not a movement. Not a petition. A civilization, built by the people it is built for, on ground no one can take.</p>
+    </div>
+    <div class="why-body" style="margin-top:clamp(2.8rem,5vw,4rem)">
+      <p>In 1638, the Maryland Colony issued a public edict. It did not use the language of preference or custom. It used the language of policy. It stated plainly: <em><strong>"Neither the existing Black population, their descendants, nor any other Blacks shall be permitted to enjoy the fruits of White society."</strong></em> It became known as the Doctrine of Exclusion. Other colonies adopted it. By 1705, the Slave Codes extended it into law across the colonies, requiring every institution, churches, schools, businesses, governments, to enforce the economic and political subordination of Black people as official, mandatory public policy.</p>
+      <p>That edict was issued 388 years before ACE was founded. No one has formally reversed it. No reparation has been paid. No land has been returned. The wealth gap between Black and white Americans is wider today than it was in 1968. Black maternal mortality remains three times the rate of white women. The question people ask, why are Black Americans seemingly no better off today than when they were brought here, has a documented answer. Not a theory. Not an argument. A document. The conditions that persist today are not a failure to progress. They are the intended, named, and continuously enforced output of a system designed to produce exactly this result.</p>
+      <p>ACE is the first organized, legal, civilization-scale answer to that document. Not a protest against it. Not a petition asking for it to be reversed. A decision to build outside its reach entirely.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section builds" id="builds">
+  <div class="wrap">
+    <div class="sec-head" style="text-align:center;max-width:100%">
+      <span class="eyebrow" style="color:#DA121A">What We Build</span>
+      <hr class="hr-gold">
+      <h2>Eight systems. One self-governing whole.</h2>
+      <p class="lead">A civilization is not a slogan: it is infrastructure. These are the load-bearing institutions ACE exists to build, own, and pass down.</p>
+    </div>
+    <div class="builds-grid">
+      <div class="build reveal">
+        <div class="ico"><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 13 L14 4.5 L24 13"/><path d="M6.5 11 V23 H21.5 V11"/><path d="M11.5 23 V16 H16.5 V23"/></svg></div>
+        <div class="idx">01</div><h3>Housing</h3>
+        <p>Permanent, dignified homes held in community land trust. Equity that builds the family, never rented back at a markup.</p>
+      </div>
+      <div class="build reveal">
+        <div class="ico"><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 7.2 C11 5.2 7.4 5.2 4.5 6.2 V21.4 C7.4 20.4 11 20.4 14 22.4 C17 20.4 20.6 20.4 23.5 21.4 V6.2 C20.6 5.2 17 5.2 14 7.2 Z"/><path d="M14 7.2 V22.4"/></svg></div>
+        <div class="idx">02</div><h3>Education</h3>
+        <p>Schools that teach our histories, our sciences, and our self-governance. From early childhood through mastery, tuition-free.</p>
+      </div>
+      <div class="build reveal">
+        <div class="ico"><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="18" height="18" rx="3.5"/><path d="M14 9.5 V18.5 M9.5 14 H18.5"/></svg></div>
+        <div class="idx">03</div><h3>Healthcare</h3>
+        <p>Clinics and hospitals owned by the people they heal. Measured in outcomes and dignity, never in billing.</p>
+      </div>
+      <div class="build reveal">
+        <div class="ico"><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="14" cy="8.5" rx="8" ry="3.3"/><path d="M6 8.5 V14 C6 15.8 9.6 17.3 14 17.3 C18.4 17.3 22 15.8 22 14 V8.5"/><path d="M6 14 V19.5 C6 21.3 9.6 22.8 14 22.8 C18.4 22.8 22 21.3 22 19.5 V14"/></svg></div>
+        <div class="idx">04</div><h3>Economy</h3>
+        <p>Cooperative banks, businesses, and markets that keep the dollar circulating at home. Wealth that compounds inside the community.</p>
+      </div>
+      <div class="build reveal">
+        <div class="ico"><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 11 L14 5 L23.5 11"/><path d="M6.5 11 V20 M11 11 V20 M17 11 V20 M21.5 11 V20"/><path d="M4.5 20 H23.5 M4.5 23 H23.5"/></svg></div>
+        <div class="idx">05</div><h3>Governance</h3>
+        <p>Transparent self-rule under a written charter. Elected stewards and power that answers to the people it serves.</p>
+      </div>
+      <div class="build reveal">
+        <div class="ico"><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4 L23 7.2 V13 C23 18.4 19 22 14 24 C9 22 5 18.4 5 13 V7.2 Z"/><path d="M10.5 14 L13 16.5 L18 11"/></svg></div>
+        <div class="idx">06</div><h3>Public Safety</h3>
+        <p>Protection accountable to the neighborhood it serves. Prevention and repair before punishment.</p>
+      </div>
+      <div class="build reveal">
+        <div class="ico"><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 24 V12"/><path d="M14 14.5 C14 10 10.8 6.5 5.5 6.5 C5.5 11 8.7 14.5 14 14.5 Z"/><path d="M14 12.5 C14 8.8 16.6 6 21.5 6 C21.5 9.7 18.9 12.5 14 12.5 Z"/></svg></div>
+        <div class="idx">07</div><h3>Food &amp; Energy</h3>
+        <p>Sovereign land, water, and power generated on our own ground. A people that feeds and fuels itself cannot be starved out.</p>
+      </div>
+      <div class="build reveal">
+        <div class="ico"><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="14" cy="14" r="2.3"/><path d="M9.4 9.4 A6.5 6.5 0 0 0 9.4 18.6 M18.6 9.4 A6.5 6.5 0 0 1 18.6 18.6"/><path d="M6 6 A11 11 0 0 0 6 22 M22 6 A11 11 0 0 1 22 22"/></svg></div>
+        <div class="idx">08</div><h3>Media</h3>
+        <p>Our own presses, networks, and archives. So the story is told and kept in our own voice.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section contract" id="contract">
+  <div class="wrap">
+    <div class="sec-head" style="text-align:center;max-width:100%">
+      <span class="eyebrow" style="color:#FCD116">The ACE Social Contract</span>
+      <hr class="hr-gold">
+      <h2>Four things no member of ACE will ever go without.</h2>
+      <p class="lead" style="color:rgba(245,241,231,.72)">A nation is judged by the floor beneath its people, not the ceiling above its few. This is our floor, written into the charter, and it does not move.</p>
+    </div>
+    <div class="contract-grid">
+      <div class="guarantee reveal">
+        <div class="g-num">Guarantee 01</div><h3>Home Ownership</h3>
+        <p>Every ACE resident owns the roof over their head, real title held in trust against the market. No one is rented back the neighborhood they built.</p>
+      </div>
+      <div class="guarantee reveal">
+        <div class="g-num">Guarantee 02</div><h3>Retirement Dignity</h3>
+        <p>Every ACE elder spends their final years in dignity. Rest after a lifetime of labor is guaranteed to all residents, not gambled on a market.</p>
+      </div>
+      <div class="guarantee reveal">
+        <div class="g-num">Guarantee 03</div><h3>Healthcare Without Debt</h3>
+        <p>Care from first breath to last, free at the point of need. No family is bankrupted by the cost of staying alive.</p>
+      </div>
+      <div class="guarantee reveal">
+        <div class="g-num">Guarantee 04</div><h3>Education for Their Children</h3>
+        <p>From early childhood through mastery, tuition-free, lifelong, and rooted in who they are. The next generation inherits knowledge, not loans.</p>
+      </div>
+    </div>
+    <div class="contract-vow reveal">
+      <div class="v display">Not as aspiration. As architecture.</div>
+    </div>
+  </div>
+</section>
+
+<section class="section phases" id="phases">
+  <div class="wrap">
+    <div class="sec-head" style="text-align:center;max-width:100%">
+      <span class="eyebrow" style="color:#09A03A">The Four Phases</span>
+      <hr class="hr-gold">
+      <h2>From a movement to a civilization.</h2>
+      <p class="lead">ACE is built in deliberate sequence across twenty-five years. Each phase is the foundation the next is laid upon, patient, generational work.</p>
+    </div>
+    <div class="phase-list">
+      <div class="phase"><div class="p-meta"><div class="p-num display">01</div><div class="p-label">Phase One</div><div class="p-years">2026-2030</div></div><div class="p-body"><h3>The Movement</h3><p>We gather the people, the capital, and the covenant. The Alliance becomes a body with a charter, a treasury, and a roll of founding members.</p></div></div>
+      <div class="phase"><div class="p-meta"><div class="p-num display">02</div><div class="p-label">Phase Two</div><div class="p-years">2030-2036</div></div><div class="p-body"><h3>Territory</h3><p>ACE secures its first land on two parallel tracks. On the primary track, in partnership with sovereign nations, ACE enters the first Tribal Partnership Agreement and breaks ground on 150,000 acres of sovereign land. On the contingency track, ACE simultaneously pursues a congressional land claim to ten million acres of existing federal public land, so that the mission never depends on the consent of any single party.</p></div></div>
+      <div class="phase"><div class="p-meta"><div class="p-num display">03</div><div class="p-label">Phase Three</div><div class="p-years">2036-2044</div></div><div class="p-body"><h3>The City</h3><p>Homes, schools, clinics, and markets rise together. The first pioneer residents move onto sovereign ground and begin to govern themselves under the charter.</p></div></div>
+      <div class="phase"><div class="p-meta"><div class="p-num display">04</div><div class="p-label">Phase Four</div><div class="p-years">2044-2051</div></div><div class="p-body"><h3>Civilization</h3><p>What began as one city becomes a network of ten and more, a self-sustaining economy and culture, inherited and carried forward by generations not yet born.</p></div></div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section why" id="contingency">
+  <div class="wrap">
+    <span class="eyebrow" style="color:#DA121A;display:block;text-align:center;margin-bottom:1.1rem">The Contingency</span>
+    <hr class="hr-gold">
+    <h2 style="text-align:center;font-family:Georgia,'Times New Roman',serif">ACE does not wait on anyone's permission.</h2>
+    <div class="why-body">
+      <p>The tribal partnership track is ACE's primary path. It is not ACE's only path. ACE simultaneously pursues a congressional land claim to ten million acres of existing federal public land across ten states, so that the mission never depends on the consent of any single party, and so that every conversation with a tribal nation happens from a position of dignity rather than necessity.</p>
+      <p>The contingency framework is grounded in Special Field Order No. 15, the promise made to formerly enslaved Black Americans in January 1865 and revoked within the same year by President Andrew Johnson. One hundred sixty-one years later, Congress has never enacted a comparable remedy. ACE does not relitigate that full promise. ACE asks for something modest and achievable: ten million acres of land the federal government already holds and administers under the Bureau of Land Management, distributed across ten states, as a fraction of what was promised and never delivered.</p>
+      <p>This path runs alongside the tribal partnership track, not against it. If tribal partnership succeeds, ACE builds on sovereign land with the most durable legal protection on this continent. If it does not, ACE has already secured the ground it needs. Either way, ACE builds.</p>
+    </div>
+    <div class="why-swot reveal" style="margin-top:clamp(2.4rem,4vw,3.2rem)">
+      <div class="swot-item swot-s">
+        <div class="swot-label">The Primary Track</div>
+        <div class="swot-title display">Tribal Partnership</div>
+        <p class="swot-text">Long-term land leases with federally recognized tribal nations under the HEARTH Act of 2012. Sovereign immunity, co-governance, and the most durable legal protection available on American soil. ACE's preferred path.</p>
+      </div>
+      <div class="swot-item swot-w">
+        <div class="swot-label">The Contingency Track</div>
+        <div class="swot-title display">Congressional Land Claim</div>
+        <p class="swot-text">Ten million acres of existing Bureau of Land Management public land, one million acres each across ten states, secured through new standalone federal legislation. Grounded in the broken promise of Special Field Order No. 15. ACE's self-sufficient fallback.</p>
+      </div>
+      <div class="swot-item swot-o">
+        <div class="swot-label">The Result Either Way</div>
+        <div class="swot-title display">ACE Builds</div>
+        <p class="swot-text">Both tracks produce the same outcome: sovereign or sovereignty-equivalent land, owned by the community, governed under the ACE charter, passed to the next generation. ACE does not ask permission. ACE secures the ground and begins.</p>
+      </div>
+      <div class="swot-item swot-t">
+        <div class="swot-label">The Legal Foundation</div>
+        <div class="swot-title display">The Continuity Doctrine</div>
+        <p class="swot-text">The contingency claim rests on a legal theory drawn from the Supreme Court's own words in Dred Scott v. Sandford, which recognized tribal nations as continuous sovereign peoples even while displacing them, while denying Black Americans that same standing entirely. The government that made that distinction now bears the obligation to correct it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section why" id="humanrights">
+  <div class="wrap">
+    <span class="eyebrow" style="color:#DA121A;display:block;text-align:center;margin-bottom:1.1rem">Human Rights</span>
+    <hr class="hr-gold">
+    <h2 style="text-align:center;font-family:Georgia,'Times New Roman',serif">The leaders before us argued for civil rights.<br>ACE disagrees with the starting point.</h2>
+    <div class="why-body">
+      <p>The generations who came before ACE had good intentions and extraordinary courage. We honor every one of them. But the argument they made was built on a foundation that was already conceding too much.</p>
+      <p>They argued for civil rights. Civil rights are what a government extends to people it already recognizes as fully human. Before you can demand equal rights under the law, you first have to be recognized as a person under the law. Black Americans were not. The Supreme Court said so explicitly in 1857, in Dred Scott v. Sandford, which held that Black Americans, free or enslaved, possessed no rights that the United States was bound to respect. That was not a civil rights violation. That was something prior and more fundamental: the denial of personhood itself. You cannot build a civil rights argument on top of that and expect it to reach the root.</p>
+      <p>The deeper claim is a human rights claim. Human rights are not something a government grants. They are inherent. They exist under international law independently of what any single country&#39;s domestic system says. A government that violates them is accountable not only to its own courts, but to the international community. That is the forum where the original claim belongs, and it is a forum the prior movement never fully reached.</p>
+      <p>ACE pursues both. The domestic fight continues through BATEI and the contingency land claim. But ACE simultaneously advances its human rights claim before international bodies whose authority does not depend on the goodwill of the United States government. These are not competing strategies. They are the same claim pursued at every level it belongs.</p>
+    </div>
+    <div class="why-swot reveal" style="margin-top:clamp(2.4rem,4vw,3.2rem)">
+      <div class="swot-item swot-w">
+        <div class="swot-label">The Prior Argument</div>
+        <div class="swot-title display">Civil Rights</div>
+        <p class="swot-text">What a government extends to those it already recognizes as human. A necessary fight. But it accepts as its starting point a system that denied the underlying premise. You cannot petition for recognition from an institution that was designed to withhold it.</p>
+      </div>
+      <div class="swot-item swot-s">
+        <div class="swot-label">The Prior Argument&#39;s Blind Spot</div>
+        <div class="swot-title display">Human Rights Come First</div>
+        <p class="swot-text">Before civil rights comes personhood. Black Americans were declared non-persons under U.S. law before any civil rights framework existed. That is a human rights violation, and it requires a human rights remedy, not only a domestic civil rights one.</p>
+      </div>
+      <div class="swot-item swot-o">
+        <div class="swot-label">ACE&#39;s Additional Track</div>
+        <div class="swot-title display">The International Stage</div>
+        <p class="swot-text">Human rights are recognized under international law independently of what any domestic government says. International bodies do not require the United States to agree before they can find it accountable. ACE brings the claim there too.</p>
+      </div>
+      <div class="swot-item swot-t">
+        <div class="swot-label">Why Both Matter</div>
+        <div class="swot-title display">Neither Track Alone Is Enough</div>
+        <p class="swot-text">Domestic remedies alone depend on the same system that caused the harm. International remedies alone produce no immediate enforcement. Together they create reputational, diplomatic, and legal pressure from every direction at once. ACE pursues both because the claim demands both.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section involved" id="involved">
+  <div class="wrap">
+    <div class="sec-head" style="text-align:center;max-width:100%">
+      <span class="eyebrow" style="color:#FCD116">Get Involved</span>
+      <hr class="hr-gold">
+      <h2>The founding needs founders.</h2>
+      <p class="lead" style="color:rgba(255,255,255,.85)">This is not a mailing list to join. It is a civilization to build. Find where you stand and bring what you carry.</p>
+    </div>
+    <div class="involved-grid">
+      <div class="invite reveal"><div class="i-tag">Tribal Leaders &amp; Attorneys</div><h3>A Shared Founding</h3><p>You carry sovereign authority and the legal standing that makes this lawful and lasting. Partner on a founding built on mutual respect, not extraction.</p><a class="i-link" href="#connect" data-role="Tribal Leader / Attorney">Open a dialogue</a></div>
+      <div class="invite reveal"><div class="i-tag">Black Americans of Means</div><h3>Move Capital Into Ownership</h3><p>Turn wealth from a private asset into a public inheritance. Fund the institutions your descendants will own outright.</p><a class="i-link" href="#connect" data-role="Investor / Major Donor">Become a founding patron</a></div>
+      <div class="invite reveal"><div class="i-tag">Community Ministers &amp; Pastors</div><h3>Mobilize the Faithful</h3><p>Your congregation is the moral and organizing backbone of any lasting movement. Make it the ground floor of this one.</p><a class="i-link" href="#connect" data-role="Community Minister / Pastor">Enlist your congregation</a></div>
+      <div class="invite reveal"><div class="i-tag">Lawyers, Doctors, Engineers, Planners</div><h3>Build It With Your Craft</h3><p>A city is raised by those who know how to build one. Bring your profession to the founding and help carry it from charter to skyline.</p><a class="i-link" href="#connect" data-role="Professional / Builder">Offer your expertise</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="section act" id="act">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow" style="color:#FCD116;display:block;text-align:center;margin-bottom:1.5rem">The Founding Charter</span>
+      <hr class="hr-gold">
+      <h2>Read the ACE Act.</h2>
+      <p>The ACE Act is the founding charter, the full legal and structural blueprint for the Alliance, published openly for anyone to read, scrutinize, and build upon. A civilization that hides its constitution is not building one. Ours is in the open, version-controlled, and free to fork.</p>
+    </div>
+    <div style="background:#111111;border:1px solid rgba(252,209,22,.22);border-radius:6px;overflow:hidden;">
+      <div style="padding:.75rem 1.4rem;background:rgba(252,209,22,.08);border-bottom:1px solid rgba(252,209,22,.18);">
+        <span style="font-size:.68rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#FCD116;">Founding Documents</span>
+      </div>
+      <table style="width:100%;border-collapse:collapse;">
+        <thead>
+          <tr style="border-bottom:1px solid rgba(252,209,22,.14);">
+            <th style="text-align:left;padding:.75rem 1.4rem;font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:rgba(245,241,231,.45);">Document</th>
+            <th style="text-align:left;padding:.75rem 1.4rem;font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:rgba(245,241,231,.45);">Version</th>
+            <th style="padding:.75rem 1.4rem;font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:rgba(245,241,231,.45);"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom:1px solid rgba(252,209,22,.10);transition:background .2s;" onmouseover="this.style.background='rgba(252,209,22,.05)'" onmouseout="this.style.background='transparent'">
+            <td style="padding:1.1rem 1.4rem;">
+              <div style="font-family:Georgia,'Times New Roman',serif;font-size:1.05rem;color:#F5F1E7;font-weight:600;">The Founding Position</div>
+              <div style="font-size:.78rem;color:rgba(245,241,231,.5);margin-top:.25rem;">Why ACE Is Here, Not There: the philosophical and historical foundation</div>
+            </td>
+            <td style="padding:1.1rem 1.4rem;">
+              <span style="font-size:.75rem;font-weight:700;letter-spacing:.08em;color:#FCD116;background:rgba(252,209,22,.12);padding:.25rem .65rem;border-radius:2px;">v1.2</span>
+            </td>
+            <td style="padding:1.1rem 1.4rem;text-align:right;">
+              <a href="https://acecommunities.org/docs/ACE_Founding_Position_v1.2_2026-06.pdf" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:.4rem;font-size:.82rem;font-weight:700;color:#FCD116;background:rgba(252,209,22,.1);border:1px solid rgba(252,209,22,.3);padding:.45rem 1rem;border-radius:2px;transition:background .2s,color .2s;text-decoration:none;" onmouseover="this.style.background='#FCD116';this.style.color='#000000'" onmouseout="this.style.background='rgba(252,209,22,.1)';this.style.color='#FCD116'">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Open PDF
+              </a>
+            </td>
+          </tr>
+          <tr style="border-bottom:1px solid rgba(252,209,22,.10);transition:background .2s;" onmouseover="this.style.background='rgba(252,209,22,.05)'" onmouseout="this.style.background='transparent'">
+            <td style="padding:1.1rem 1.4rem;">
+              <div style="font-family:Georgia,'Times New Roman',serif;font-size:1.05rem;color:#F5F1E7;font-weight:600;">Executive Summary</div>
+              <div style="font-size:.78rem;color:rgba(245,241,231,.5);margin-top:.25rem;">The Vision: Strategic overview in brief</div>
+            </td>
+            <td style="padding:1.1rem 1.4rem;">
+              <span style="font-size:.75rem;font-weight:700;letter-spacing:.08em;color:#FCD116;background:rgba(252,209,22,.12);padding:.25rem .65rem;border-radius:2px;">v1.9</span>
+            </td>
+            <td style="padding:1.1rem 1.4rem;text-align:right;">
+              <a href="https://acecommunities.org/docs/ACE_Executive_Summary_v1.9_2026-06.pdf" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:.4rem;font-size:.82rem;font-weight:700;color:#FCD116;background:rgba(252,209,22,.1);border:1px solid rgba(252,209,22,.3);padding:.45rem 1rem;border-radius:2px;transition:background .2s,color .2s;text-decoration:none;" onmouseover="this.style.background='#FCD116';this.style.color='#000000'" onmouseout="this.style.background='rgba(252,209,22,.1)';this.style.color='#FCD116'">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Open PDF
+              </a>
+            </td>
+          </tr>
+          <tr style="transition:background .2s;" onmouseover="this.style.background='rgba(252,209,22,.05)'" onmouseout="this.style.background='transparent'">
+            <td style="padding:1.1rem 1.4rem;">
+              <div style="font-family:Georgia,'Times New Roman',serif;font-size:1.05rem;color:#F5F1E7;font-weight:600;">The ACE Act</div>
+              <div style="font-size:.78rem;color:rgba(245,241,231,.5);margin-top:.25rem;">Founding Charter: 22 Titles, 752+ Paragraphs</div>
+            </td>
+            <td style="padding:1.1rem 1.4rem;">
+              <span style="font-size:.75rem;font-weight:700;letter-spacing:.08em;color:#FCD116;background:rgba(252,209,22,.12);padding:.25rem .65rem;border-radius:2px;">v1.9</span>
+            </td>
+            <td style="padding:1.1rem 1.4rem;text-align:right;">
+              <a href="https://acecommunities.org/docs/ACE_Community_and_Development_Act_v1.9.pdf" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:.4rem;font-size:.82rem;font-weight:700;color:#FCD116;background:rgba(252,209,22,.1);border:1px solid rgba(252,209,22,.3);padding:.45rem 1rem;border-radius:2px;transition:background .2s,color .2s;text-decoration:none;" onmouseover="this.style.background='#FCD116';this.style.color='#000000'" onmouseout="this.style.background='rgba(252,209,22,.1)';this.style.color='#FCD116'">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Open PDF
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div style="padding:.75rem 1.4rem;border-top:1px solid rgba(252,209,22,.14);">
+        <span style="font-size:.72rem;color:rgba(245,241,231,.35);">Documents open in your browser's native PDF viewer. No download required.</span>
+      </div>
+      <div style="padding:1.4rem 1.4rem 1.6rem;border-top:1px solid rgba(252,209,22,.14);text-align:center;">
+        <p style="font-family:Georgia,'Times New Roman',serif;font-size:1.05rem;color:rgba(245,241,231,.82);margin-bottom:1rem;">Read it. Tell us what you think.</p>
+        <a href="/react" style="display:inline-flex;align-items:center;gap:.5rem;font-size:.86rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#000000;background:#FCD116;padding:.65rem 1.5rem;border-radius:2px;transition:background .2s;"  onmouseover="this.style.background='#E3BC0E'" onmouseout="this.style.background='#FCD116'">
+          React to the Plan
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      <div style="display:none;"
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section connect" id="connect">
+  <div class="wrap">
+    <span class="eyebrow" style="color:#09A03A">Stay Connected</span>
+    <hr class="hr-gold" style="margin-left:auto;margin-right:auto">
+    <h2>The founding is happening in public.</h2>
+    <p>No spam, no noise. Only the dispatches that matter as the Alliance takes shape. Add your name to the founding record.</p>
+    <form class="form" id="signup" novalidate>
+      <input type="text" name="name" placeholder="Your name" autocomplete="name" required aria-label="Your name">
+      <input type="email" name="email" placeholder="you@email.com" autocomplete="email" required aria-label="Email address">
+      <button class="btn btn-primary" type="submit">Join the founding</button>
+    </form>
+    <div id="roleTag" style="font-size:.84rem;color:#09A03A;font-weight:600;margin-top:.6rem;min-height:1.2em;text-align:center"></div>
+    <input type="hidden" id="roleField" name="role" value="">
+    <div class="form-note" id="formNote" role="status" aria-live="polite"></div>
+    <div class="share-label">Help spread the word</div>
+    <div class="share">
+      <button type="button" data-share="x" aria-label="Post on X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 1.5h3.7l-8 9.1 9.4 12.4h-7.4l-5.8-7.6-6.6 7.6H.5l8.5-9.8L0 1.5h7.6l5.2 6.9 6.1-6.9Zm-1.3 19.8h2L6.5 3.6H4.4l13.2 17.7Z"/></svg>Post</button>
+      <button type="button" data-share="linkedin" aria-label="Share on LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.74v20.51C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.74C24 .78 23.2 0 22.22 0Z"/></svg>LinkedIn</button>
+      <button type="button" data-share="copy" aria-label="Copy link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg><span data-copy-label>Copy Link</span></button>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-top">
+      <svg class="foot-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 520" width="440" height="520" role="img" aria-label="ACE crest">
+<defs>
+  <clipPath id="shieldClipF"><path d="M90 60 L350 60 L350 200 C350 282 300 342 220 382 C140 342 90 282 90 200 Z"></path></clipPath>
+  <linearGradient id="vaneGradF" x1="290" y1="256" x2="252" y2="90" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#F7EEDB"></stop><stop offset="0.22" stop-color="#E7CD99"></stop>
+    <stop offset="0.52" stop-color="#CB9D55"></stop><stop offset="0.8" stop-color="#9A6C2D"></stop><stop offset="1" stop-color="#5C3B13"></stop>
+  </linearGradient>
+  <radialGradient id="sunGradF" cx="0.5" cy="0.95" r="0.95">
+    <stop offset="0" stop-color="#FDE08A"></stop><stop offset="0.55" stop-color="#FCD116"></stop><stop offset="1" stop-color="#E0B408"></stop>
+  </radialGradient>
+</defs>
+<g clip-path="url(#shieldClipF)">
+  <rect x="86" y="56" width="134" height="146" fill="#DA121A"></rect>
+  <rect x="220" y="56" width="136" height="146" fill="#FCD116"></rect>
+  <rect x="86" y="200" width="134" height="192" fill="#09A03A"></rect>
+  <rect x="220" y="200" width="136" height="192" fill="#000000"></rect>
+  <g transform="translate(62,-18) scale(0.58)"><g transform="translate(-4,22)">
+    <path d="M198 262 C 214 232 220 204 197 197 C 178 191 165 199 161 211" stroke="#3D2408" stroke-width="20" fill="none" stroke-linecap="round"></path>
+    <ellipse cx="172" cy="277" rx="41" ry="29" transform="rotate(-15 172 277)" fill="#3D2408"></ellipse>
+    <path d="M144 272 C 126 256 115 232 112 209 L 134 222 C 142 243 150 258 154 266 Z" fill="#3D2408" stroke-linejoin="round"></path>
+    <circle cx="159" cy="205" r="12" fill="#3D2408"></circle>
+    <path d="M198 262 C 214 232 220 204 197 197 C 178 191 165 199 161 211" stroke="#FAF6EF" stroke-width="13.5" fill="none" stroke-linecap="round"></path>
+    <ellipse cx="172" cy="277" rx="37.5" ry="25.5" transform="rotate(-15 172 277)" fill="#FAF6EF"></ellipse>
+    <path d="M145 270 C 129 256 119 233 117 213 L 134 224 C 142 244 149 257 153 265 Z" fill="#FAF6EF"></path>
+    <circle cx="159" cy="204" r="9.5" fill="#FAF6EF"></circle>
+    <path d="M152 209 L147 224 L161 213 Z" fill="#3D2408"></path>
+    <circle cx="156" cy="202" r="1.7" fill="#3D2408"></circle>
+    <path d="M167 300 L161 332 M161 332 L153 336 M161 332 L169 335 M185 297 L190 330 M190 330 L183 334 M190 330 L198 333" stroke="#3D2408" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+    <ellipse cx="150" cy="231" rx="8.5" ry="10.5" fill="#FCD116" stroke="#3D2408" stroke-width="1.6"></ellipse>
+    <ellipse cx="147" cy="227.5" rx="2.4" ry="3.2" fill="#FAF6EF" opacity="0.85"></ellipse>
+  </g></g>
+  <g transform="translate(116.04,19.92) scale(0.64)">
+    <path d="M283.02 235.1 C 290 256, 296 268, 300 286" stroke="#3D2408" stroke-width="3" fill="none" stroke-linecap="round"></path>
+    <path d="M252 90L254.51 88.36L258.16 90.14L260.67 92.64L262.89 95.32L264.92 98.11L266.82 100.97L268.61 103.9L270.3 106.88L271.9 109.92L273.42 113.01L274.85 116.15L276.21 119.34L277.48 122.59L278.68 125.89L279.81 129.25L280.86 132.66L281.83 136.14L282.73 139.67L283.56 143.27L284.31 146.94L285 150.66L285.61 154.46L286.16 158.32L286.63 162.25L287.05 166.25L287.39 170.33L287.68 174.47L287.9 178.69L288.06 182.98L288.16 187.35L288.2 191.8L288.18 196.33L288.09 200.95L287.94 205.67L287.7 210.49L287.37 215.44L286.89 220.56L286.15 225.98L284.85 231.98L286.01 235.64L287.19 239.3L288.39 242.94L289.6 246.58L290.84 250.22L292.09 253.85L287.02 255.62L285.76 251.97L284.52 248.3L283.3 244.64L282.09 240.96L280.9 237.29L279.74 233.6L275.25 229.36L271.61 225.22L268.39 221.12L265.43 217.03L262.67 212.95L260.08 208.88L257.64 204.8L255.34 200.74L253.18 196.67L251.16 192.62L249.26 188.57L247.5 184.53L245.87 180.49L244.37 176.48L243 172.47L241.76 168.48L240.65 164.51L239.67 160.56L238.83 156.63L238.11 152.72L237.52 148.84L237.06 144.98L236.72 141.15L236.52 137.35L236.43 133.57L236.48 129.84L236.65 126.13L236.94 122.46L237.36 118.83L237.91 115.23L238.58 111.68L239.38 108.17L240.32 104.71L241.41 101.31L242.68 97.97L244.18 94.72L246.03 91.61L249.18 88.98Z" fill="url(#vaneGradF)" stroke="#5C3B13" stroke-width="0.8" stroke-linejoin="round"></path>
+    <path d="M285 150 L268 142 M286 170 L266 165 M287 190 L266 188 M286 210 L268 211 M283 228 L270 230 M283 150 L266 140 M281 132 L266 124 M278 116 L264 106 M273 102 L262 92 M283.5 170 L300 165 M284 190 L302 188 M283 210 L300 211" stroke="#5C3B13" stroke-width="0.9" fill="none" opacity="0.55"></path>
+    <path d="M290 256 C 262 176, 257 133, 252 90" stroke="#43290B" stroke-width="1.6" fill="none" stroke-linecap="round"></path>
+  </g>
+  <g fill="none" stroke="#FCD116" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" transform="translate(161,257) scale(1.18) translate(-161,-257)">
+    <path d="M150 273 C146 266 134 256 134 249 C134 242 143 241 150 249 C157 241 166 242 166 249 C166 256 154 266 150 273 Z"></path>
+    <path d="M172 273 C168 266 156 256 156 249 C156 242 165 241 172 249 C179 241 188 242 188 249 C188 256 176 266 172 273 Z"></path>
+  </g>
+  <g>
+    <g stroke="#FCD116" stroke-width="3" stroke-linecap="round">
+      <line x1="296.55" y1="263.79" x2="310.65" y2="258.66"></line><line x1="293.04" y1="257.39" x2="304.94" y2="248.26"></line>
+      <line x1="287.77" y1="252.34" x2="296.37" y2="240.05"></line><line x1="281.22" y1="249.11" x2="285.73" y2="234.81"></line>
+      <line x1="274" y1="248" x2="274" y2="233"></line><line x1="266.78" y1="249.11" x2="262.27" y2="234.81"></line>
+      <line x1="260.23" y1="252.34" x2="251.63" y2="240.05"></line><line x1="254.96" y1="257.39" x2="243.06" y2="248.26"></line>
+      <line x1="251.45" y1="263.79" x2="237.35" y2="258.66"></line>
+    </g>
+    <path d="M254 272 A20 20 0 0 1 294 272 Z" fill="url(#sunGradF)" stroke="#E0B408" stroke-width="1.2"></path>
+    <line x1="242" y1="272" x2="306" y2="272" stroke="#FCD116" stroke-width="3" stroke-linecap="round"></line>
+  </g>
+  <path d="M220 60 L220 382" stroke="#FCD116" stroke-width="3.5" fill="none"></path>
+  <path d="M90 200 L350 200" stroke="#FCD116" stroke-width="3.5" fill="none"></path>
+</g>
+<path d="M90 60 L350 60 L350 200 C350 282 300 342 220 382 C140 342 90 282 90 200 Z" fill="none" stroke="#3D2408" stroke-width="6"></path>
+<path d="M104 73 L336 73 L336 200 C336 273 292 327 220 363 C148 327 104 273 104 200 Z" fill="none" stroke="#C9A84C" stroke-width="2"></path>
+<text x="220" y="458" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="74" font-weight="800" fill="#3D2408" letter-spacing="5">ACE</text>
+<g>
+  <path d="M70 486 L96 476 L96 506 L70 516 Z" fill="#2A1905"></path>
+  <path d="M370 486 L344 476 L344 506 L370 516 Z" fill="#2A1905"></path>
+  <path d="M92 472 L348 472 L340 491 L348 510 L92 510 L100 491 Z" fill="#3D2408"></path>
+  <text x="220" y="495.5" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10.5" font-weight="600" letter-spacing="1.2" fill="#C9A84C">FOR OUR PEOPLE, BY OUR PEOPLE</text>
+</g>
+</svg>
+      <div class="foot-cols">
+        <div class="foot-col">
+          <h4>The Alliance</h4>
+          <a href="#crest">The ACE Crest</a>
+          <a href="#builds">What We Build</a>
+          <a href="#contract">Social Contract</a>
+          <a href="#phases">The Four Phases</a>
+          <a href="#contingency">The Contingency</a>
+          <a href="#humanrights">Human Rights</a>
+        </div>
+        <div class="foot-col">
+          <h4>Take Part</h4>
+          <a href="#involved">Get Involved</a>
+      <a href="/react" style="color:#DA121A;font-weight:700;">React to the Plan</a>
+          <a href="#act">Read the ACE Act</a>
+          <a href="#connect">Stay Connected</a>
+        </div>
+        <div class="foot-col">
+          <h4>The Charter</h4>
+          <a href="https://acecommunities.org/docs/ACE_Community_and_Development_Act_v1.9.pdf" target="_blank" rel="noopener">The ACE Act v1.9</a>
+          <a href="https://acecommunities.org/docs/ACE_Executive_Summary_v1.9_2026-06.pdf" target="_blank" rel="noopener">Executive Summary v1.9</a>
+          <a href="https://acecommunities.org/docs/ACE_Founding_Position_v1.2_2026-06.pdf" target="_blank" rel="noopener">The Founding Position v1.2</a>
+          <a href="#connect">Contact the Board</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div class="foot-founder">
+        <div class="sig">Léandre Poplus</div>
+        <div class="role">Founder &amp; Convener, Founding Board of ACE</div>
+        <div class="foot-motto">For our people, by our people.</div>
+      </div>
+      <div class="foot-meta">
+        Alliance for Collective Empowerment and Development<br>
+        Established 2026, Convened by the Founding Board
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var nodes=document.querySelectorAll('.reveal');
+  if(reduce||!('IntersectionObserver' in window)){nodes.forEach(function(n){n.classList.add('in')});}
+  else{var io=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:0.16,rootMargin:'0px 0px -8% 0px'});nodes.forEach(function(n){io.observe(n)})}
+  /* role tagging from invite cards */
+  document.querySelectorAll('[data-role]').forEach(function(a){
+    a.addEventListener('click',function(){
+      var role=a.getAttribute('data-role');
+      var field=document.getElementById('roleField');
+      var tag=document.getElementById('roleTag');
+      if(field)field.value=role;
+      if(tag)tag.textContent='Reaching out as: '+role;
+    });
+  });
+  var form=document.getElementById('signup');
+  var note=document.getElementById('formNote');
+  if(form){form.addEventListener('submit',function(e){e.preventDefault();var name=form.name.value.trim();var email=form.email.value.trim();var role=document.getElementById('roleField').value||'General';var ok=/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);if(!name||!ok){note.style.color='#DA121A';note.textContent=!name?'Please add your name.':'Please enter a valid email address.';return;}note.style.color='#574E40';note.textContent='Sending...';var data=new FormData();data.append('name',name);data.append('email',email);data.append('role',role);fetch('/submit.php',{method:'POST',body:data}).then(function(r){return r.json()}).then(function(j){if(j.success){note.style.color='#09A03A';note.textContent=name.split(' ')[0]+', your name is on the founding record. We\u2019ll be in touch.';form.reset();document.getElementById('roleField').value='';document.getElementById('roleTag').textContent='';setTimeout(function(){note.textContent='';},5000);}else{note.style.color='#DA121A';note.textContent='Something went wrong. Please try again.';}}).catch(function(){note.style.color='#DA121A';note.textContent='Something went wrong. Please try again.';});});}
+  var url=window.location.href;
+  var text='We are not asking for a seat at the table. We are building our own. The Alliance for Collective Empowerment and Development';
+  document.querySelectorAll('[data-share]').forEach(function(b){b.addEventListener('click',function(){var k=b.getAttribute('data-share');var u=encodeURIComponent(url),t=encodeURIComponent(text),link='';if(k==='x'){link='https://twitter.com/intent/tweet?text='+t+'&url='+u;}else if(k==='linkedin'){link='https://www.linkedin.com/sharing/share-offsite/?url='+u;}else if(k==='copy'){var lbl=b.querySelector('[data-copy-label]');var done=function(){if(lbl){var o=lbl.textContent;lbl.textContent='Copied';setTimeout(function(){lbl.textContent=o},1600)}};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url).then(done,done)}else{done()}return;}window.open(link,'_blank','noopener,width=600,height=540')})});
+})();
+</script>
+</body>
+</html>
