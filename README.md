@@ -33,7 +33,7 @@ ACE-Community-and-Development-Act/
 │   ├── Minister_Louis_Farrakhan_v1.9_2026-06.pdf
 │   └── Community_Ministry_Leaders_v1.9_2026-06.pdf
 ├── landing/
-│   ├── index_v8_17_2026-06.html
+│   ├── index_v8_19_2026-06.html
 │   ├── crest_v2_2026-06.svg
 │   └── crest_v2_2026-06.png
 ├── legal/
@@ -47,10 +47,11 @@ ACE-Community-and-Development-Act/
 │   ├── ACE_Jurisdictional_Sovereignty_Brief_v1.0_2026-06.pdf
 │   ├── ACE_Pharma_Review_Board_Brief_v1.0_2026-06.pdf
 │   └── ACE_Title_XXI_Contingency_Brief_v1.0_2026-06.pdf
+├── active-versions/               ← latest version of every document, always current
 └── onepagers/
-    ├── ACE_OnePager_Obama_Tier0_v1.0_2026-06.docx
+    ├── ACE_OnePager_Obama_Tier0_v1.1_2026-06.docx
     ├── ACE_OnePager_Tier1_Wealth_v1.0_2026-06.docx
-    ├── ACE_OnePager_Tier2_Ideology_v1.0_2026-06.docx
+    ├── ACE_OnePager_Tier2_Ideology_v1.1_2026-06.docx
     ├── ACE_OnePager_Tier3_Ministry_v1.0_2026-06.docx
     └── ACE_OnePager_Covers_v1.5_2026-06.pdf
 ```
@@ -95,7 +96,7 @@ Three companion legal briefs pre-arguing ACE's most legally challengeable provis
 
 ## Landing Page
 
-Live at https://acecommunities.org (SSL confirmed). Current version: v8.17.
+Live at https://acecommunities.org (SSL confirmed). Current version: v8.19.
 
 Features: crest v2, Why ACE Exists section, Contingency Framework section (parallel land claim track, two-track SWOT grid, Continuity Doctrine), role-tagged Get Involved form, document table with PDF links to v1.8 documents, footer with direct PDF links, share section, email capture routing to founders@ and info@ via submit.php.
 
@@ -137,6 +138,11 @@ Features: crest v2, Why ACE Exists section, Contingency Framework section (paral
 | v33 | UN Submission document v1.0 added: standalone CERD submission on reparations for chattel enslavement, 10 pages, 7 sections, 5 specific requests to the Committee |
 | v34 | Repo reorganized: all docx files moved to docx/ subfolders in documents/ and legal/; missing PDFs added (Title XXI Contingency Brief, UN Submission) |
 | v35 | Landing page v8.17: Maryland Doctrine of Exclusion added to Why ACE Had to Be Built section (renamed from Why ACE Exists); section title updated throughout |
+| v36 | One-pagers Obama v1.1 and Farrakhan Tier 2 v1.1: em dashes removed, 22 Titles updated, supporting legal documentation list added, direct contact block added (951-323-7942) |
+| v37 | Obama and Farrakhan full letters v2.0: 22 Titles, supporting legal documentation list (Contingency Brief, UN Submission), direct contact 951-323-7942 added to both |
+| v38 | Landing page v8.18: nav labels shortened (Why ACE Had to Be Built to Why ACE, What ACE is Building to What We Build, The Contingency Framework to The Contingency, The Human Rights Doctrine to Human Rights) |
+| v39 | Obama and Farrakhan letters updated to v2.1; active-versions folder created with latest version of every document |
+| v40 | Landing page v8.19: The Contingency section first paragraph updated to name both paths before referencing them; README v40 |
 
 ---
 
