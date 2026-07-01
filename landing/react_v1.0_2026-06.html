@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>React to the Plan — ACE: Alliance for Collective Empowerment and Development</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBjbGFzcz0iY3Jlc3QiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDQ0MCA1OTAiIHdpZHRoPSI0NDAiIGhlaWdodD0iNTkwIj4KPGRlZnM+PGNsaXBQYXRoIGlkPSJzYyI+PHBhdGggZD0iTTkwIDYwIEwzNTAgNjAgTDM1MCAyMDAgQzM1MCAyODIgMzAwIDM0MiAyMjAgMzgyIEMxNDAgMzQyIDkwIDI4MiA5MCAyMDAgWiIvPjwvY2xpcFBhdGg+PC9kZWZzPgo8ZyBjbGlwLXBhdGg9InVybCgjc2MpIj48cmVjdCB4PSI4NiIgeT0iNTYiIHdpZHRoPSIxMzQiIGhlaWdodD0iMTQ2IiBmaWxsPSIjREExMjFBIi8+PHJlY3QgeD0iMjIwIiB5PSI1NiIgd2lkdGg9IjEzNiIgaGVpZ2h0PSIxNDYiIGZpbGw9IiNGQ0QxMTYiLz48cmVjdCB4PSI4NiIgeT0iMjAwIiB3aWR0aD0iMTM0IiBoZWlnaHQ9IjE5MiIgZmlsbD0iIzA5QTAzQSIvPjxyZWN0IHg9IjIyMCIgeT0iMjAwIiB3aWR0aD0iMTM2IiBoZWlnaHQ9IjE5MiIgZmlsbD0iIzAwMDAwMCIvPjwvZz4KPHBhdGggZD0iTTkwIDYwIEwzNTAgNjAgTDM1MCAyMDAgQzM1MCAyODIgMzAwIDM0MiAyMjAgMzgyIEMxNDAgMzQyIDkwIDI4MiA5MCAyMDAgWiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjM0QyNDA4IiBzdHJva2Utd2lkdGg9IjYiLz4KPHRleHQgeD0iMjIwIiB5PSI0NTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhIiBmb250LXNpemU9Ijc0IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjM0QyNDA4IiBsZXR0ZXItc3BhY2luZz0iNSI+QUNFPC90ZXh0Pgo8ZyA+PHBhdGggZD0iTTcwIDQ4NiBMOTYgNDc2IEw5NiA1MDYgTDcwIDUxNiBaIiBmaWxsPSIjMkExOTA1Ii8+PHBhdGggZD0iTTM3MCA0ODYgTDM0NCA0NzYgTDM0NCA1MDYgTDM3MCA1MTYgWiIgZmlsbD0iIzJBMTkwNSIvPjxwYXRoIGQ9Ik05MiA0NzIgTDM0OCA0NzIgTDM0MCA0OTEgTDM0OCA1MTAgTDkyIDUxMCBMMTAwIDQ5MSBaIiBmaWxsPSIjM0QyNDA4Ii8+PHRleHQgeD0iMjIwIiB5PSI0OTUuNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Ikdlb3JnaWEiIGZvbnQtc2l6ZT0iMTAuNSIgZm9udC13ZWlnaHQ9IjYwMCIgbGV0dGVyLXNwYWNpbmc9IjEuMiIgZmlsbD0iI0M5QTg0QyI+Rk9SIE9VUiBQRU9QTEUsIEJZIE9VUiBQRU9QTEU8L3RleHQ+PC9nPgo8L3N2Zz4K">
+<meta name="description" content="Read the plan. Tell us what you think. Your reaction becomes part of the record.">
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#F5F1E7;color:#15120E;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;font-size:17px;line-height:1.66;font-weight:400;-webkit-font-smoothing:antialiased}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+p{margin:0;text-wrap:pretty}
+h1,h2,h3,h4{margin:0;font-weight:400;line-height:1.08;letter-spacing:-.005em;color:#15120E}
+.wrap{max-width:1180px;margin:0 auto;padding:0 clamp(1.25rem,4vw,2.75rem)}
+.eyebrow{font-weight:700;font-size:1rem;letter-spacing:.24em;text-transform:uppercase}
+/* NAV */
+.site-head{position:sticky;top:0;z-index:60;background:#000000;border-bottom:1px solid rgba(252,209,22,.30)}
+.site-head .wrap{display:flex;align-items:center;justify-content:space-between;height:78px;gap:1.5rem}
+.brand{display:flex;align-items:baseline;gap:.6rem}
+.brand .mark{font-family:Georgia,'Times New Roman',serif;font-size:1.5rem;letter-spacing:.14em;color:#FCD116}
+.brand small{font-weight:500;font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;color:rgba(245,241,231,.55)}
+.nav{display:flex;align-items:center;gap:2.1rem}
+.nav a{font-size:.82rem;font-weight:500;letter-spacing:.02em;color:rgba(245,241,231,.78);position:relative;transition:color .2s}
+.nav a::after{content:"";position:absolute;left:0;bottom:-6px;width:0;height:1.5px;background:#FCD116;transition:width .25s}
+.nav a:hover{color:#FFFFFF}
+.nav a:hover::after{width:100%}
+/* HERO */
+.hero{background:#000000;color:#F5F1E7;text-align:center;padding:clamp(3.5rem,7vw,6rem) 0 clamp(3rem,6vw,5rem);position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(110% 70% at 50% 0%,rgba(252,209,22,.10),transparent 62%);pointer-events:none}
+.hero::after{content:"";position:absolute;left:50%;bottom:0;transform:translateX(-50%);width:min(880px,82%);height:1px;background:linear-gradient(90deg,transparent,rgba(252,209,22,.6),transparent)}
+.hero .wrap{position:relative}
+.hero .eyebrow{color:#FCD116;display:block;margin-bottom:1.7rem}
+.hero h1{font-family:Georgia,'Times New Roman',serif;font-size:clamp(2.2rem,5.5vw,4rem);line-height:1.06;letter-spacing:-.012em;color:#F5F1E7;max-width:18ch;margin:0 auto}
+.hero .sub{max-width:48rem;margin:clamp(1.4rem,2.5vw,2rem) auto 0;color:rgba(245,241,231,.72);font-size:clamp(1.06rem,1.5vw,1.22rem);line-height:1.7}
+.hero .doc-links{display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center;margin-top:clamp(2rem,3.5vw,2.8rem)}
+.doc-pill{display:inline-flex;align-items:center;gap:.45rem;font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#FCD116;background:rgba(252,209,22,.10);border:1px solid rgba(252,209,22,.3);padding:.45rem 1rem;border-radius:2px;transition:background .2s,color .2s}
+.doc-pill:hover{background:#FCD116;color:#000000}
+.doc-pill svg{flex-shrink:0}
+/* FORM SECTION */
+.form-section{padding:clamp(4rem,8vw,7rem) 0}
+.form-wrap{max-width:760px;margin:0 auto}
+.section-label{font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:#DA121A;margin-bottom:1.8rem;display:block}
+/* QUESTION BLOCKS */
+.q-block{margin-bottom:clamp(2.2rem,4vw,3rem)}
+.q-block label{display:block;font-family:Georgia,'Times New Roman',serif;font-size:clamp(1.18rem,2.2vw,1.5rem);color:#15120E;margin-bottom:.9rem;line-height:1.28}
+.q-block .q-hint{font-size:.88rem;color:#574E40;margin-bottom:1rem;display:block}
+/* INPUTS */
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:clamp(2rem,3.5vw,2.8rem)}
+.field-col{display:flex;flex-direction:column;gap:.45rem}
+.field-col label{font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#574E40}
+input[type=text],input[type=email],select,textarea{width:100%;font-family:inherit;font-size:1rem;color:#15120E;background:#FFFFFF;border:1.5px solid rgba(0,0,0,.18);border-radius:2px;padding:.82rem 1rem;outline:none;transition:border-color .2s,box-shadow .2s;-webkit-appearance:none}
+input[type=text]:focus,input[type=email]:focus,select:focus,textarea:focus{border-color:#DA121A;box-shadow:0 0 0 3px rgba(218,18,26,.10)}
+select{cursor:pointer;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23574E40' stroke-width='1.8' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 1rem center}
+textarea{resize:vertical;min-height:130px;line-height:1.6}
+/* RADIO GROUP */
+.radio-group{display:flex;gap:.65rem;flex-wrap:wrap}
+.radio-opt{position:relative}
+.radio-opt input[type=radio]{position:absolute;opacity:0;width:0;height:0}
+.radio-opt label{display:inline-flex;align-items:center;gap:.5rem;cursor:pointer;font-size:.88rem;font-weight:600;letter-spacing:.04em;color:#574E40;background:#FFFFFF;border:1.5px solid rgba(0,0,0,.16);border-radius:2px;padding:.55rem 1.1rem;transition:border-color .2s,background .2s,color .2s;user-select:none}
+.radio-opt input[type=radio]:checked + label{background:#DA121A;border-color:#DA121A;color:#FFFFFF}
+.radio-opt label:hover{border-color:#DA121A;color:#DA121A}
+.radio-opt input[type=radio]:checked + label:hover{color:#FFFFFF}
+/* DIVIDER */
+.q-divider{border:0;border-top:1px solid rgba(0,0,0,.10);margin:clamp(2rem,3.5vw,2.8rem) 0}
+/* SUBMIT */
+.submit-row{display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap;margin-top:clamp(2.4rem,4vw,3.2rem)}
+.btn-submit{display:inline-flex;align-items:center;justify-content:center;gap:.6rem;font-family:inherit;font-weight:700;font-size:1rem;letter-spacing:.02em;padding:1rem 2.2rem;border-radius:2px;border:none;cursor:pointer;background:#DA121A;color:#FFFFFF;transition:background .2s,transform .15s,box-shadow .2s}
+.btn-submit:hover{background:#B30E15;transform:translateY(-2px);box-shadow:0 8px 22px rgba(218,18,26,.28)}
+.btn-submit:active{transform:translateY(0)}
+.submit-note{font-size:.84rem;color:#574E40;line-height:1.5}
+#formMsg{font-size:.94rem;font-weight:600;margin-top:1rem;min-height:1.4rem}
+/* BANNER BOTTOM */
+.bottom-bar{background:#000000;color:#F5F1E7;padding:clamp(3rem,5vw,4.5rem) 0;text-align:center}
+.bottom-bar .eyebrow{color:#FCD116;display:block;margin-bottom:1.2rem}
+.bottom-bar h2{font-family:Georgia,'Times New Roman',serif;font-size:clamp(1.7rem,3.5vw,2.6rem);color:#F5F1E7;margin-bottom:clamp(1.2rem,2vw,1.8rem)}
+.bottom-bar .back-link{display:inline-flex;align-items:center;gap:.5rem;font-size:.86rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#FCD116;border:1.5px solid rgba(252,209,22,.4);padding:.65rem 1.4rem;border-radius:2px;transition:background .2s,color .2s}
+.bottom-bar .back-link:hover{background:#FCD116;color:#000000}
+/* FOOTER */
+footer{background:#0A0A0A;color:rgba(245,241,231,.45);font-size:.78rem;text-align:center;padding:1.8rem 1rem;border-top:1px solid rgba(252,209,22,.12)}
+/* RESPONSIVE */
+@media(max-width:640px){
+  .field-row{grid-template-columns:1fr}
+  .nav{gap:1rem}
+  .nav a{font-size:.75rem}
+}
+/* SUCCESS STATE */
+.success-card{display:none;background:#000000;color:#F5F1E7;border-radius:2px;padding:clamp(2.5rem,4vw,3.5rem);text-align:center;border:1px solid rgba(252,209,22,.3)}
+.success-card .s-icon{font-size:2.8rem;margin-bottom:1rem}
+.success-card h2{font-family:Georgia,'Times New Roman',serif;font-size:clamp(1.6rem,3vw,2.2rem);color:#FCD116;margin-bottom:1rem}
+.success-card p{color:rgba(245,241,231,.75);font-size:1.05rem;line-height:1.7;max-width:42rem;margin:0 auto}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="site-head">
+  <div class="wrap">
+    <a href="/" class="brand">
+      <span class="mark">ACE</span>
+      <small>EST. 2026</small>
+    </a>
+    <nav class="nav">
+      <a href="/">The Plan</a>
+      <a href="/#why">Why ACE</a>
+      <a href="/#contingency">The Contingency</a>
+      <a href="/#humanrights">Human Rights</a>
+      <a href="/#involved">Get Involved</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow">React to the Plan</span>
+    <h1>Read it.<br>Tell us what you think.</h1>
+    <p class="sub">Your reaction becomes part of the record. ACE is built on the principle that the people it is built for should shape what it becomes. This form goes directly to the founding team. Every response is read.</p>
+    <div class="doc-links">
+      <a href="https://acecommunities.org/docs/ACE_Founding_Position_v1.2_2026-06.pdf" target="_blank" rel="noopener" class="doc-pill">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+        The Founding Position
+      </a>
+      <a href="https://acecommunities.org/docs/ACE_Executive_Summary_v1.9_2026-06.pdf" target="_blank" rel="noopener" class="doc-pill">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+        Executive Summary
+      </a>
+      <a href="https://acecommunities.org/docs/ACE_Community_and_Development_Act_v1.9.pdf" target="_blank" rel="noopener" class="doc-pill">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+        The ACE Act
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FORM -->
+<section class="form-section">
+  <div class="wrap">
+    <div class="form-wrap">
+
+      <!-- SUCCESS CARD (hidden until submit) -->
+      <div class="success-card" id="successCard">
+        <div class="s-icon">&#x2714;</div>
+        <h2>Your reaction is on the record.</h2>
+        <p>The founding team reads every response. Thank you for taking the time to engage with the plan. ACE is built by the people it is built for, and what you shared matters.</p>
+      </div>
+
+      <!-- FORM -->
+      <form id="reactForm" novalidate>
+
+        <span class="section-label">Your Information</span>
+
+        <div class="field-row">
+          <div class="field-col">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" placeholder="First name" autocomplete="given-name" required>
+          </div>
+          <div class="field-col">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Last name" autocomplete="family-name">
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field-col">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email" required>
+          </div>
+          <div class="field-col">
+            <label for="location">City / State or Country</label>
+            <input type="text" id="location" name="location" placeholder="e.g. Atlanta, GA or Lagos, Nigeria">
+          </div>
+        </div>
+
+        <hr class="q-divider">
+        <span class="section-label">Your Reaction</span>
+
+        <!-- Q1 -->
+        <div class="q-block">
+          <label for="docRead">Which document did you read?</label>
+          <select id="docRead" name="docRead">
+            <option value="" disabled selected>Select a document</option>
+            <option value="The Founding Position">The Founding Position</option>
+            <option value="Executive Summary">Executive Summary</option>
+            <option value="The ACE Act">The ACE Act</option>
+            <option value="More than one">More than one</option>
+          </select>
+        </div>
+
+        <!-- Q2 -->
+        <div class="q-block">
+          <label for="resonated">What part of the plan resonated most with you?</label>
+          <span class="q-hint">Be as specific or as general as you like. There are no wrong answers.</span>
+          <textarea id="resonated" name="resonated" placeholder="The part that hit hardest for me was..."></textarea>
+        </div>
+
+        <!-- Q3 -->
+        <div class="q-block">
+          <label for="questions">What questions does it raise for you?</label>
+          <span class="q-hint">If something was unclear, challenging, or left you wanting to know more, tell us.</span>
+          <textarea id="questions" name="questions" placeholder="After reading this, I keep thinking about..."></textarea>
+        </div>
+
+        <!-- Q4 -->
+        <div class="q-block">
+          <label>Would you share this with someone in your community?</label>
+          <div class="radio-group">
+            <div class="radio-opt">
+              <input type="radio" id="shareYes" name="wouldShare" value="Yes">
+              <label for="shareYes">Yes</label>
+            </div>
+            <div class="radio-opt">
+              <input type="radio" id="shareNo" name="wouldShare" value="No">
+              <label for="shareNo">No</label>
+            </div>
+            <div class="radio-opt">
+              <input type="radio" id="shareAlready" name="wouldShare" value="Already have">
+              <label for="shareAlready">Already have</label>
+            </div>
+          </div>
+        </div>
+
+        <hr class="q-divider">
+
+        <div class="submit-row">
+          <button type="submit" class="btn-submit" id="submitBtn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            Send My Reaction
+          </button>
+          <p class="submit-note">Your response goes directly to the founding team at ACE. We read every one.</p>
+        </div>
+        <div id="formMsg"></div>
+
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- BOTTOM BAR -->
+<section class="bottom-bar">
+  <div class="wrap">
+    <span class="eyebrow">Alliance for Collective Empowerment and Development</span>
+    <h2>For Our People, By Our People.</h2>
+    <a href="/" class="back-link">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+      Back to the Plan
+    </a>
+  </div>
+</section>
+
+<footer>
+  <p>Alliance for Collective Empowerment and Development &nbsp;&middot;&nbsp; founders@acecommunities.org &nbsp;&middot;&nbsp; 951-323-7942 &nbsp;&middot;&nbsp; acecommunities.org</p>
+</footer>
+
+<script>
+(function(){
+  var form = document.getElementById('reactForm');
+  var msg  = document.getElementById('formMsg');
+  var btn  = document.getElementById('submitBtn');
+  var card = document.getElementById('successCard');
+
+  if(!form) return;
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+
+    var firstName = form.firstName.value.trim();
+    var email     = form.email.value.trim();
+    var emailOk   = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+
+    if(!firstName){
+      msg.style.color = '#DA121A';
+      msg.textContent = 'Please add your first name.';
+      form.firstName.focus();
+      return;
+    }
+    if(!emailOk){
+      msg.style.color = '#DA121A';
+      msg.textContent = 'Please enter a valid email address.';
+      form.email.focus();
+      return;
+    }
+
+    btn.disabled = true;
+    btn.textContent = 'Sending...';
+    msg.style.color = '#574E40';
+    msg.textContent = '';
+
+    var share = '';
+    var radios = form.querySelectorAll('input[name="wouldShare"]');
+    radios.forEach(function(r){ if(r.checked) share = r.value; });
+
+    var data = new FormData();
+    data.append('name',      firstName + ' ' + (form.lastName.value.trim() || ''));
+    data.append('email',     email);
+    data.append('location',  form.location.value.trim());
+    data.append('role',      'React to the Plan');
+    data.append('doc_read',  form.docRead.value);
+    data.append('resonated', form.resonated.value.trim());
+    data.append('questions', form.questions.value.trim());
+    data.append('would_share', share);
+    data.append('source',    'react-page');
+
+    fetch('/submit.php', { method: 'POST', body: data })
+      .then(function(r){ return r.json(); })
+      .then(function(j){
+        if(j.success){
+          form.style.display = 'none';
+          card.style.display = 'block';
+        } else {
+          msg.style.color = '#DA121A';
+          msg.textContent = 'Something went wrong. Please try again or email us directly at founders@acecommunities.org';
+          btn.disabled = false;
+          btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg> Send My Reaction';
+        }
+      })
+      .catch(function(){
+        msg.style.color = '#DA121A';
+        msg.textContent = 'Something went wrong. Please try again or email us directly at founders@acecommunities.org';
+        btn.disabled = false;
+        btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg> Send My Reaction';
+      });
+  });
+})();
+</script>
+</body>
+</html>
