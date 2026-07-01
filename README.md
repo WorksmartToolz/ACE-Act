@@ -21,11 +21,11 @@ ACE-Community-and-Development-Act/
 ├── README.md
 ├── ACE_CONTEXT.md
 ├── documents/
-│   ├── docx/
+│   ├── docx/                                         ← all .docx files live here
 │   │   ├── ACE_Act_v1.9_2026-06.docx
 │   │   ├── ACE_Executive_Summary_v1.9_2026-06.docx
 │   │   └── ACE_Outreach_Package_v1.9_2026-06.docx
-│   ├── ACE_Act_v1.9_2026-06.pdf
+│   ├── ACE_Act_v1.9_2026-06.pdf                     ← only PDFs in root
 │   ├── ACE_Executive_Summary_v1.9_2026-06.pdf
 │   ├── ACE_Outreach_Package_v1.9_2026-06.pdf
 │   ├── President_Barack_Obama_v1.9_2026-06.pdf
@@ -33,7 +33,7 @@ ACE-Community-and-Development-Act/
 │   ├── Minister_Louis_Farrakhan_v1.9_2026-06.pdf
 │   └── Community_Ministry_Leaders_v1.9_2026-06.pdf
 ├── landing/
-│   ├── index_v8_16_2026-06.html
+│   ├── index_v8_17_2026-06.html
 │   ├── crest_v2_2026-06.svg
 │   └── crest_v2_2026-06.png
 ├── legal/
@@ -95,7 +95,7 @@ Three companion legal briefs pre-arguing ACE's most legally challengeable provis
 
 ## Landing Page
 
-Live at https://acecommunities.org (SSL confirmed). Current version: v8.16.
+Live at https://acecommunities.org (SSL confirmed). Current version: v8.17.
 
 Features: crest v2, Why ACE Exists section, Contingency Framework section (parallel land claim track, two-track SWOT grid, Continuity Doctrine), role-tagged Get Involved form, document table with PDF links to v1.8 documents, footer with direct PDF links, share section, email capture routing to founders@ and info@ via submit.php.
 
@@ -135,6 +135,8 @@ Features: crest v2, Why ACE Exists section, Contingency Framework section (paral
 | v31 | Landing page v8.15: Human Rights Doctrine section added in plain language with nav link and footer entry |
 | v32 | Landing page v8.16: Executive Summary document table and footer updated to v1.9 |
 | v33 | UN Submission document v1.0 added: standalone CERD submission on reparations for chattel enslavement, 10 pages, 7 sections, 5 specific requests to the Committee |
+| v34 | Repo reorganized: all docx files moved to docx/ subfolders in documents/ and legal/; missing PDFs added (Title XXI Contingency Brief, UN Submission) |
+| v35 | Landing page v8.17: Maryland Doctrine of Exclusion added to Why ACE Had to Be Built section (renamed from Why ACE Exists); section title updated throughout |
 
 ---
 
